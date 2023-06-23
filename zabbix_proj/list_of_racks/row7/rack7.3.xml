@@ -1,0 +1,448 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<zabbix_export> 
+	<version>5.2</version> 
+	<date>2021-11-23T22:47:58Z</date> 
+	<groups> 
+		<group> 
+			<name>rack7.3</name> 
+		</group> 
+	</groups> 
+	<hosts> 
+<host>
+	<host>RSWS26</host>
+	<name>RSWS26</name>
+	<groups>
+	<group>
+	<name>rack7.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.40.100</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>RSWS27</host>
+	<name>RSWS27</name>
+	<groups>
+	<group>
+	<name>rack7.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.40.101</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>RSWS28</host>
+	<name>RSWS28</name>
+	<groups>
+	<group>
+	<name>rack7.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.40.102</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>RSWS40</host>
+	<name>RSWS40</name>
+	<groups>
+	<group>
+	<name>rack7.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.40.120</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>rsws08</host>
+	<name>rsws08</name>
+	<groups>
+	<group>
+	<name>rack7.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.40.59</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>RSWS09</host>
+	<name>RSWS09</name>
+	<groups>
+	<group>
+	<name>rack7.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.40.60</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>rsws13</host>
+	<name>rsws13</name>
+	<groups>
+	<group>
+	<name>rack7.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.40.72</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>rsws14</host>
+	<name>rsws14</name>
+	<groups>
+	<group>
+	<name>rack7.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.40.73</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>RSWS17</host>
+	<name>RSWS17</name>
+	<groups>
+	<group>
+	<name>rack7.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.40.91</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>RSWS19</host>
+	<name>RSWS19</name>
+	<groups>
+	<group>
+	<name>rack7.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.40.93</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>RSWS20</host>
+	<name>RSWS20</name>
+	<groups>
+	<group>
+	<name>rack7.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.40.94</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>RSWS21</host>
+	<name>RSWS21</name>
+	<groups>
+	<group>
+	<name>rack7.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.40.95</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>RSWS22</host>
+	<name>RSWS22</name>
+	<groups>
+	<group>
+	<name>rack7.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.40.96</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>RSWS23</host>
+	<name>RSWS23</name>
+	<groups>
+	<group>
+	<name>rack7.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.40.97</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>RSWS24</host>
+	<name>RSWS24</name>
+	<groups>
+	<group>
+	<name>rack7.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.40.98</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-FSERV-105</host>
+	<name>R-FSERV-105</name>
+	<groups>
+	<group>
+	<name>rack7.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.8.105</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-NVMX03</host>
+	<name>R-NVMX03</name>
+	<groups>
+	<group>
+	<name>rack7.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.8.11</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>SWX-BW-05</host>
+	<name>SWX-BW-05</name>
+	<groups>
+	<group>
+	<name>rack7.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.8.27</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>DEV-R-VRT-018</host>
+	<name>DEV-R-VRT-018</name>
+	<groups>
+	<group>
+	<name>rack7.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.8.6</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>SWX-BW-06</host>
+	<name>SWX-BW-06</name>
+	<groups>
+	<group>
+	<name>rack7.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.9.11</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>DEV-R-VRT-010</host>
+	<name>DEV-R-VRT-010</name>
+	<groups>
+	<group>
+	<name>rack7.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.212.10.1</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>DEV-R-VRT-011</host>
+	<name>DEV-R-VRT-011</name>
+	<groups>
+	<group>
+	<name>rack7.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.212.11.1</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>DEV-R-VRT-012</host>
+	<name>DEV-R-VRT-012</name>
+	<groups>
+	<group>
+	<name>rack7.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.212.12.1</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>dev-r-vrt-122</host>
+	<name>dev-r-vrt-122</name>
+	<groups>
+	<group>
+	<name>rack7.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.212.122.1</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>dev-r-vrt-124</host>
+	<name>dev-r-vrt-124</name>
+	<groups>
+	<group>
+	<name>rack7.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.212.124.1</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>dev-r-vrt-125</host>
+	<name>dev-r-vrt-125</name>
+	<groups>
+	<group>
+	<name>rack7.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.212.125.1</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>DEV-R-VRT-013</host>
+	<name>DEV-R-VRT-013</name>
+	<groups>
+	<group>
+	<name>rack7.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.212.13.1</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>dev-r-vrt-078</host>
+	<name>dev-r-vrt-078</name>
+	<groups>
+	<group>
+	<name>rack7.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.212.78.1</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>dev-r-vrt-079</host>
+	<name>dev-r-vrt-079</name>
+	<groups>
+	<group>
+	<name>rack7.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.212.79.1</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+
+ 	</hosts> 
+</zabbix_export>  

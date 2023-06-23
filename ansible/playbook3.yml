@@ -1,0 +1,75 @@
+---
+- name: Install nis service and copy conf file
+  hosts: all
+  become: yes
+
+  vars:
+    source_file_nsswitch: /root/work1/ansible/source_file/nsswitch.conf
+    source_file_ypconf: /root/work1/ansible/source_file/yp.conf
+    source_file_defaultdomain: /root/work1/ansible/source_file/defaultdomain
+    source_file_sudoers: /root/work1/ansible/source_file/90-cloud-init-users
+    destin_file: /etc
+
+  tasks:
+
+  - block:   #=== Debian block ===
+      - name: Install nis service
+        apt: name=nis state=latest
+      
+      - name: Copy the conf_file to remote server
+        copy: src={{ source_file_nsswitch }} dest={{ destin_file }} mode=0555
+        notify: Restarting nis service
+       
+      - name: Start nis service and make enable on boot
+        service: name=nis state=started enabled=yes
+     
+      - name: Install autofs service
+        apt: name=autofs state=latest
+      
+      - name: Start autofs service and make enable on boot
+        service: name=autofs state=started enabled=yes
+
+      - name: Copy the conf_file of yp.conf to remote server
+        copy: src={{ source_file_ypconf }} dest={{ destin_file }} mode=0555
+
+      - name: Copy the conf_file of defaultname to remote server
+        copy: src={{ source_file_defaultdomain }} dest={{ destin_file }} mode=0555
+
+      - name: Copy the conf file of sudoers.d
+        copy: src={{ source_file_sudoers }} dest={{ destin_file }}
+
+    when: ansible_os_family == "Debian"
+  
+  - block:   #=== RedHat block ===
+
+#      - name: Install ypbind service
+#        yum: name=ypbind state=latest
+
+      - name: Copy the conf_file to remote server
+        copy: src={{ source_file_nsswitch }} dest={{ destin_file }} mode=0555
+        notify: Restarting nis service
+ 
+#      - name: Start ypbind service and make enable on boot
+#        service: name=ypbind state=started enabled=yes
+
+      - name: Install autofs service
+        yum: name=autofs state=latest
+        
+      - name: Start autofs service and make enable on boot
+        service: name=autofs state=started enabled=yes
+
+      - name: Copy the conf_file of yp.conf to remote server                                  
+        copy: src={{ source_file_ypconf }} dest={{ destin_file }} mode=0555   
+
+      - name: Copy the conf_file of defaultname to remote server         
+        copy: src={{ source_file_defaultdomain }} dest={{ destin_file }} mode=0555
+
+      - name: Copy the conf file of sudoers.d
+        copy: src={{ source_file_sudoers }} dest={{ destin_file }}
+    
+    when: ansible_os_family == "RedHat"
+
+#  handlers:
+#  - name: Restarting nis service
+#    service: name=nis state=restarted
+  

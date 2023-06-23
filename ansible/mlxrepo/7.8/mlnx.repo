@@ -1,0 +1,22 @@
+[MLNX-mirror]
+name=CentOS $releasever - $basearch - Mirror
+baseurl=http://webrepo/CentOS/7.8/x86_64/
+enabled=1
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-5
+proxy=_none_
+
+[MLNX-optional-packages-mirror]
+name=CentOS $releasever - $basearch - Mirror
+baseurl=http://webrepo/CentOS/7.8/x86_64/
+enabled=1
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-5
+proxy=_none_
+
+[hpc]                                                              
+name=HPC packages - x86_64 
+baseurl=file:///hpc/local/inst/rpms/repo/CentOS/7/x86_64
+enabled=0                                                          
+gpgcheck=0
+proxy=_none_

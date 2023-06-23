@@ -1,0 +1,26 @@
+[MLNX-mirror-BaseOS]
+name=RH $releasever - $basearch - Mirror
+baseurl=http://webrepo/rhel/8.4/x86_64/BaseOS/
+enabled=1
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+
+[MLNX-mirror-AppStream]
+name=RH $releasever - $basearch - Mirror
+baseurl=http://webrepo/rhel/8.4/x86_64/AppStream/
+enabled=1
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+
+[MLNX-mirror-Optional]
+name=RH $releasever - $basearch - Mirror
+baseurl=http://webrepo/rhel/optional/8.4/x86_64/
+enabled=0
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release
+
+[hpc]                                                              
+name=HPC packages - x86_64 
+baseurl=file:///hpc/local/inst/rpms/repo/redhat/8/x86_64/
+enabled=0                                                          
+gpgcheck=0

@@ -1,0 +1,11 @@
+---
+- name: Add SSH Key to Linux Servers
+  hosts: servers
+  become: true
+
+  tasks:
+    - name: Add SSH Key to authorized_keys
+      authorized_key:
+        user: root
+        key: "{{ lookup('file', '/root/.ssh/id_rsa.pub') }}"
+        state: present

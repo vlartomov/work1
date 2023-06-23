@@ -1,0 +1,343 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<zabbix_export> 
+	<version>5.2</version> 
+	<date>2021-11-23T23:00:41Z</date> 
+	<groups> 
+		<group> 
+			<name>rack4.4</name> 
+		</group> 
+	</groups> 
+	<hosts> 
+<host>
+	<host>R-NEO-HOST53-60</host>
+	<name>R-NEO-HOST53-60</name>
+	<groups>
+	<group>
+	<name>rack4.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.212.62.1</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-NEO-HOST49-01</host>
+	<name>R-NEO-HOST49-01</name>
+	<groups>
+	<group>
+	<name>rack4.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.213.49.1</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-NEO-HOST49-100</host>
+	<name>R-NEO-HOST49-100</name>
+	<groups>
+	<group>
+	<name>rack4.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.213.49.100</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-NEO-HOST49-120</host>
+	<name>R-NEO-HOST49-120</name>
+	<groups>
+	<group>
+	<name>rack4.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.213.49.120</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-NEO-HOST49-140</host>
+	<name>R-NEO-HOST49-140</name>
+	<groups>
+	<group>
+	<name>rack4.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.213.49.140</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-NEO-HOST49-20</host>
+	<name>R-NEO-HOST49-20</name>
+	<groups>
+	<group>
+	<name>rack4.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.213.49.20</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-NEO-HOST49-40</host>
+	<name>R-NEO-HOST49-40</name>
+	<groups>
+	<group>
+	<name>rack4.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.213.49.40</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-NEO-HOST49-60</host>
+	<name>R-NEO-HOST49-60</name>
+	<groups>
+	<group>
+	<name>rack4.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.213.49.60</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-NEO-HOST51-01</host>
+	<name>R-NEO-HOST51-01</name>
+	<groups>
+	<group>
+	<name>rack4.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.213.51.1</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-NEO-HOST51-100</host>
+	<name>R-NEO-HOST51-100</name>
+	<groups>
+	<group>
+	<name>rack4.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.213.51.100</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-NEO-HOST51-120</host>
+	<name>R-NEO-HOST51-120</name>
+	<groups>
+	<group>
+	<name>rack4.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.213.51.120</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-NEO-HOST51-140</host>
+	<name>R-NEO-HOST51-140</name>
+	<groups>
+	<group>
+	<name>rack4.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.213.51.140</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-NEO-HOST51-20</host>
+	<name>R-NEO-HOST51-20</name>
+	<groups>
+	<group>
+	<name>rack4.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.213.51.20</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-NEO-HOST51-40</host>
+	<name>R-NEO-HOST51-40</name>
+	<groups>
+	<group>
+	<name>rack4.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.213.51.40</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-NEO-HOST51-60</host>
+	<name>R-NEO-HOST51-60</name>
+	<groups>
+	<group>
+	<name>rack4.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.213.51.60</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-NEO-HOST51-80</host>
+	<name>R-NEO-HOST51-80</name>
+	<groups>
+	<group>
+	<name>rack4.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.213.51.80</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-NEO-HOST53-100</host>
+	<name>R-NEO-HOST53-100</name>
+	<groups>
+	<group>
+	<name>rack4.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.213.53.100</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-NEO-HOST53-120</host>
+	<name>R-NEO-HOST53-120</name>
+	<groups>
+	<group>
+	<name>rack4.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.213.53.120</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-NEO-HOST53-40</host>
+	<name>R-NEO-HOST53-40</name>
+	<groups>
+	<group>
+	<name>rack4.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.213.53.40</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-NEO-HOST53-80</host>
+	<name>R-NEO-HOST53-80</name>
+	<groups>
+	<group>
+	<name>rack4.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.213.53.80</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>NEO-SSD-01</host>
+	<name>NEO-SSD-01</name>
+	<groups>
+	<group>
+	<name>rack4.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.213.91.10</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>NEO-SSD-02</host>
+	<name>NEO-SSD-02</name>
+	<groups>
+	<group>
+	<name>rack4.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.213.91.11</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+
+ 	</hosts> 
+</zabbix_export>  

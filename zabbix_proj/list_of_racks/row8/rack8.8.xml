@@ -1,0 +1,358 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<zabbix_export> 
+	<version>5.2</version> 
+	<date>2021-11-23T22:44:35Z</date> 
+	<groups> 
+		<group> 
+			<name>rack8.8</name> 
+		</group> 
+	</groups> 
+	<hosts> 
+<host>
+	<host>R-UFM88</host>
+	<name>R-UFM88</name>
+	<groups>
+	<group>
+	<name>rack8.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.36.176</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-UFM89</host>
+	<name>R-UFM89</name>
+	<groups>
+	<group>
+	<name>rack8.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.36.177</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-UFM90</host>
+	<name>R-UFM90</name>
+	<groups>
+	<group>
+	<name>rack8.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.36.178</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-UFM92</host>
+	<name>R-UFM92</name>
+	<groups>
+	<group>
+	<name>rack8.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.36.180</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-UFM93</host>
+	<name>R-UFM93</name>
+	<groups>
+	<group>
+	<name>rack8.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.36.181</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-UFM94</host>
+	<name>R-UFM94</name>
+	<groups>
+	<group>
+	<name>rack8.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.36.182</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-UFM95</host>
+	<name>R-UFM95</name>
+	<groups>
+	<group>
+	<name>rack8.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.36.183</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-UFM96</host>
+	<name>R-UFM96</name>
+	<groups>
+	<group>
+	<name>rack8.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.36.187</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-UFM97</host>
+	<name>R-UFM97</name>
+	<groups>
+	<group>
+	<name>rack8.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.36.188</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-UFM98</host>
+	<name>R-UFM98</name>
+	<groups>
+	<group>
+	<name>rack8.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.36.189</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-UFM101</host>
+	<name>R-UFM101</name>
+	<groups>
+	<group>
+	<name>rack8.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.36.192</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-UFM103</host>
+	<name>R-UFM103</name>
+	<groups>
+	<group>
+	<name>rack8.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.36.194</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-UFM105</host>
+	<name>R-UFM105</name>
+	<groups>
+	<group>
+	<name>rack8.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.36.197</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-UFM106</host>
+	<name>R-UFM106</name>
+	<groups>
+	<group>
+	<name>rack8.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.36.198</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-UFM108</host>
+	<name>R-UFM108</name>
+	<groups>
+	<group>
+	<name>rack8.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.36.200</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-UFM216</host>
+	<name>R-UFM216</name>
+	<groups>
+	<group>
+	<name>rack8.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.37.22</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-UFM217</host>
+	<name>R-UFM217</name>
+	<groups>
+	<group>
+	<name>rack8.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.37.23</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-UFM219</host>
+	<name>R-UFM219</name>
+	<groups>
+	<group>
+	<name>rack8.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.37.24</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-UFM218</host>
+	<name>R-UFM218</name>
+	<groups>
+	<group>
+	<name>rack8.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.37.25</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-UFM100</host>
+	<name>R-UFM100</name>
+	<groups>
+	<group>
+	<name>rack8.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.4.3</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>swx-thunder01</host>
+	<name>swx-thunder01</name>
+	<groups>
+	<group>
+	<name>rack8.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.4.94</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>swx-thunder02</host>
+	<name>swx-thunder02</name>
+	<groups>
+	<group>
+	<name>rack8.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.4.96</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>swx-thunder03</host>
+	<name>swx-thunder03</name>
+	<groups>
+	<group>
+	<name>rack8.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.4.98</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+
+ 	</hosts> 
+</zabbix_export>  

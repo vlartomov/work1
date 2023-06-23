@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<zabbix_export> 
+	<version>5.2</version> 
+	<date>2021-11-23T22:48:35Z</date> 
+	<groups> 
+		<group> 
+			<name>rack7.4</name> 
+		</group> 
+	</groups> 
+	<hosts> 
+<host>
+	<host>PAJNA</host>
+	<name>PAJNA</name>
+	<groups>
+	<group>
+	<name>rack7.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.37.207</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>AJNA01</host>
+	<name>AJNA01</name>
+	<groups>
+	<group>
+	<name>rack7.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.71</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>AJNA02</host>
+	<name>AJNA02</name>
+	<groups>
+	<group>
+	<name>rack7.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.73</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>AJNA03</host>
+	<name>AJNA03</name>
+	<groups>
+	<group>
+	<name>rack7.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.75</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>AJNA04</host>
+	<name>AJNA04</name>
+	<groups>
+	<group>
+	<name>rack7.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.77</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>AJNA05</host>
+	<name>AJNA05</name>
+	<groups>
+	<group>
+	<name>rack7.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.79</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>AJNA06</host>
+	<name>AJNA06</name>
+	<groups>
+	<group>
+	<name>rack7.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.81</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>AJNA07</host>
+	<name>AJNA07</name>
+	<groups>
+	<group>
+	<name>rack7.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.83</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>AJNA08</host>
+	<name>AJNA08</name>
+	<groups>
+	<group>
+	<name>rack7.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.85</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>NEMO01</host>
+	<name>NEMO01</name>
+	<groups>
+	<group>
+	<name>rack7.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.1.16</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>NEMO02</host>
+	<name>NEMO02</name>
+	<groups>
+	<group>
+	<name>rack7.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.1.18</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>NEMO03</host>
+	<name>NEMO03</name>
+	<groups>
+	<group>
+	<name>rack7.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.1.20</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>NEMO04</host>
+	<name>NEMO04</name>
+	<groups>
+	<group>
+	<name>rack7.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.1.22</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>NEMO05</host>
+	<name>NEMO05</name>
+	<groups>
+	<group>
+	<name>rack7.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.1.24</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>NEMO06</host>
+	<name>NEMO06</name>
+	<groups>
+	<group>
+	<name>rack7.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.1.26</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>NEMO07</host>
+	<name>NEMO07</name>
+	<groups>
+	<group>
+	<name>rack7.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.1.28</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>NEMO08</host>
+	<name>NEMO08</name>
+	<groups>
+	<group>
+	<name>rack7.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.1.30</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>SWX-SNAKE-04</host>
+	<name>SWX-SNAKE-04</name>
+	<groups>
+	<group>
+	<name>rack7.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.4.55</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>PNEMO</host>
+	<name>PNEMO</name>
+	<groups>
+	<group>
+	<name>rack7.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.212.32.1</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+
+ 	</hosts> 
+</zabbix_export>  

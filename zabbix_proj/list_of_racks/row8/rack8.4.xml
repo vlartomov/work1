@@ -1,0 +1,508 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<zabbix_export> 
+	<version>5.2</version> 
+	<date>2021-11-23T22:42:11Z</date> 
+	<groups> 
+		<group> 
+			<name>rack8.4</name> 
+		</group> 
+	</groups> 
+	<hosts> 
+<host>
+	<host>PJAZZ</host>
+	<name>PJAZZ</name>
+	<groups>
+	<group>
+	<name>rack8.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.135</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>JAZZ01</host>
+	<name>JAZZ01</name>
+	<groups>
+	<group>
+	<name>rack8.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.101</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>JAZZ02</host>
+	<name>JAZZ02</name>
+	<groups>
+	<group>
+	<name>rack8.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.103</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>JAZZ03</host>
+	<name>JAZZ03</name>
+	<groups>
+	<group>
+	<name>rack8.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.105</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>JAZZ04</host>
+	<name>JAZZ04</name>
+	<groups>
+	<group>
+	<name>rack8.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.107</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>JAZZ05</host>
+	<name>JAZZ05</name>
+	<groups>
+	<group>
+	<name>rack8.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.109</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>JAZZ06</host>
+	<name>JAZZ06</name>
+	<groups>
+	<group>
+	<name>rack8.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.111</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>JAZZ07</host>
+	<name>JAZZ07</name>
+	<groups>
+	<group>
+	<name>rack8.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.113</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>JAZZ08</host>
+	<name>JAZZ08</name>
+	<groups>
+	<group>
+	<name>rack8.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.115</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>JAZZ09</host>
+	<name>JAZZ09</name>
+	<groups>
+	<group>
+	<name>rack8.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.117</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>JAZZ10</host>
+	<name>JAZZ10</name>
+	<groups>
+	<group>
+	<name>rack8.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.119</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>JAZZ11</host>
+	<name>JAZZ11</name>
+	<groups>
+	<group>
+	<name>rack8.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.121</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>JAZZ12</host>
+	<name>JAZZ12</name>
+	<groups>
+	<group>
+	<name>rack8.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.123</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>JAZZ13</host>
+	<name>JAZZ13</name>
+	<groups>
+	<group>
+	<name>rack8.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.125</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>JAZZ14</host>
+	<name>JAZZ14</name>
+	<groups>
+	<group>
+	<name>rack8.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.127</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>JAZZ15</host>
+	<name>JAZZ15</name>
+	<groups>
+	<group>
+	<name>rack8.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.129</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>JAZZ16</host>
+	<name>JAZZ16</name>
+	<groups>
+	<group>
+	<name>rack8.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.131</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>JAZZ17</host>
+	<name>JAZZ17</name>
+	<groups>
+	<group>
+	<name>rack8.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.133</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>JAZZ18</host>
+	<name>JAZZ18</name>
+	<groups>
+	<group>
+	<name>rack8.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.135</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>JAZZ19</host>
+	<name>JAZZ19</name>
+	<groups>
+	<group>
+	<name>rack8.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.137</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>JAZZ20</host>
+	<name>JAZZ20</name>
+	<groups>
+	<group>
+	<name>rack8.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.139</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>JAZZ21</host>
+	<name>JAZZ21</name>
+	<groups>
+	<group>
+	<name>rack8.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.141</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>JAZZ22</host>
+	<name>JAZZ22</name>
+	<groups>
+	<group>
+	<name>rack8.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.143</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>JAZZ23</host>
+	<name>JAZZ23</name>
+	<groups>
+	<group>
+	<name>rack8.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.145</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>JAZZ24</host>
+	<name>JAZZ24</name>
+	<groups>
+	<group>
+	<name>rack8.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.147</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>JAZZ25</host>
+	<name>JAZZ25</name>
+	<groups>
+	<group>
+	<name>rack8.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.149</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>JAZZ26</host>
+	<name>JAZZ26</name>
+	<groups>
+	<group>
+	<name>rack8.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.151</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>JAZZ27</host>
+	<name>JAZZ27</name>
+	<groups>
+	<group>
+	<name>rack8.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.153</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>JAZZ28</host>
+	<name>JAZZ28</name>
+	<groups>
+	<group>
+	<name>rack8.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.155</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>JAZZ29</host>
+	<name>JAZZ29</name>
+	<groups>
+	<group>
+	<name>rack8.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.157</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>JAZZ30</host>
+	<name>JAZZ30</name>
+	<groups>
+	<group>
+	<name>rack8.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.159</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>JAZZ31</host>
+	<name>JAZZ31</name>
+	<groups>
+	<group>
+	<name>rack8.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.161</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>JAZZ32</host>
+	<name>JAZZ32</name>
+	<groups>
+	<group>
+	<name>rack8.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.163</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+
+ 	</hosts> 
+</zabbix_export>  

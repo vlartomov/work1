@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<zabbix_export> 
+	<version>5.2</version> 
+	<date>2021-11-23T22:42:41Z</date> 
+	<groups> 
+		<group> 
+			<name>rack8.5</name> 
+		</group> 
+	</groups> 
+	<hosts> 
+<host>
+	<host>PVULCAN1</host>
+	<name>PVULCAN1</name>
+	<groups>
+	<group>
+	<name>rack8.5</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.100</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>HPC-ARM-HP02</host>
+	<name>HPC-ARM-HP02</name>
+	<groups>
+	<group>
+	<name>rack8.5</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.12</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>SWX-ARM-HPE-HV</host>
+	<name>SWX-ARM-HPE-HV</name>
+	<groups>
+	<group>
+	<name>rack8.5</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.14</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>HPC-ARM-FUJ03</host>
+	<name>HPC-ARM-FUJ03</name>
+	<groups>
+	<group>
+	<name>rack8.5</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.144</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>HPC-ARM-FUJ01</host>
+	<name>HPC-ARM-FUJ01</name>
+	<groups>
+	<group>
+	<name>rack8.5</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.156</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>HPC-ARM-HP03</host>
+	<name>HPC-ARM-HP03</name>
+	<groups>
+	<group>
+	<name>rack8.5</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.16</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>HPC-ARM-02</host>
+	<name>HPC-ARM-02</name>
+	<groups>
+	<group>
+	<name>rack8.5</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.17</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>HPC-ARM-FUJ04</host>
+	<name>HPC-ARM-FUJ04</name>
+	<groups>
+	<group>
+	<name>rack8.5</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.171</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>HPC-ARM-03</host>
+	<name>HPC-ARM-03</name>
+	<groups>
+	<group>
+	<name>rack8.5</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.18</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>HPC-ARM-CAVIUM-JENKINS</host>
+	<name>HPC-ARM-CAVIUM-JENKINS</name>
+	<groups>
+	<group>
+	<name>rack8.5</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.19</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>HPC-ARM-01</host>
+	<name>HPC-ARM-01</name>
+	<groups>
+	<group>
+	<name>rack8.5</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.29</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>PCLOUD</host>
+	<name>PCLOUD</name>
+	<groups>
+	<group>
+	<name>rack8.5</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.45</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>HPC-ARM-FUJ02</host>
+	<name>HPC-ARM-FUJ02</name>
+	<groups>
+	<group>
+	<name>rack8.5</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.78</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>CASCADE2</host>
+	<name>CASCADE2</name>
+	<groups>
+	<group>
+	<name>rack8.5</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.79</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>CASCADE1</host>
+	<name>CASCADE1</name>
+	<groups>
+	<group>
+	<name>rack8.5</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.81</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>swx-arm-hwi-hv</host>
+	<name>swx-arm-hwi-hv</name>
+	<groups>
+	<group>
+	<name>rack8.5</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.45.52</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>HPC-ARM-HWI01</host>
+	<name>HPC-ARM-HWI01</name>
+	<groups>
+	<group>
+	<name>rack8.5</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.45.58</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>HPC-ARM-HP01</host>
+	<name>HPC-ARM-HP01</name>
+	<groups>
+	<group>
+	<name>rack8.5</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.8.158</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+
+ 	</hosts> 
+</zabbix_export>  

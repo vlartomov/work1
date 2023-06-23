@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<zabbix_export> 
+	<version>5.2</version> 
+	<date>2021-11-23T22:40:53Z</date> 
+	<groups> 
+		<group> 
+			<name>rack8.3</name> 
+		</group> 
+	</groups> 
+	<hosts> 
+<host>
+	<host>HPC-KERNEL-03</host>
+	<name>HPC-KERNEL-03</name>
+	<groups>
+	<group>
+	<name>rack8.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.143</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>HPC-POLAR-01</host>
+	<name>HPC-POLAR-01</name>
+	<groups>
+	<group>
+	<name>rack8.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.145</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>HPC-POLAR-02</host>
+	<name>HPC-POLAR-02</name>
+	<groups>
+	<group>
+	<name>rack8.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.146</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>HPCX-BUILDER02</host>
+	<name>HPCX-BUILDER02</name>
+	<groups>
+	<group>
+	<name>rack8.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.30</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>HPC-TEST-NODE-UPSTREAM-01</host>
+	<name>HPC-TEST-NODE-UPSTREAM-01</name>
+	<groups>
+	<group>
+	<name>rack8.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.35</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>PSPUTNIK</host>
+	<name>PSPUTNIK</name>
+	<groups>
+	<group>
+	<name>rack8.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.42</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>JENKINS-HN01</host>
+	<name>JENKINS-HN01</name>
+	<groups>
+	<group>
+	<name>rack8.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.46</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>swx-proton01</host>
+	<name>swx-proton01</name>
+	<groups>
+	<group>
+	<name>rack8.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.54</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>swx-proton02</host>
+	<name>swx-proton02</name>
+	<groups>
+	<group>
+	<name>rack8.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.57</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>HPCHEAD</host>
+	<name>HPCHEAD</name>
+	<groups>
+	<group>
+	<name>rack8.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.59</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>swx-proton03</host>
+	<name>swx-proton03</name>
+	<groups>
+	<group>
+	<name>rack8.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.60</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>swx-proton04</host>
+	<name>swx-proton04</name>
+	<groups>
+	<group>
+	<name>rack8.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.65</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>HPCHEAD-OLD</host>
+	<name>HPCHEAD-OLD</name>
+	<groups>
+	<group>
+	<name>rack8.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.77</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>CLOUD-HV01</host>
+	<name>CLOUD-HV01</name>
+	<groups>
+	<group>
+	<name>rack8.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.84</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>CLOUD-HV02</host>
+	<name>CLOUD-HV02</name>
+	<groups>
+	<group>
+	<name>rack8.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.86</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>CLOUD-HV03</host>
+	<name>CLOUD-HV03</name>
+	<groups>
+	<group>
+	<name>rack8.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.91</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>SPUTNIK2</host>
+	<name>SPUTNIK2</name>
+	<groups>
+	<group>
+	<name>rack8.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.224.36.170</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>SPUTNIK3</host>
+	<name>SPUTNIK3</name>
+	<groups>
+	<group>
+	<name>rack8.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.224.36.172</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>SPUTNIK4</host>
+	<name>SPUTNIK4</name>
+	<groups>
+	<group>
+	<name>rack8.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.224.36.174</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+
+ 	</hosts> 
+</zabbix_export>  

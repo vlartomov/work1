@@ -1,0 +1,185 @@
+# .bashrc
+
+# User specific aliases and functions
+
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+alias sinfo='/usr/bin/sinfo -o "%30N %.3D %11P %11T %.4c %.8z %.6m %.8d %.6w %32f %E"'
+alias ll='ls -ahl'
+alias tmux="tmux2"
+alias sssh="sudo ssh"
+#alias git=get_latest_git
+alias dus="(du -hx  --max-depth=1 ; echo -e '\n\n\n') | tee /dev/stderr | (echo; sort -h)"
+
+export HISTFILESIZE=10000
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+
+parse_git_branch() {
+  local result
+  result=$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(git::\1)/')
+  if [ "${result}" != "(git::master)" ] && [ "${result}" != "" ] ; then
+    result="${result}"
+  fi
+
+  echo "${result}"
+}
+
+function slurm_stat() {
+  local out=""
+
+  if [ "x${SLURM_JOB_NODELIST}" != "x" ] ; then
+    out+="SLURM-${SLURM_JOB_NODELIST}"
+  fi
+
+  echo "${out}" 
+}
+
+
+#BLACK="\[\033[0;38m\]"
+BLACK="\[\033[0;0m\]"
+RED="\[\033[0;31m\]"
+RED_BOLD="\[\033[01;31m\]"
+BLUE="\[\033[01;94m\]"
+GREEN="\[\033[0;32m\]"
+CYAN_BOLD="\[\033[1;36m\]"
+YELLOW_BOLD="\[\033[1;33m\]"
+WHITE_BOLD="\[\033[1;37m\]"
+
+if [ "$EUID" = 0 ]; then
+    export PS1="$RED\u$GREEN@\h $RED_BOLD\w $BLUE\$(parse_git_branch)\$$BLACK\n\$ "
+else
+    export PS1="$YELLOW_BOLD\u@$WHITE_BOLD\h $GREEN\w ${RED_BOLD}$(slurm_stat)${BLACK} $BLUE\$(parse_git_branch)\$$BLACK\n\$ "
+fi
+
+
+# for TMUX, generate a bell as soon as the command compleets
+# to silence Putty bell noises set Terminal -> Bell to Terminal -> None 
+ 
+PROMPT_COMMAND="echo -n -e '\a';$PROMPT_COMMAND"
+
+if [ -e ~/.virtualenvs ] && \
+   [ -e /usr/bin/python3 ] && \
+   [ -e /usr/local/bin/virtualenvwrapper.sh ] ; then
+
+  export WORKON_HOME=~/.virtualenvs
+  VIRTUALENVWRAPPER_PYTHON='/usr/bin/python3'
+  source /usr/local/bin/virtualenvwrapper.sh
+fi
+
+ git-uf() {
+  # Git update fork
+  git checkout master
+  git fetch upstream
+  git merge upstream/master
+}
+
+get_repo() {
+	git config --local remote.$1.url|sed -e 's|.*hub.com/\(.*\)\.git|\1|'
+}
+
+gitpr() {
+	#
+	# Usage:
+	#
+	# From master branch:  
+	#    $ gitpr <topic_name>  [ start-point ] [ title ]
+	#
+	# From topic branch:
+	#    $ gitpr [ title ]
+	#
+	#
+
+	current_branch=$(git rev-parse --abbrev-ref HEAD)
+	[ -z ${current_branch} ] && return 1
+
+	if [[ ${current_branch} =~ ^topic/.* ]]
+	then
+		# We're already on the topic branch
+		master_branch=master
+		topic_branch=${current_branch}
+		msg="$1"  # Commit message, may be empty
+	else
+		# We're on the master. Require topic name.
+		master_branch=${current_branch}
+		[ -z $1 ] && echo "Please provide topic branch name." && return 1
+		topic_name=$(echo $1|sed -se 's:^topic/::g')
+		topic_branch=topic/${topic_name}
+		head=$2 # Start point of topic branch, may be empty
+		msg="$3"  # Commit message, may be empty
+	fi
+
+	# Get commit message, which will be PR comment.
+	[ -z ${head} ] && tip=${current_branch} || tip=${head}
+	[ -z "${msg}" ] && msg="$(git log ${tip} -1 --format=%s|head -1)"
+	[ -z "${msg}" ] && return 1
+	
+	# Get remotes: 'origin' and 'upstream'
+	origin_repo=$(get_repo origin)
+	upstream_repo=$(get_repo upstream)
+	[ -z ${origin_repo} ] || [ -z ${upstream_repo} ] && return 1
+
+	# Create/update local branch
+	if [ ${current_branch} != ${topic_branch} ]
+	then
+		git branch ${topic_branch} ${head} -f || return 1
+	fi
+
+	# Check if topic branch alreay exists on remote
+	if git branch --list -r origin/${topic_branch}|grep -q ${topic_branch}
+	then
+		# Already exists - push new changes
+		git push origin ${topic_branch} -f || return 1
+	else
+		# Does not exists - create PR
+		git push origin ${topic_branch} || return 1
+		hub pull-request -f -b ${upstream_repo}:${master_branch} -h ${origin_repo}:${topic_branch} -m "${msg}" || return 1
+	fi
+}
+
+function get_latest_git () {
+  local hpc_local_git_ver
+  local result
+  local user_local_git_version
+  local os_installed_git
+
+echo $@
+return
+
+  # trigger automount
+  $(cd /hpc/local/oss/git/)
+
+  if [ -f /hpc/local/oss/git/git ] ; then
+    hpc_local_git_ver=$(/hpc/local/oss/git/git --version 2>/dev/null | awk '{print $NF}')
+  fi
+
+  if [ -f /usr/local/git/bin/git ] ; then
+    user_local_git_version=$(/usr/local/git/bin/git --version 2>/dev/null | awk '{print $NF}')
+  fi
+
+  os_installed_git=$(git --version 2>/dev/null)
+
+  result=$(echo -e "${os_installed_git}\n${hpc_local_git_ver}\n${user_local_git_version}" | sort -V | tail -n 1)
+
+  if [ "x${result}" == "x" ] ; then
+    echo "Failed to identify GIT"
+  elif [ "${result}" == "${os_installed_git}" ] ; then
+    #git $@
+    :
+  elif [ "${result}" == "${user_local_git_version}" ] ; then
+    #/usr/local/git/bin/git $@
+    :
+  elif [ "${result}" == "${hpc_local_git_ver}" ] ; then
+    #/hpc/local/oss/git/git $@
+    :
+  else
+    echo "Failed to identify latest git version"
+  fi
+}
+
+

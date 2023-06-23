@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<zabbix_export> 
+	<version>5.2</version> 
+	<date>2021-11-23T22:56:42Z</date> 
+	<groups> 
+		<group> 
+			<name>rack6.8</name> 
+		</group> 
+	</groups> 
+	<hosts> 
+<host>
+	<host>DORY01</host>
+	<name>DORY01</name>
+	<groups>
+	<group>
+	<name>rack6.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.175</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>DORY02</host>
+	<name>DORY02</name>
+	<groups>
+	<group>
+	<name>rack6.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.177</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>DORY03</host>
+	<name>DORY03</name>
+	<groups>
+	<group>
+	<name>rack6.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.179</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>DORY04</host>
+	<name>DORY04</name>
+	<groups>
+	<group>
+	<name>rack6.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.181</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>DORY05</host>
+	<name>DORY05</name>
+	<groups>
+	<group>
+	<name>rack6.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.183</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>DORY06</host>
+	<name>DORY06</name>
+	<groups>
+	<group>
+	<name>rack6.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.185</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>DORY07</host>
+	<name>DORY07</name>
+	<groups>
+	<group>
+	<name>rack6.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.187</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>DORY08</host>
+	<name>DORY08</name>
+	<groups>
+	<group>
+	<name>rack6.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.0.189</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>PDORY</host>
+	<name>PDORY</name>
+	<groups>
+	<group>
+	<name>rack6.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.8.110</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>spdk-perf-03</host>
+	<name>spdk-perf-03</name>
+	<groups>
+	<group>
+	<name>rack6.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.8.140</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>SPDK-PERF-02</host>
+	<name>SPDK-PERF-02</name>
+	<groups>
+	<group>
+	<name>rack6.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.8.144</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>SPDK-PERF-01</host>
+	<name>SPDK-PERF-01</name>
+	<groups>
+	<group>
+	<name>rack6.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.8.145</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>spdk-api01</host>
+	<name>spdk-api01</name>
+	<groups>
+	<group>
+	<name>rack6.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.8.57</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>spdk-api02</host>
+	<name>spdk-api02</name>
+	<groups>
+	<group>
+	<name>rack6.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.8.59</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>spdk-perf-05</host>
+	<name>spdk-perf-05</name>
+	<groups>
+	<group>
+	<name>rack6.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.9.139</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>spdk-perf-04</host>
+	<name>spdk-perf-04</name>
+	<groups>
+	<group>
+	<name>rack6.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.9.6</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+
+ 	</hosts> 
+</zabbix_export>  

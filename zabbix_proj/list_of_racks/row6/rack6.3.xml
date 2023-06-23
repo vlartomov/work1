@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<zabbix_export> 
+	<version>5.2</version> 
+	<date>2021-11-23T22:53:02Z</date> 
+	<groups> 
+		<group> 
+			<name>rack6.3</name> 
+		</group> 
+	</groups> 
+	<hosts> 
+<host>
+	<host>R-AA-ZORRO002</host>
+	<name>R-AA-ZORRO002</name>
+	<groups>
+	<group>
+	<name>rack6.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.68.100</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-AA-ZORRO006</host>
+	<name>R-AA-ZORRO006</name>
+	<groups>
+	<group>
+	<name>rack6.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.68.104</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-AA-ZORRO007</host>
+	<name>R-AA-ZORRO007</name>
+	<groups>
+	<group>
+	<name>rack6.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.68.105</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-AA-ZORRO008</host>
+	<name>R-AA-ZORRO008</name>
+	<groups>
+	<group>
+	<name>rack6.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.68.111</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-AA-ZORRO009</host>
+	<name>R-AA-ZORRO009</name>
+	<groups>
+	<group>
+	<name>rack6.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.68.114</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-AA-ZORRO012</host>
+	<name>R-AA-ZORRO012</name>
+	<groups>
+	<group>
+	<name>rack6.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.68.118</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-AA-ZORRO013</host>
+	<name>R-AA-ZORRO013</name>
+	<groups>
+	<group>
+	<name>rack6.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.68.119</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-AA-ZORRO001</host>
+	<name>R-AA-ZORRO001</name>
+	<groups>
+	<group>
+	<name>rack6.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.68.99</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-AA-ZORRO010</host>
+	<name>R-AA-ZORRO010</name>
+	<groups>
+	<group>
+	<name>rack6.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.12.17</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+
+ 	</hosts> 
+</zabbix_export>  

@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<zabbix_export> 
+	<version>5.2</version> 
+	<date>2021-11-23T22:40:05Z</date> 
+	<groups> 
+		<group> 
+			<name>rack8.2</name> 
+		</group> 
+	</groups> 
+	<hosts> 
+<host>
+	<host>SWX-RDMZ-UCX-NEW-01</host>
+	<name>SWX-RDMZ-UCX-NEW-01</name>
+	<groups>
+	<group>
+	<name>rack8.2</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.224.36.118</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>SWX-RDMZ-UCX-ARM-HWI</host>
+	<name>SWX-RDMZ-UCX-ARM-HWI</name>
+	<groups>
+	<group>
+	<name>rack8.2</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.224.36.129</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>SWX-RDMZ-UCX-NEW-02</host>
+	<name>SWX-RDMZ-UCX-NEW-02</name>
+	<groups>
+	<group>
+	<name>rack8.2</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.224.36.142</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>rdmz-sm-node-01</host>
+	<name>rdmz-sm-node-01</name>
+	<groups>
+	<group>
+	<name>rack8.2</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.224.36.164</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>SWX-SANCHO01</host>
+	<name>SWX-SANCHO01</name>
+	<groups>
+	<group>
+	<name>rack8.2</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.224.36.177</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>SWX-SANCHO02</host>
+	<name>SWX-SANCHO02</name>
+	<groups>
+	<group>
+	<name>rack8.2</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.224.36.179</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>SWX-RDMZ-UCX-GPU-01</host>
+	<name>SWX-RDMZ-UCX-GPU-01</name>
+	<groups>
+	<group>
+	<name>rack8.2</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.224.36.92</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>SWX-RDMZ-UCX-GPU-02</host>
+	<name>SWX-RDMZ-UCX-GPU-02</name>
+	<groups>
+	<group>
+	<name>rack8.2</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.224.36.98</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>BGATE</host>
+	<name>BGATE</name>
+	<groups>
+	<group>
+	<name>rack8.2</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>192.168.1.254</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+
+ 	</hosts> 
+</zabbix_export>  

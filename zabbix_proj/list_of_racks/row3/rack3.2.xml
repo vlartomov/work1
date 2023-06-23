@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<zabbix_export> 
+	<version>5.2</version> 
+	<date>2021-11-23T23:03:14Z</date> 
+	<groups> 
+		<group> 
+			<name>rack3.2</name> 
+		</group> 
+	</groups> 
+	<hosts> 
+<host>
+	<host>R-DCS96</host>
+	<name>R-DCS96</name>
+	<groups>
+	<group>
+	<name>rack3.2</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.215.30.1</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+
+ 	</hosts> 
+</zabbix_export>  

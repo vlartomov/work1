@@ -1,0 +1,373 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<zabbix_export> 
+	<version>5.2</version> 
+	<date>2021-11-23T22:36:22Z</date> 
+	<groups> 
+		<group> 
+			<name>rack8.1</name> 
+		</group> 
+	</groups> 
+	<hosts> 
+<host>
+	<host>BOO31</host>
+	<name>BOO31</name>
+	<groups>
+	<group>
+	<name>rack8.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.101</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>BOO32</host>
+	<name>BOO32</name>
+	<groups>
+	<group>
+	<name>rack8.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.102</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>BOO15</host>
+	<name>BOO15</name>
+	<groups>
+	<group>
+	<name>rack8.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.104</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>BOO14</host>
+	<name>BOO14</name>
+	<groups>
+	<group>
+	<name>rack8.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.105</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>BOO13</host>
+	<name>BOO13</name>
+	<groups>
+	<group>
+	<name>rack8.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.106</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>BOO12</host>
+	<name>BOO12</name>
+	<groups>
+	<group>
+	<name>rack8.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.107</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>BOO11</host>
+	<name>BOO11</name>
+	<groups>
+	<group>
+	<name>rack8.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.108</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>BOO10</host>
+	<name>BOO10</name>
+	<groups>
+	<group>
+	<name>rack8.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.109</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>BOO7</host>
+	<name>BOO7</name>
+	<groups>
+	<group>
+	<name>rack8.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.112</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>AGX-3</host>
+	<name>AGX-3</name>
+	<groups>
+	<group>
+	<name>rack8.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.113</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>HPC-MASTER</host>
+	<name>HPC-MASTER</name>
+	<groups>
+	<group>
+	<name>rack8.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.117</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>HPC-MTR-NFS</host>
+	<name>HPC-MTR-NFS</name>
+	<groups>
+	<group>
+	<name>rack8.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.118</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>swx-collectx02</host>
+	<name>swx-collectx02</name>
+	<groups>
+	<group>
+	<name>rack8.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.52</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>CI-MORPHEUS01</host>
+	<name>CI-MORPHEUS01</name>
+	<groups>
+	<group>
+	<name>rack8.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.72</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>AGX-2</host>
+	<name>AGX-2</name>
+	<groups>
+	<group>
+	<name>rack8.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.75</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>AGX-1</host>
+	<name>AGX-1</name>
+	<groups>
+	<group>
+	<name>rack8.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.80</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>BOO25</host>
+	<name>BOO25</name>
+	<groups>
+	<group>
+	<name>rack8.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.92</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>BOO24</host>
+	<name>BOO24</name>
+	<groups>
+	<group>
+	<name>rack8.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.93</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>BOO23</host>
+	<name>BOO23</name>
+	<groups>
+	<group>
+	<name>rack8.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.94</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>BOO22</host>
+	<name>BOO22</name>
+	<groups>
+	<group>
+	<name>rack8.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.95</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>BOO21</host>
+	<name>BOO21</name>
+	<groups>
+	<group>
+	<name>rack8.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.96</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>BOO34</host>
+	<name>BOO34</name>
+	<groups>
+	<group>
+	<name>rack8.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.97</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>BOO17</host>
+	<name>BOO17</name>
+	<groups>
+	<group>
+	<name>rack8.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.98</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>BOO16</host>
+	<name>BOO16</name>
+	<groups>
+	<group>
+	<name>rack8.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.99</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+
+ 	</hosts> 
+</zabbix_export>  

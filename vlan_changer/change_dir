@@ -1,0 +1,3 @@
+#!/bin/bash
+cd ChangeVLAN
+#echo "$(cd /ChangeVLAN/)"

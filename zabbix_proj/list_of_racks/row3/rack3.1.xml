@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8'?> 
+<zabbix_export> 
+	<version>5.2</version> 
+	<date>2021-11-23T20:16:26Z</date> 
+	<groups> 
+		<group> 
+			<name>rack3.1</name> 
+		</group> 
+	</groups> 
+	<hosts> 
+<host>
+	<host>R-UFM45</host>
+	<name>R-UFM45</name>
+	<groups>
+	<group>
+	<name>rack3.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.36.112</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-UFM130</host>
+	<name>R-UFM130</name>
+	<groups>
+	<group>
+	<name>rack3.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.36.228</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-DMZ-UFM134</host>
+	<name>R-DMZ-UFM134</name>
+	<groups>
+	<group>
+	<name>rack3.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.37.153</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-DMZ-UFM128</host>
+	<name>R-DMZ-UFM128</name>
+	<groups>
+	<group>
+	<name>rack3.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.37.154</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-DMZ-UFM135</host>
+	<name>R-DMZ-UFM135</name>
+	<groups>
+	<group>
+	<name>rack3.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.37.155</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-DMZ-UFM137</host>
+	<name>R-DMZ-UFM137</name>
+	<groups>
+	<group>
+	<name>rack3.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.37.224</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-DMZ-UFM131</host>
+	<name>R-DMZ-UFM131</name>
+	<groups>
+	<group>
+	<name>rack3.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.37.229</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-DMZ-UFM53</host>
+	<name>R-DMZ-UFM53</name>
+	<groups>
+	<group>
+	<name>rack3.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.38.160</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>DEV-R-VRT-108</host>
+	<name>DEV-R-VRT-108</name>
+	<groups>
+	<group>
+	<name>rack3.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.212.108.1</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>R-DMZ-UFM146</host>
+	<name>R-DMZ-UFM146</name>
+	<groups>
+	<group>
+	<name>rack3.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.213.90.60</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+
+ 	</hosts> 
+</zabbix_export>  
