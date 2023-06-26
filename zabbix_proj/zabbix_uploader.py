@@ -1,4 +1,4 @@
-#!/root/work1/zabbix_proj/myenv/bin/python3
+#!/bin/python3
 import sys
 import requests
 import json

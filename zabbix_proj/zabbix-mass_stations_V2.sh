@@ -1,11 +1,14 @@
 # WHAT DOES IT !?
 # This is Zabbix_Mass_Stations automation to insert bulky information to Zabbix Server .
 # It's really useful when the user wants to add lots of information such as stasions in one action, not one by one (it's really horrible one by one !)
+export TERM=xterm
 clear
 
-f_input="uniq_servers.txt"
+rm -f "/root/work1/zabbix_proj/uniq_servers.xml"
 
-f_output="uniq_servers.xml"
+f_input="/root/work1/zabbix_proj/uniq_servers.txt"
+
+f_output="/root/work1/zabbix_proj/uniq_servers.xml"
 
 f_group="swx"
 
