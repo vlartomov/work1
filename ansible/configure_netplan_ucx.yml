@@ -1,0 +1,18 @@
+- name: Configure netplan file
+  hosts: servers
+  become: true
+  tasks:
+    - name: Create netplan configuration file
+      copy:
+        content: |
+          network:
+            ethernets:
+              p0:
+                renderer: networkd
+                addresses: ["{{ hostvars[inventory_hostname]['ip_address_p0'] }}/24"]
+              p1:
+                renderer: networkd
+                addresses: ["{{ hostvars[inventory_hostname]['ip_address_p1'] }}/24"]
+            version: 2
+        dest: /etc/netplan/70-mlnx.yaml
+        mode: '0644'
