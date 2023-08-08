@@ -36,7 +36,7 @@ srv_data={
             "rules": {
                 "hosts": {
                     "createMissing": True,
-                    "updateExisting": True
+                    "updateExisting": False 
                 },
                 "templates": {
                     "createMissing": True,

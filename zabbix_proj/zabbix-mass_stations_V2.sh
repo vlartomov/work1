@@ -10,7 +10,7 @@ f_input="/root/work1/zabbix_proj/uniq_servers.txt"
 
 f_output="/root/work1/zabbix_proj/uniq_servers.xml"
 
-f_group="swx"
+f_group="SWX"
 
 #'File Output:' ;
 

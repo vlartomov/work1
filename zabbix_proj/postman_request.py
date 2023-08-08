@@ -1,7 +1,7 @@
 import requests
 import json
 
-url = "http://swx-nbx/api/dcim/devices/?limit=100000"
+url = "http://swx-nbx/api/dcim/devices/?limit=900000000000"
 
 headers = {
     'content-type': "application/json",
@@ -16,10 +16,10 @@ results = json_data['results']
 
 for device in results:
     server = device['device_role']['name']
-    if server == "Server":
+    if server == "Server" or server == "Ethernet Switch" or server == "InfiniBand Switch":
         hostname = device['name']
         rack = device['rack']['name']
-        print(hostname + ' ' + rack)
+        print((hostname + ' ' + rack).lower())
 #        OuttxtFile = open('listallfiles.txt', 'a')
 #        OuttxtFile.write(hostname + ' ' + rack)
 #        OuttxtFile.close() 
