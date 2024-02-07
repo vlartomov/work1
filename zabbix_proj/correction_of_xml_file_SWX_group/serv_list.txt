@@ -1,0 +1,84 @@
+beni09	Linux (amd64)	In sync	31.66 GB	2.98 GB	31.66 GB	OK	73ms	Configure
+blue-force031	Linux (amd64)	In sync	495.41 GB	95.10 MB	13.46 GB	OK	315ms	Configure
+Built-In Node	Linux (amd64)	In sync	576.81 GB	1.05 GB	45.86 GB	OK	0ms	Configure
+hpc-arm-03	Linux (aarch64)	In sync	687.19 GB	122.79 GB	687.19 GB	OK	67ms	Configure
+hpc-arm-cavium-jenkins	Linux (aarch64)	In sync	407.09 GB	0 B	407.09 GB	OK	315ms	Configure
+hpc-cloud-hv01	Linux (amd64)	In sync	1687.52 GB	7.37 GB	149.30 GB	OK	52ms	Configure
+hpc-kernel-03	Linux (amd64)	In sync	770.31 GB	7.44 GB	7.74 GB	OK	72ms	Configure
+hpc-test-sharp1	Linux (amd64)	In sync	113.92 GB	1.95 GB	10.99 GB	OK	314ms	Configure
+hpc-test-sharp2	Linux (amd64)	In sync	319.12 GB	1.95 GB	10.83 GB	OK	314ms	Configure
+hpcx-builder02	Linux (amd64)	In sync	101.91 GB	2.00 GB	807.22 MB	OK	314ms	Configure
+ibmgt-ci-01		N/A	N/A	N/A	N/A	OK	N/A	Configure
+ibutils2-build-rhel76coverity-2651-2jg35-6qzp0	Linux (amd64)	In sync	166.69 GB	0 B	77.12 GB	OK	59ms	View Configuration
+l-jenkins-slave-01	Linux (amd64)	In sync	9.47 GB	1.99 GB	9.47 GB	OK	65ms	Configure
+mtr-stm-072	Linux (amd64)	In sync	27.53 GB	3.17 GB	27.53 GB	OK	313ms	Configure
+r-aa-fatty01		N/A	N/A	N/A	N/A	OK	N/A	Configure
+r-aa-fatty02		N/A	N/A	N/A	N/A	OK	N/A	Configure
+r-aa-fatty09		N/A	N/A	N/A	N/A	OK	N/A	Configure
+r-aa-fatty22-005	Linux (amd64)	In sync	21.73 GB	3.20 GB	21.73 GB	OK	311ms	Configure
+r-aa-fatty22-006	Linux (amd64)	In sync	13.91 GB	1.86 GB	13.91 GB	OK	313ms	Configure
+r-aa-fatty22.mtr.labs.mlnx	Windows Server 2016 (amd64)	In sync	46.17 GB	83.54 GB	46.17 GB	OK	50ms	Configure
+r-aa-fatty27	Windows Server 2022 (amd64)	In sync	9.63 GB	129.11 GB	9.63 GB	OK	312ms	Configure
+r-dcs63	Linux (amd64)	In sync	8.01 GB	1.95 GB	8.01 GB	OK	310ms	Configure
+r-ufm111		N/A	N/A	N/A	N/A	OK	N/A	Configure
+r-vmb-debian10-u0-x86-64-jb	Linux (amd64)	In sync	22.22 GB	2.00 GB	22.22 GB	OK	63ms	Configure
+r-vmb-fedora29-x86-64-jb	Linux (amd64)	In sync	30.17 GB	1.95 GB	30.17 GB	OK	63ms	Configure
+r-vmb-fedora30-x86-64-jb	Linux (amd64)	In sync	23.67 GB	1.95 GB	23.67 GB	OK	311ms	Configure
+r-vmb-fedora32-x86-64-mofed5-jb		N/A	N/A	N/A	N/A	OK	N/A	Configure
+r-vmb-mighty-magic.mtr.labs.mlnx	Linux (amd64)	In sync	12.92 GB	1.86 GB	12.92 GB	OK	62ms	Configure
+r-vmb-ppc-jenkins	Linux (ppc64le)	In sync	9.89 GB	18.72 GB	19.01 GB	OK	62ms	Configure
+r-vmb-rhel6-u3-x86-64	Linux (amd64)	In sync	71.48 GB	2.00 GB	13.43 GB	OK	48ms	Configure
+r-vmb-rhel6-u3-x86-64-MOFED-CHECKER	Linux (amd64)	In sync	32.67 GB	1.83 GB	32.67 GB	OK	310ms	Configure
+r-vmb-rhel7-u2-x86-64-inbox	Linux (amd64)	In sync	42.89 GB	1.60 GB	10.67 GB	OK	26ms	Configure
+r-vmb-rhel7-u3-x86-64	Linux (amd64)	In sync	34.40 GB	1.95 GB	34.40 GB	OK	310ms	Configure
+r-vmb-rhel7-u4-x86-64-JB		N/A	N/A	N/A	N/A	OK	N/A	Configure
+r-vmb-rhel7-u5-x86-64-JB		N/A	N/A	N/A	N/A	OK	N/A	Configure
+r-vmb-rhel7-u6-x86-64-jb	Linux (amd64)	In sync	29.96 GB	1.95 GB	29.96 GB	OK	55ms	Configure
+r-vmb-rhel7-u8-x86-64-jb	Linux (amd64)	In sync	33.88 GB	1.95 GB	33.88 GB	OK	55ms	Configure
+r-vmb-rhel8-u0-x86-64-jb	Linux (amd64)	In sync	30.85 GB	1.85 GB	30.85 GB	OK	67ms	Configure
+r-vmb-rhel8-u0-x86-64-mofed5-jb		N/A	N/A	N/A	N/A	OK	N/A	Configure
+r-vmb-rhel8-u2-x86-64-jb	Linux (amd64)	In sync	32.67 GB	1.83 GB	32.67 GB	OK	309ms	Configure
+r-vmb-sles11-sp3-x86-64		N/A	N/A	N/A	N/A	OK	N/A	Configure
+r-vmb-sles12-sp3-x86-64-jb		N/A	N/A	N/A	N/A	OK	N/A	Configure
+r-vmb-sles12-sp4-x86-64-jb	Linux (amd64)	In sync	15.08 GB	0 B	15.08 GB	OK	309ms	Configure
+r-vmb-sles12-sp5-x86-64-jb	Linux (amd64)	In sync	33.90 GB	1.99 GB	33.90 GB	OK	66ms	Configure
+r-vmb-sles15-sp0-x86-64-jb	Linux (amd64)	1 min 25 sec ahead	18.80 GB	2.57 GB	18.80 GB	OK	60ms	Configure
+r-vmb-sles15-sp1-x86-64-jb		N/A	N/A	N/A	N/A	OK	N/A	Configure
+r-vmb-ubuntu14-u4-x86-64	Linux (amd64)	In sync	76.45 GB	1.86 GB	4.65 GB	OK	15ms	Configure
+r-vmb-ubuntu16-u4-x86-64		N/A	N/A	N/A	N/A	OK	N/A	Configure
+r-vmb-ubuntu16-u4-x86-64-inbox-JB		N/A	N/A	N/A	N/A	OK	N/A	Configure
+r-vmb-ubuntu16-u4-x86-64-JB	Linux (amd64)	In sync	5.75 GB	2.00 GB	5.75 GB	OK	308ms	Configure
+r-vmb-ubuntu16-u4-x86-64-rivermax		N/A	N/A	N/A	N/A	OK	N/A	Configure
+r-vmb-ubuntu18-u4-x86-64-inbox		N/A	N/A	N/A	N/A	OK	N/A	Configure
+r-vmb-ubuntu18-u4-x86-64-JB	Linux (amd64)	In sync	30.04 GB	1.86 GB	30.04 GB	OK	8ms	Configure
+r-vmb-ubuntu18-u4-x86-64-mofed5-jb		N/A	N/A	N/A	N/A	OK	N/A	Configure
+r-vmb-ubuntu19-u10-x86-64-jb	Linux (amd64)	In sync	34.35 GB	1.86 GB	34.35 GB	OK	65ms	Configure
+r-vmb-ubuntu20-u4-x86-64-jb	Linux (amd64)	In sync	31.13 GB	1.86 GB	31.13 GB	OK	306ms	Configure
+r-vmb-windows-2012-JB	Windows Server 2012 (x86)	1.5 sec ahead	3.54 GB	7.09 GB	3.54 GB	OK	307ms	Configure
+regression_runner01		N/A	N/A	N/A	N/A	OK	N/A	Configure
+regression_runner02	Linux (amd64)	In sync	3.41 GB	1.90 GB	3.41 GB	OK	44ms	Configure
+sharp-ci-01	Linux (amd64)	In sync	270.98 GB	1.86 GB	3.59 GB	OK	306ms	Configure
+sharp-ci-02	Linux (amd64)	In sync	327.06 GB	1.86 GB	17.63 GB	OK	305ms	Configure
+sm-kori01		N/A	N/A	N/A	N/A	OK	N/A	Configure
+swx-arsen02-141.mtr.labs.mlnx	Linux (amd64)	In sync	90.85 GB	2.00 GB	90.85 GB	OK	51ms	Configure
+swx-bw-04		N/A	N/A	N/A	N/A	OK	N/A	Configure
+swx-bw-05		N/A	N/A	N/A	N/A	OK	N/A	Configure
+swx-clx01	Linux (amd64)	In sync	322.83 GB	0 B	11.63 GB	OK	306ms	Configure
+swx-clx02	Linux (amd64)	In sync	355.53 GB	0 B	11.85 GB	OK	57ms	Configure
+swx-lab-rh8-01	Linux (amd64)	In sync	37.58 GB	5.00 GB	37.58 GB	OK	305ms	Configure
+swx-lab-rh9-01	Linux (amd64)	In sync	38.49 GB	5.00 GB	38.49 GB	OK	56ms	Configure
+SWX-UFM-PXE	Linux (amd64)	In sync	9.73 GB	1.57 GB	9.73 GB	OK	16ms	Configure
+swx-window-serv-01		N/A	N/A	N/A	N/A	OK	N/A	Configure
+ufm-ai03		N/A	N/A	N/A	N/A	OK	N/A	Configure
+ufm-ci-ufmrhel7ofed5-8990-54dwd-0zh7g	Linux (amd64)	In sync	56.16 GB	0 B	50.70 GB	OK	20ms	View Configuration
+ufm-ci-ufmrhel8ofed5-8990-jdjgx-kj993	Linux (amd64)	In sync	1484.30 GB	0 B	1484.30 GB	OK	451ms	View Configuration
+ufm-ci-ufmrhel9ofed5-8990-5sklr-w19n7	Linux (amd64)	In sync	1484.56 GB	0 B	1484.56 GB	OK	36ms	View Configuration
+ufm-ci-ufmub18ofed5-8990-kl15p-9bdql	Linux (amd64)	In sync	56.16 GB	0 B	50.70 GB	OK	35ms	View Configuration
+ufm-ci-ufmub20ofed5-8990-4kxxf-4vh6r	Linux (amd64)	In sync	57.50 GB	0 B	63.87 GB	OK	450ms	View Configuration
+ufm-ci-ufmub22ofed5-8990-x8chv-m0tgw	Linux (amd64)	In sync	166.69 GB	0 B	77.12 GB	OK	449ms	View Configuration
+ufm-ci-ver01	Linux (amd64)	In sync	299.14 GB	8.00 GB	299.14 GB	OK	301ms	Configure
+ufm-ci-worker01	Linux (amd64)	In sync	8.30 GB	1.86 GB	8.30 GB	OK	53ms	Configure
+ufm-jenkins01	Linux (amd64)	In sync	25.29 GB	1.95 GB	25.29 GB	OK	58ms	Configure
+ufm-jenkins02	Linux (amd64)	In sync	25.29 GB	1.95 GB	25.29 GB	OK	301ms	Configure
+vma-nolo05		N/A	N/A	N/A	N/A	OK	N/A	Configure
+vma-nolo06		N/A	N/A	N/A	N/A	OK	N/A	Configure

@@ -1,0 +1,5715 @@
+      name: 'Zabbix servers'
+      host: agx-1
+      name: agx-1
+          name: 'Template Module ICMP Ping'
+          name: '8.1'
+      host: agx-2
+      name: agx-2
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: '8.1'
+      host: agx-3
+      name: agx-3
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: '8.1'
+      host: ajna01
+      name: ajna01
+          name: 'Scrap state'
+          name: 'Template Module ICMP Ping'
+          name: '7.4'
+      host: ajna02
+      name: ajna02
+          name: 'Scrap state'
+          name: 'Template Module ICMP Ping'
+          name: '7.4'
+      host: ajna03
+      name: ajna03
+          name: 'Scrap state'
+          name: 'Template Module ICMP Ping'
+          name: '7.4'
+      host: ajna04
+      name: ajna04
+          name: 'Scrap state'
+          name: 'Template Module ICMP Ping'
+          name: '7.4'
+      host: ajna05
+      name: ajna05
+          name: 'Scrap state'
+          name: 'Template Module ICMP Ping'
+          name: '7.4'
+      host: ajna06
+      name: ajna06
+          name: 'Scrap state'
+          name: 'Template Module ICMP Ping'
+          name: '7.4'
+      host: ajna07
+      name: ajna07
+          name: 'Scrap state'
+          name: 'Template Module ICMP Ping'
+          name: '7.4'
+      host: ajna08
+      name: ajna08
+          name: 'Scrap state'
+          name: 'Template Module ICMP Ping'
+          name: '7.4'
+      host: beni09
+      name: beni09
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: '5.2'
+      host: bill01
+      name: bill01
+          name: 'Disk state'
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.4'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: bill02
+      name: bill02
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: '6.4'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: bill03
+      name: bill03
+          name: 'Disk state'
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.4'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: bill04
+      name: bill04
+          name: 'Disk state'
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.4'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: bill05
+      name: bill05
+          name: '6.4'
+      host: bill06
+      name: bill06
+          name: 'Disk state'
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.4'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: blue-force031
+      name: blue-force031
+          name: 'Disk state'
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.8'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: bubik01
+      name: bubik01
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: '5.1'
+      host: bubik02
+      name: bubik02
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: '5.1'
+      host: cascade1
+      name: cascade1
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: '8.5'
+      host: cascade2
+      name: cascade2
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: '8.5'
+      host: ciara01
+      name: ciara01
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: '6.2'
+      host: ciara02
+      name: ciara02
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: '6.2'
+      host: cloud-hv01
+      name: cloud-hv01
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: '3.3'
+          name: SWX
+          name: Verification
+      host: cloud-hv02
+      name: cloud-hv02
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: '3.3'
+          name: SWX
+          name: Verification
+      host: core-switch
+      name: core-switch
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: '6.3'
+      host: damir01
+      name: damir01
+          name: 'Disk state'
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '5.1'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: damir02
+      name: damir02
+          name: 'Disk state'
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '5.1'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: david01
+      name: david01
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: '5.1'
+      host: david02
+      name: david02
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: '5.1'
+      host: dev-r-vrt-010
+      name: dev-r-vrt-010
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: '7.3'
+      host: dev-r-vrt-011
+      name: dev-r-vrt-011
+          name: 'Template Module ICMP Ping'
+          name: '7.3'
+      host: dev-r-vrt-012
+      name: dev-r-vrt-012
+          name: 'Template Module ICMP Ping'
+          name: '7.3'
+      host: dev-r-vrt-013
+      name: dev-r-vrt-013
+          name: 'Template Module ICMP Ping'
+          name: '7.3'
+      host: dev-r-vrt-023
+      name: dev-r-vrt-023
+          name: 'Template Module ICMP Ping'
+          name: '3.5'
+      host: dev-r-vrt-078
+      name: dev-r-vrt-078
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.3'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: dev-r-vrt-079
+      name: dev-r-vrt-079
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.3'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: dev-r-vrt-080
+      name: dev-r-vrt-080
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.1'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: dev-r-vrt-108
+      name: dev-r-vrt-108
+          name: 'Template Module ICMP Ping'
+          name: '3.1'
+      host: dev-r-vrt-122
+      name: dev-r-vrt-122
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.3'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: dev-r-vrt-133
+      name: dev-r-vrt-133
+          name: 'Template Module ICMP Ping'
+          name: '3.5'
+      host: dev-r-vrt-145
+      name: dev-r-vrt-145
+          name: 'Template Module ICMP Ping'
+          name: '3.4'
+      host: dev-r-vrt-165
+      name: dev-r-vrt-165
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: '3.5'
+          name: Verification
+      host: dev-r-vrt-166
+      name: dev-r-vrt-166
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: '3.5'
+          name: Verification
+      host: dev-r-vrt-169
+      name: dev-r-vrt-169
+          name: 'Template Module ICMP Ping'
+          name: '3.5'
+      host: dev-r-vrt-61120
+      name: dev-r-vrt-61120
+          name: 'Template Module ICMP Ping'
+          name: '3.6'
+      host: dor01
+      name: dor01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '5.1'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: dor02
+      name: dor02
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '5.1'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: dor03
+      name: dor03
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '5.1'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: dor04
+      name: dor04
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '5.1'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: dory01
+      name: dory01
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: dory02
+      name: dory02
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: dory03
+      name: dory03
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: dory04
+      name: dory04
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: dory05
+      name: dory05
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: dory06
+      name: dory06
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: dory07
+      name: dory07
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: dpu-ucx01
+      name: dpu-ucx01
+          name: 'Template Module ICMP Ping'
+          name: '5.4'
+      host: dpu-ucx02
+      name: dpu-ucx02
+          name: 'Template Module ICMP Ping'
+          name: '5.4'
+      host: dpu-ucx03
+      name: dpu-ucx03
+          name: 'Template Module ICMP Ping'
+          name: '5.4'
+      host: dpu-ucx05
+      name: dpu-ucx05
+          name: 'Template Module ICMP Ping'
+          name: '5.4'
+      host: dpu-ucx06
+      name: dpu-ucx06
+          name: 'Template Module ICMP Ping'
+          name: '5.4'
+      host: dpu-ucx07
+      name: dpu-ucx07
+          name: 'Template Module ICMP Ping'
+          name: '5.4'
+      host: dpu-ucx08
+      name: dpu-ucx08
+          name: 'Template Module ICMP Ping'
+          name: '5.4'
+      host: drock01
+      name: drock01
+          name: 'Template Module ICMP Ping'
+          name: '7.7'
+      host: drock02
+      name: drock02
+          name: 'Template Module ICMP Ping'
+          name: '7.7'
+      host: drock03
+      name: drock03
+          name: 'Template Module ICMP Ping'
+          name: '7.7'
+      host: elsa01
+      name: elsa01
+          name: 'Template Module ICMP Ping'
+          name: '1.2'
+      host: elsa02
+      name: elsa02
+          name: 'Template Module ICMP Ping'
+          name: '1.2'
+      host: elsa03
+      name: elsa03
+          name: 'Template Module ICMP Ping'
+          name: '1.2'
+      host: elsa04
+      name: elsa04
+          name: 'Template Module ICMP Ping'
+          name: '1.2'
+      host: elsa05
+      name: elsa05
+          name: 'Template Module ICMP Ping'
+          name: '1.2'
+      host: elsa06
+      name: elsa06
+          name: 'Template Module ICMP Ping'
+          name: '1.2'
+      host: elsa07
+      name: elsa07
+          name: 'Template Module ICMP Ping'
+          name: '1.2'
+      host: elsa08
+      name: elsa08
+          name: 'Template Module ICMP Ping'
+          name: '1.2'
+      host: falcon01
+      name: falcon01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '5.2'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: falcon02
+      name: falcon02
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '5.2'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: falcon03
+      name: falcon03
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '5.2'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: falcon04
+      name: falcon04
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '5.2'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: gen-r-vrt-058
+      name: gen-r-vrt-058
+          name: 'Template Module ICMP Ping'
+          name: '3.4'
+      host: hpc-arm-01
+      name: hpc-arm-01
+          name: 'Template Module ICMP Ping'
+          name: '8.5'
+      host: hpc-arm-02
+      name: hpc-arm-02
+          name: 'Template Module ICMP Ping'
+          name: '8.5'
+      host: hpc-arm-03
+      name: hpc-arm-03
+          name: 'Template Module ICMP Ping'
+          name: '8.5'
+      host: hpc-arm-cavium-jenkins
+      name: hpc-arm-cavium-jenkins
+          name: 'Template Module ICMP Ping'
+          name: '8.5'
+      host: hpc-arm-hp01
+      name: hpc-arm-hp01
+          name: 'Template Module ICMP Ping'
+          name: '8.5'
+      host: hpc-arm-hp02
+      name: hpc-arm-hp02
+          name: 'Template Module ICMP Ping'
+          name: '8.5'
+      host: hpc-arm-hp03
+      name: hpc-arm-hp03
+          name: 'Template Module ICMP Ping'
+          name: '8.5'
+      host: hpc-cloud-hv01
+      name: hpc-cloud-hv01
+          name: 'Template Module ICMP Ping'
+          name: '0'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: hpc-cloud-sw-eth01
+      name: hpc-cloud-sw-eth01
+          name: 'Template Module ICMP Ping'
+          name: '0'
+      host: hpc-cloud-sw-eth02
+      name: hpc-cloud-sw-eth02
+          name: 'Template Module ICMP Ping'
+          name: '0'
+      host: hpc-cloud-sw-eth03
+      name: hpc-cloud-sw-eth03
+          name: '0'
+          name: SWX
+      host: hpc-cloud-sw-ib01
+      name: hpc-cloud-sw-ib01
+          name: 'Template Module ICMP Ping'
+          name: '0'
+      host: hpc-cloud-sw-ib02
+      name: hpc-cloud-sw-ib02
+          name: 'Template Module ICMP Ping'
+          name: '0'
+      host: hpc-cloud01
+      name: hpc-cloud01
+          name: '0'
+          name: 'ICMP ping'
+              name: 'Unavailable by ICMP ping'
+          name: 'ICMP loss'
+              name: 'High ICMP ping loss'
+                  name: 'Unavailable by ICMP ping'
+          name: 'ICMP response time'
+              name: 'High ICMP ping response time'
+                  name: 'High ICMP ping loss'
+                  name: 'Unavailable by ICMP ping'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: hpc-cloud02
+      name: hpc-cloud02
+          name: '0'
+      host: hpc-cloud03
+      name: hpc-cloud03
+          name: '0'
+          name: 'ICMP ping'
+              name: 'Unavailable by ICMP ping'
+          name: 'ICMP loss'
+              name: 'High ICMP ping loss'
+                  name: 'Unavailable by ICMP ping'
+          name: 'ICMP response time'
+              name: 'High ICMP ping response time'
+                  name: 'High ICMP ping loss'
+                  name: 'Unavailable by ICMP ping'
+      host: hpc-cloud04
+      name: hpc-cloud04
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '0'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: hpc-cloud06
+      name: hpc-cloud06
+          name: 'Template Module ICMP Ping'
+          name: '0'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: hpc-cloud07
+      name: hpc-cloud07
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: hpc-kernel-03
+      name: hpc-kernel-03
+          name: 'Template Module ICMP Ping'
+          name: '8.3'
+      host: hpc-master
+      name: hpc-master
+          name: 'Template Module ICMP Ping'
+          name: '8.1'
+      host: hpc-mtr-nfs
+      name: hpc-mtr-nfs
+          name: 'Template Module ICMP Ping'
+          name: '8.1'
+      host: hpc-ppc-hv
+      name: hpc-ppc-hv
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.6'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: hpc-test-sharp-head
+      name: hpc-test-sharp-head
+          name: 'Template Module ICMP Ping'
+          name: '7.5'
+      host: hpc-test-sharp1
+      name: hpc-test-sharp1
+          name: 'Template Module ICMP Ping'
+          name: '7.5'
+      host: hpc-test-sharp2
+      name: hpc-test-sharp2
+          name: 'Template Module ICMP Ping'
+          name: '7.5'
+      host: hpchead
+      name: hpchead
+          name: 'Template Module ICMP Ping'
+          name: '8.3'
+      host: hpcx-builder02
+      name: hpcx-builder02
+          name: 'Template Module ICMP Ping'
+          name: '8.3'
+      host: ibtools01
+      name: ibtools01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '8.9'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: ibtools02
+      name: ibtools02
+          name: 'Template Module ICMP Ping'
+          name: '8.9'
+      host: ibtools03
+      name: ibtools03
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '8.9'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: ibtools04
+      name: ibtools04
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '8.9'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: ibtools05
+      name: ibtools05
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '8.9'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: ibtools07
+      name: ibtools07
+          name: 'Template Module ICMP Ping'
+          name: '8.9'
+      host: ice01
+      name: ice01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '8.6'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: ice02
+      name: ice02
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '8.6'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: jazz01
+      name: jazz01
+          name: 'Template Module ICMP Ping'
+          name: '8.4'
+      host: jazz02
+      name: jazz02
+          name: 'Template Module ICMP Ping'
+          name: '8.4'
+      host: jazz03
+      name: jazz03
+          name: 'Template Module ICMP Ping'
+          name: '8.4'
+      host: jazz04
+      name: jazz04
+          name: 'Template Module ICMP Ping'
+          name: '8.4'
+      host: jazz05
+      name: jazz05
+          name: 'Template Module ICMP Ping'
+          name: '8.4'
+      host: jazz06
+      name: jazz06
+          name: 'Template Module ICMP Ping'
+          name: '8.4'
+      host: jazz07
+      name: jazz07
+          name: 'Template Module ICMP Ping'
+          name: '8.4'
+      host: jazz08
+      name: jazz08
+          name: 'Template Module ICMP Ping'
+          name: '8.4'
+      host: jazz09
+      name: jazz09
+          name: 'Template Module ICMP Ping'
+          name: '8.4'
+      host: jazz10
+      name: jazz10
+          name: 'Template Module ICMP Ping'
+          name: '8.4'
+      host: jazz11
+      name: jazz11
+          name: 'Template Module ICMP Ping'
+          name: '8.4'
+      host: jazz12
+      name: jazz12
+          name: 'Template Module ICMP Ping'
+          name: '8.4'
+      host: jazz13
+      name: jazz13
+          name: 'Template Module ICMP Ping'
+          name: '8.4'
+      host: jazz14
+      name: jazz14
+          name: 'Template Module ICMP Ping'
+          name: '8.4'
+      host: jazz15
+      name: jazz15
+          name: 'Template Module ICMP Ping'
+          name: '8.4'
+      host: jazz16
+      name: jazz16
+          name: 'Template Module ICMP Ping'
+          name: '8.4'
+      host: jazz17
+      name: jazz17
+          name: 'Template Module ICMP Ping'
+          name: '8.4'
+      host: jazz18
+      name: jazz18
+          name: 'Template Module ICMP Ping'
+          name: '8.4'
+      host: jazz19
+      name: jazz19
+          name: 'Template Module ICMP Ping'
+          name: '8.4'
+      host: jazz20
+      name: jazz20
+          name: 'Template Module ICMP Ping'
+          name: '8.4'
+      host: jazz21
+      name: jazz21
+          name: 'Template Module ICMP Ping'
+          name: '8.4'
+      host: jazz22
+      name: jazz22
+          name: 'Template Module ICMP Ping'
+          name: '8.4'
+      host: jazz23
+      name: jazz23
+          name: 'Template Module ICMP Ping'
+          name: '8.4'
+      host: jazz24
+      name: jazz24
+          name: 'Template Module ICMP Ping'
+          name: '8.4'
+      host: jazz25
+      name: jazz25
+          name: 'Template Module ICMP Ping'
+          name: '8.4'
+      host: jazz26
+      name: jazz26
+          name: 'Template Module ICMP Ping'
+          name: '8.4'
+      host: jazz27
+      name: jazz27
+          name: 'Template Module ICMP Ping'
+          name: '8.4'
+      host: jazz28
+      name: jazz28
+          name: 'Template Module ICMP Ping'
+          name: '8.4'
+      host: jazz29
+      name: jazz29
+          name: 'Template Module ICMP Ping'
+          name: '8.4'
+      host: jazz30
+      name: jazz30
+          name: 'Template Module ICMP Ping'
+          name: '8.4'
+      host: jazz31
+      name: jazz31
+          name: 'Template Module ICMP Ping'
+          name: '8.4'
+      host: jazz32
+      name: jazz32
+          name: 'Template Module ICMP Ping'
+          name: '8.4'
+      host: jenkins-hn01
+      name: jenkins-hn01
+          name: 'Template Module ICMP Ping'
+          name: '8.3'
+      host: l-jenkins-slave-01
+      name: l-jenkins-slave-01
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: leaf-sw-spec2-63-2
+      name: leaf-sw-spec2-63-2
+          name: 'Template Module ICMP Ping'
+          name: '6.3'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: leaf-sw-spec2-64-2
+      name: leaf-sw-spec2-64-2
+          name: 'Template Module ICMP Ping'
+          name: '6.4'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: leaf-switch-61-1
+      name: leaf-switch-61-1
+          name: 'Template Module ICMP Ping'
+          name: '6.2'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: leaf-switch-61-2
+      name: leaf-switch-61-2
+          name: 'Template Module ICMP Ping'
+          name: '6.1'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: leaf-switch-62-1
+      name: leaf-switch-62-1
+          name: 'Template Module ICMP Ping'
+          name: '6.2'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: leaf-switch-63-1
+      name: leaf-switch-63-1
+          name: 'Template Module ICMP Ping'
+          name: '6.3'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: leaf-switch-64-1
+      name: leaf-switch-64-1
+          name: 'Template Module ICMP Ping'
+          name: '6.4'
+      host: leaf-switch-64-2
+      name: leaf-switch-64-2
+          name: 'Template Module ICMP Ping'
+          name: '6.4'
+      host: leaf-switch-65-1
+      name: leaf-switch-65-1
+          name: 'Template Module ICMP Ping'
+          name: '6.5'
+      host: leaf-switch-77-1
+      name: leaf-switch-77-1
+          name: 'Template Module ICMP Ping'
+          name: '7.7'
+      host: luna01
+      name: luna01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '5.1'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: luna02
+      name: luna02
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '5.1'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: mtr-stm-072
+      name: mtr-stm-072
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: mtvr-r740-01
+      name: mtvr-r740-01
+          name: 'Linux CPU by Zabbix agent active'
+          name: 'Linux memory by Zabbix agent active'
+          name: 'Template Module ICMP Ping'
+          name: 'Zabbix servers'
+          name: 'Host name of Zabbix agent running'
+          name: 'Zabbix agent ping'
+              name: 'Zabbix agent is not available (or nodata for {$AGENT.NODATA_TIMEOUT})'
+          name: 'Version of Zabbix agent running'
+      host: mtvr-sharp-n07
+      name: mtvr-sharp-n07
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: mtvr-spdk-oci-arm01
+      name: mtvr-spdk-oci-arm01
+          name: 'Template Module ICMP Ping'
+          name: 1-10
+      host: mtvr-spdk-oci-h01
+      name: mtvr-spdk-oci-h01
+          name: 'Template Module ICMP Ping'
+          name: 1-10
+      host: mtvr-spdk-oci-h02
+      name: mtvr-spdk-oci-h02
+          name: 'Template Module ICMP Ping'
+          name: 1-10
+      host: mtvr-spdk-oci-h03
+      name: mtvr-spdk-oci-h03
+          name: 'Template Module ICMP Ping'
+          name: 1-10
+      host: mtvr-spdk-oci-sw01
+      name: mtvr-spdk-oci-sw01
+          name: 'Template Module ICMP Ping'
+          name: 1-10
+      host: mtvr-spdk-oci-t01
+      name: mtvr-spdk-oci-t01
+          name: 'Template Module ICMP Ping'
+          name: 1-10
+      host: mtvr-spdk-oci-t02
+      name: mtvr-spdk-oci-t02
+          name: 'Template Module ICMP Ping'
+          name: 1-10
+      host: ndr-elsa-leaf01
+      name: ndr-elsa-leaf01
+          name: 'Template Module ICMP Ping'
+          name: '1.2'
+      host: ndr-elsa-leaf02
+      name: ndr-elsa-leaf02
+          name: 'Template Module ICMP Ping'
+          name: '1.2'
+      host: ndr-elsa-root01
+      name: ndr-elsa-root01
+          name: 'Template Module ICMP Ping'
+          name: '1.2'
+      host: ndr-elsa-root02
+      name: ndr-elsa-root02
+          name: 'Template Module ICMP Ping'
+          name: '1.2'
+      host: ndr-nemo-leaf01
+      name: ndr-nemo-leaf01
+          name: 'Template Module ICMP Ping'
+          name: '7.4'
+      host: ndr-nemo-leaf02
+      name: ndr-nemo-leaf02
+          name: 'Template Module ICMP Ping'
+          name: '7.4'
+      host: ndr-nemo-leaf03
+      name: ndr-nemo-leaf03
+          name: 'Template Module ICMP Ping'
+          name: '7.4'
+      host: ndr-nemo-leaf04
+      name: ndr-nemo-leaf04
+          name: 'Template Module ICMP Ping'
+          name: '7.4'
+      host: ndr-nemo-root01
+      name: ndr-nemo-root01
+          name: 'Template Module ICMP Ping'
+          name: '7.4'
+      host: ndr-nemo-root02
+      name: ndr-nemo-root02
+          name: 'Template Module ICMP Ping'
+          name: '7.4'
+      host: ndr-nemo-spine01
+      name: ndr-nemo-spine01
+          name: 'Template Module ICMP Ping'
+          name: '7.4'
+      host: ndr-nemo-spine02
+      name: ndr-nemo-spine02
+          name: 'Template Module ICMP Ping'
+          name: '7.4'
+      host: ndr-nemo-spine03
+      name: ndr-nemo-spine03
+          name: 'Template Module ICMP Ping'
+          name: '7.4'
+      host: ndr-nemo-spine04
+      name: ndr-nemo-spine04
+          name: 'Template Module ICMP Ping'
+          name: '7.4'
+      host: nemo01
+      name: nemo01
+          name: 'Template Module ICMP Ping'
+          name: '7.4'
+      host: nemo02
+      name: nemo02
+          name: 'Template Module ICMP Ping'
+          name: '7.4'
+      host: nemo03
+      name: nemo03
+          name: 'Template Module ICMP Ping'
+          name: '7.4'
+      host: nemo04
+      name: nemo04
+          name: 'Template Module ICMP Ping'
+          name: '7.4'
+      host: nemo05
+      name: nemo05
+          name: 'Template Module ICMP Ping'
+          name: '7.4'
+      host: nemo06
+      name: nemo06
+          name: 'Template Module ICMP Ping'
+          name: '7.4'
+      host: nemo07
+      name: nemo07
+          name: 'Template Module ICMP Ping'
+          name: '7.4'
+      host: nemo08
+      name: nemo08
+          name: 'Template Module ICMP Ping'
+          name: '7.4'
+      host: nile2
+      name: nile2
+          name: 'Template Module ICMP Ping'
+          name: '6.5'
+      host: pajna
+      name: pajna
+          name: 'Template Module ICMP Ping'
+          name: '7.4'
+      host: pat01
+      name: pat01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.4'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: pat02
+      name: pat02
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.3'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: pdory
+      name: pdory
+          name: 'Template Module ICMP Ping'
+          name: 1-10
+      host: pelsa
+      name: pelsa
+          name: 'Template Module ICMP Ping'
+          name: '1.2'
+      host: pjazz
+      name: pjazz
+          name: IB_subnet_prefix
+          name: 'Template Module ICMP Ping'
+          name: '8.4'
+      host: pnemo
+      name: pnemo
+          name: 'Template Module ICMP Ping'
+          name: '7.4'
+      host: pray-ndr01
+      name: pray-ndr01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '5.3'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: prism-01
+      name: prism-01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.1'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: prock
+      name: prock
+          name: 'Template Module ICMP Ping'
+          name: '7.10'
+      host: psputnik
+      name: psputnik
+          name: 'Template Module ICMP Ping'
+          name: '8.3'
+      host: pswx-dgx
+      name: pswx-dgx
+          name: 'Template Module ICMP Ping'
+          name: '8.7'
+      host: pvulcan1
+      name: pvulcan1
+          name: 'Template Module ICMP Ping'
+          name: '8.5'
+      host: r-aa-apollo01
+      name: r-aa-apollo01
+          name: 'Template Module ICMP Ping'
+          name: '6.2'
+      host: r-aa-apollo02
+      name: r-aa-apollo02
+          name: 'Template Module ICMP Ping'
+          name: '6.2'
+      host: r-aa-apollo03
+      name: r-aa-apollo03
+          name: 'Template Module ICMP Ping'
+          name: '6.2'
+      host: r-aa-apollo04
+      name: r-aa-apollo04
+          name: 'Template Module ICMP Ping'
+          name: '6.2'
+      host: r-aa-bolt3
+      name: r-aa-bolt3
+          name: 'Template Module ICMP Ping'
+          name: '6.1'
+      host: r-aa-bolt4
+      name: r-aa-bolt4
+          name: 'Template Module ICMP Ping'
+          name: '6.1'
+      host: r-aa-fatty22
+      name: r-aa-fatty22
+          name: 'Template Module ICMP Ping'
+          name: '6.2'
+      host: r-aa-fatty22-005
+      name: r-aa-fatty22-005
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-aa-fatty22-006
+      name: r-aa-fatty22-006
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-aa-fatty23
+      name: r-aa-fatty23
+          name: 'Template Module ICMP Ping'
+          name: '6.2'
+      host: r-aa-fatty24
+      name: r-aa-fatty24
+          name: 'Template Module ICMP Ping'
+          name: '6.2'
+      host: r-aa-fatty26
+      name: r-aa-fatty26
+          name: 'Template Module ICMP Ping'
+          name: '6.2'
+      host: r-aa-fatty27
+      name: r-aa-fatty27
+          name: 'Template Module ICMP Ping'
+          name: '6.2'
+      host: r-aa-fatty30
+      name: r-aa-fatty30
+          name: 'Template Module ICMP Ping'
+          name: '6.4'
+      host: r-aa-iron01
+      name: r-aa-iron01
+          name: 'Template Module ICMP Ping'
+          name: '6.2'
+      host: r-aa-iron02
+      name: r-aa-iron02
+          name: 'Template Module ICMP Ping'
+          name: '6.2'
+      host: r-aa-iron03
+      name: r-aa-iron03
+          name: 'Template Module ICMP Ping'
+          name: '6.2'
+      host: r-aa-iron04
+      name: r-aa-iron04
+          name: 'Template Module ICMP Ping'
+          name: '6.2'
+      host: r-aa-nitro01
+      name: r-aa-nitro01
+          name: 'Template Module ICMP Ping'
+          name: '6.2'
+      host: r-aa-nitro01-005
+      name: r-aa-nitro01-005
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-aa-nitro02
+      name: r-aa-nitro02
+          name: 'Template Module ICMP Ping'
+          name: '6.2'
+      host: r-aa-nitro02-005
+      name: r-aa-nitro02-005
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-aa-nitro03
+      name: r-aa-nitro03
+          name: 'Template Module ICMP Ping'
+          name: '5.1'
+      host: r-aa-nitro04
+      name: r-aa-nitro04
+          name: 'Template Module ICMP Ping'
+          name: '5.1'
+      host: r-aa-virtuoso01
+      name: r-aa-virtuoso01
+          name: 'Template Module ICMP Ping'
+          name: '6.2'
+      host: r-aa-zorro008
+      name: r-aa-zorro008
+          name: 'Template Module ICMP Ping'
+          name: '6.3'
+      host: r-aa-zorro009
+      name: r-aa-zorro009
+          name: 'Template Module ICMP Ping'
+          name: '6.3'
+      host: r-anaconda-46
+      name: r-anaconda-46
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-bld-hpstr
+      name: r-bld-hpstr
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-build-01
+      name: r-build-01
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-build-02
+      name: r-build-02
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-build-03
+      name: r-build-03
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-build-04
+      name: r-build-04
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-build-05
+      name: r-build-05
+          name: 'Template Module ICMP Ping'
+          name: '3.4'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-builder01
+      name: r-builder01
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-builder02
+      name: r-builder02
+          name: 'Template Module ICMP Ping'
+          name: Templates
+      host: r-builder03
+      name: r-builder03
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-builder04
+      name: r-builder04
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-builder05
+      name: r-builder05
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-builder06
+      name: r-builder06
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-cloudx-gpu01
+      name: r-cloudx-gpu01
+          name: 'Template Module ICMP Ping'
+          name: '3.6'
+      host: r-dcs63
+      name: r-dcs63
+          name: 'Template Module ICMP Ping'
+          name: '3.2'
+      host: r-dcs96
+      name: r-dcs96
+          name: 'Template Module ICMP Ping'
+          name: '3.2'
+      host: r-dmz-ufm-sw49
+      name: r-dmz-ufm-sw49
+          name: 'Template Module ICMP Ping'
+          name: '3.1'
+      host: r-dmz-ufm-sw59
+      name: r-dmz-ufm-sw59
+          name: 'Template Module ICMP Ping'
+          name: '4.5'
+      host: r-dmz-ufm-sw60
+      name: r-dmz-ufm-sw60
+          name: 'Template Module ICMP Ping'
+          name: '3.3'
+      host: r-dmz-ufm53
+      name: r-dmz-ufm53
+          name: 'Template Module ICMP Ping'
+          name: '3.1'
+      host: r-dmz-ufm128
+      name: r-dmz-ufm128
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: '3.1'
+          name: SWX
+          name: Verification
+      host: r-dmz-ufm131
+      name: r-dmz-ufm131
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: '3.1'
+          name: SWX
+          name: Verification
+      host: r-dmz-ufm134
+      name: r-dmz-ufm134
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: '3.1'
+          name: SWX
+          name: Verification
+      host: r-dmz-ufm135
+      name: r-dmz-ufm135
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: '3.1'
+          name: Verification
+      host: r-dmz-ufm137
+      name: r-dmz-ufm137
+          name: 'Template Module ICMP Ping'
+          name: '3.1'
+      host: r-dmz-ufm139
+      name: r-dmz-ufm139
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: '3.1'
+          name: Verification
+      host: r-freeb53
+      name: r-freeb53
+          name: 'Template Module ICMP Ping'
+          name: '2.6'
+      host: r-freeb54
+      name: r-freeb54
+          name: 'Template Module ICMP Ping'
+          name: '2.6'
+      host: r-freeb55
+      name: r-freeb55
+          name: 'Template Module ICMP Ping'
+          name: '2.6'
+      host: r-freeb56
+      name: r-freeb56
+          name: 'Template Module ICMP Ping'
+          name: '2.6'
+      host: r-fserv-105
+      name: r-fserv-105
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-k8s-01
+      name: r-k8s-01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: 1-1
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-k8s-02
+      name: r-k8s-02
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: 1-1
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-k8s-03
+      name: r-k8s-03
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: 1-1
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-k8s-04
+      name: r-k8s-04
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: 1-1
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-k8s-05
+      name: r-k8s-05
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: 1-1
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-k8s-06
+      name: r-k8s-06
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: 1-1
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-k8s-10
+      name: r-k8s-10
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.5'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-k8s-11
+      name: r-k8s-11
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.5'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-k8s-12
+      name: r-k8s-12
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.5'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-k8s-13
+      name: r-k8s-13
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.5'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-k8s-cp1
+      name: r-k8s-cp1
+          name: 'Template Module ICMP Ping'
+          name: '6.1'
+      host: r-k8s-cp2
+      name: r-k8s-cp2
+          name: 'Template Module ICMP Ping'
+          name: '6.1'
+      host: r-neo-host49-01
+      name: r-neo-host49-01
+          name: 'Template Module ICMP Ping'
+          name: '4.4'
+      host: r-neo-host49-20
+      name: r-neo-host49-20
+          name: 'Template Module ICMP Ping'
+          name: '4.4'
+      host: r-neo-host49-120
+      name: r-neo-host49-120
+          name: 'Template Module ICMP Ping'
+          name: '4.4'
+      host: r-neo-host53-100
+      name: r-neo-host53-100
+          name: 'Template Module ICMP Ping'
+          name: '4.4'
+      host: r-netq-01
+      name: r-netq-01
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-nvmx01
+      name: r-nvmx01
+          name: 'Template Module ICMP Ping'
+          name: '7.2'
+      host: r-nvmx02
+      name: r-nvmx02
+          name: 'Template Module ICMP Ping'
+          name: '7.2'
+      host: r-nvmx03
+      name: r-nvmx03
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.3'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-r640-13
+      name: r-r640-13
+          name: 'Linux CPU by Zabbix agent active'
+          name: 'Linux memory by Zabbix agent active'
+          name: 'Template Module ICMP Ping'
+          name: 'Zabbix servers'
+      host: r-sonic-03
+      name: r-sonic-03
+          name: 'Linux CPU by Zabbix agent active'
+          name: 'Linux memory by Zabbix agent active'
+          name: 'Template Module ICMP Ping'
+          name: 'Zabbix agent'
+          name: 'Zabbix servers'
+      host: r-sonic-04
+      name: r-sonic-04
+          name: 'Linux CPU by Zabbix agent active'
+          name: 'Linux memory by Zabbix agent active'
+          name: 'Template Module ICMP Ping'
+          name: 'Zabbix servers'
+      host: r-sw-hail26
+      name: r-sw-hail26
+          name: 'Template Module ICMP Ping'
+          name: '6.4'
+      host: R-SW-HAIL26
+      name: R-SW-HAIL26
+          name: 'Template Module ICMP Ping'
+          name: '6.4'
+      host: r-sw-hail32
+      name: r-sw-hail32
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.4'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-sw-hail33
+      name: r-sw-hail33
+          name: 'Template Module ICMP Ping'
+          name: '6.4'
+      host: r-ufm-sw06
+      name: r-ufm-sw06
+          name: 'Template Module ICMP Ping'
+          name: '3.3'
+      host: r-ufm-sw13
+      name: r-ufm-sw13
+          name: 'Template Module ICMP Ping'
+          name: '3.4'
+      host: r-ufm-sw23
+      name: r-ufm-sw23
+          name: 'Template Module ICMP Ping'
+          name: '3.5'
+      host: r-ufm-sw32
+      name: r-ufm-sw32
+          name: 'Template Module ICMP Ping'
+          name: '3.2'
+      host: r-ufm-sw45
+      name: r-ufm-sw45
+          name: 'Template Module ICMP Ping'
+          name: '3.1'
+      host: r-ufm-sw55
+      name: r-ufm-sw55
+          name: 'Template Module ICMP Ping'
+          name: '3.4'
+      host: r-ufm-sw56
+      name: r-ufm-sw56
+          name: 'Template Module ICMP Ping'
+          name: '3.4'
+      host: r-ufm-sw60
+      name: r-ufm-sw60
+          name: 'Template Module ICMP Ping'
+          name: '3.5'
+      host: r-ufm-sw61
+      name: r-ufm-sw61
+          name: 'Template Module ICMP Ping'
+          name: '4.3'
+      host: r-ufm-sw62
+      name: r-ufm-sw62
+          name: 'Template Module ICMP Ping'
+          name: '4.3'
+      host: r-ufm-sw63
+      name: r-ufm-sw63
+          name: 'Template Module ICMP Ping'
+          name: '3.5'
+      host: r-ufm-sw70
+      name: r-ufm-sw70
+          name: 'Template Module ICMP Ping'
+          name: '3.1'
+      host: r-ufm-sw71
+      name: r-ufm-sw71
+          name: 'Template Module ICMP Ping'
+          name: '3.1'
+      host: r-ufm-sw92
+      name: r-ufm-sw92
+          name: 'Template Module ICMP Ping'
+          name: '3.2'
+      host: r-ufm-sw95
+      name: r-ufm-sw95
+          name: 'Template Module ICMP Ping'
+          name: '3.1'
+      host: r-ufm-sw121
+      name: r-ufm-sw121
+          name: 'Template Module ICMP Ping'
+          name: '4.3'
+      host: r-ufm36
+      name: r-ufm36
+          name: 'Template Module ICMP Ping'
+          name: '3.6'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-ufm45
+      name: r-ufm45
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: '3.5'
+          name: Verification
+      host: r-ufm49
+      name: r-ufm49
+          name: 'Template Module ICMP Ping'
+          name: '3.4'
+      host: r-ufm50
+      name: r-ufm50
+          name: 'Template Module ICMP Ping'
+          name: '3.4'
+      host: r-ufm51
+      name: r-ufm51
+          name: 'Template Module ICMP Ping'
+          name: '3.4'
+      host: r-ufm55
+      name: r-ufm55
+          name: 'Template Module ICMP Ping'
+          name: '3.5'
+      host: r-ufm56
+      name: r-ufm56
+          name: 'Template Module ICMP Ping'
+          name: '3.5'
+      host: r-ufm57
+      name: r-ufm57
+          name: 'Template Module ICMP Ping'
+          name: '3.4'
+      host: r-ufm58
+      name: r-ufm58
+          name: 'Template Module ICMP Ping'
+          name: '3.5'
+      host: r-ufm59
+      name: r-ufm59
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '3.5'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-ufm60
+      name: r-ufm60
+          name: 'Template Module ICMP Ping'
+          name: '3.5'
+      host: r-ufm64
+      name: r-ufm64
+          name: 'Template Module ICMP Ping'
+          name: '3.5'
+      host: r-ufm65
+      name: r-ufm65
+          name: 'Template Module ICMP Ping'
+          name: '3.5'
+      host: r-ufm69
+      name: r-ufm69
+          name: 'Template Module ICMP Ping'
+          name: '3.5'
+      host: r-ufm74
+      name: r-ufm74
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: '3.5'
+          name: Verification
+      host: r-ufm75
+      name: r-ufm75
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: '3.5'
+          name: Verification
+      host: r-ufm77
+      name: r-ufm77
+          name: 'Template Module ICMP Ping'
+          name: '3.4'
+      host: r-ufm83
+      name: r-ufm83
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '3.6'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-ufm98
+      name: r-ufm98
+          name: 'Template Module ICMP Ping'
+          name: '8.8'
+      host: r-ufm105
+      name: r-ufm105
+          name: 'Template Module ICMP Ping'
+          name: '8.8'
+      host: r-ufm106
+      name: r-ufm106
+          name: 'Template Module ICMP Ping'
+          name: '8.8'
+      host: r-ufm108
+      name: r-ufm108
+          name: 'Template Module ICMP Ping'
+          name: '8.8'
+      host: r-ufm111
+      name: r-ufm111
+          name: 'Template Module ICMP Ping'
+          name: '8.9'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-ufm112
+      name: r-ufm112
+          name: 'Template Module ICMP Ping'
+          name: '8.9'
+      host: r-ufm113
+      name: r-ufm113
+          name: 'Template Module ICMP Ping'
+          name: '3.3'
+      host: r-ufm114
+      name: r-ufm114
+          name: 'Template Module ICMP Ping'
+          name: '3.3'
+      host: r-ufm126
+      name: r-ufm126
+          name: 'Template Module ICMP Ping'
+          name: '8.9'
+      host: r-ufm130
+      name: r-ufm130
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: '3.1'
+          name: SWX
+          name: Verification
+      host: r-ufm142
+      name: r-ufm142
+          name: 'Template Module ICMP Ping'
+          name: '3.5'
+      host: r-ufm145
+      name: r-ufm145
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: '3.1'
+          name: SWX
+          name: Verification
+      host: r-ufm146
+      name: r-ufm146
+          name: 'Template Module ICMP Ping'
+          name: '3.1'
+      host: r-ufm163
+      name: r-ufm163
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '3.3'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-ufm216
+      name: r-ufm216
+          name: 'Template Module ICMP Ping'
+          name: '8.8'
+      host: r-ufm221
+      name: r-ufm221
+          name: 'Template Module ICMP Ping'
+          name: '3.4'
+      host: r-ufm230
+      name: r-ufm230
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '3.5'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-ufm234
+      name: r-ufm234
+          name: 'Template Module ICMP Ping'
+          name: '3.3'
+      host: r-ufm235
+      name: r-ufm235
+          name: 'Template Module ICMP Ping'
+          name: '3.3'
+      host: r-ufm236
+      name: r-ufm236
+          name: 'Template Module ICMP Ping'
+          name: '3.3'
+      host: r-ufm237
+      name: r-ufm237
+          name: 'Template Module ICMP Ping'
+          name: '4.3'
+          name: SWX
+      host: r-ufm238
+      name: r-ufm238
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-ufm239
+      name: r-ufm239
+          name: 'Template Module ICMP Ping'
+          name: '4.3'
+      host: r-ufm247
+      name: r-ufm247
+          name: 'Template Module ICMP Ping'
+          name: '4.3'
+      host: r-ufm248
+      name: r-ufm248
+          name: 'Template Module ICMP Ping'
+          name: '4.3'
+      host: r-ufm254-hyp
+      name: r-ufm254-hyp
+          name: 'Template Module ICMP Ping'
+          name: '3.6'
+      host: r-ufm2246
+      name: r-ufm2246
+          name: 'Template Module ICMP Ping'
+          name: '4.5'
+      host: r-vmb-debian10-u0-x86-64-jb
+      name: r-vmb-debian10-u0-x86-64-jb
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-vmb-fedora29-x86-64-jb
+      name: r-vmb-fedora29-x86-64-jb
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-vmb-fedora30-x86-64-jb
+      name: r-vmb-fedora30-x86-64-jb
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-vmb-fedora32-x86-64-mofed5-jb
+      name: r-vmb-fedora32-x86-64-mofed5-jb
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-vmb-mighty-magic.mtr.labs.mlnx
+      name: r-vmb-mighty-magic.mtr.labs.mlnx
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-vmb-ppc-jenkins
+      name: r-vmb-ppc-jenkins
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-vmb-rhel6-u3-x86-64
+      name: r-vmb-rhel6-u3-x86-64
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-vmb-rhel7-u2-ppc64le-cuda-builder-02
+      name: r-vmb-rhel7-u2-ppc64le-cuda-builder-02
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-vmb-rhel7-u2-ppc64le-MOFED-CHECKER
+      name: r-vmb-rhel7-u2-ppc64le-MOFED-CHECKER
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-vmb-rhel7-u2-x86-64-inbox
+      name: r-vmb-rhel7-u2-x86-64-inbox
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-vmb-rhel7-u3-ppc64le-JB
+      name: r-vmb-rhel7-u3-ppc64le-JB
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-vmb-rhel7-u3-ppc64le-MOFED-CHECKER
+      name: r-vmb-rhel7-u3-ppc64le-MOFED-CHECKER
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-vmb-rhel7-u3-x86-64
+      name: r-vmb-rhel7-u3-x86-64
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-vmb-rhel7-u4-ppc64le-JB
+      name: r-vmb-rhel7-u4-ppc64le-JB
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-vmb-rhel7-u4-ppc64le-MOFED-CHECKER
+      name: r-vmb-rhel7-u4-ppc64le-MOFED-CHECKER
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-vmb-rhel7-u4-x86-64-JB
+      name: r-vmb-rhel7-u4-x86-64-JB
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-vmb-rhel7-u5-ppc64le-MOFED-CHECKER
+      name: r-vmb-rhel7-u5-ppc64le-MOFED-CHECKER
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-vmb-rhel7-u5-x86-64-JB
+      name: r-vmb-rhel7-u5-x86-64-JB
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-vmb-rhel7-u6-x86-64-jb
+      name: r-vmb-rhel7-u6-x86-64-jb
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-vmb-rhel7-u8-x86-64-jb
+      name: r-vmb-rhel7-u8-x86-64-jb
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-vmb-rhel8-u0-x86-64-jb
+      name: r-vmb-rhel8-u0-x86-64-jb
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-vmb-rhel8-u0-x86-64-mofed5-jb
+      name: r-vmb-rhel8-u0-x86-64-mofed5-jb
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-vmb-rhel8-u2-x86-64-jb
+      name: r-vmb-rhel8-u2-x86-64-jb
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-vmb-sles11-sp3-x86-64
+      name: r-vmb-sles11-sp3-x86-64
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-vmb-sles12-sp2-ppc64le-JB
+      name: r-vmb-sles12-sp2-ppc64le-JB
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-vmb-sles12-sp2-ppc64le-MOFED-CHECKER
+      name: r-vmb-sles12-sp2-ppc64le-MOFED-CHECKER
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-vmb-sles12-sp3-ppc64le-JB
+      name: r-vmb-sles12-sp3-ppc64le-JB
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-vmb-sles12-sp3-ppc64le-MOFED-CHECKER
+      name: r-vmb-sles12-sp3-ppc64le-MOFED-CHECKER
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-vmb-sles12-sp3-x86-64-jb
+      name: r-vmb-sles12-sp3-x86-64-jb
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-vmb-sles12-sp4-x86-64-jb
+      name: r-vmb-sles12-sp4-x86-64-jb
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-vmb-sles12-sp5-x86-64-jb
+      name: r-vmb-sles12-sp5-x86-64-jb
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-vmb-sles15-sp0-x86-64-jb
+      name: r-vmb-sles15-sp0-x86-64-jb
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-vmb-sles15-sp1-x86-64-jb
+      name: r-vmb-sles15-sp1-x86-64-jb
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-vmb-ubuntu14-u4-x86-64
+      name: r-vmb-ubuntu14-u4-x86-64
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-vmb-ubuntu16-u4-x86-64
+      name: r-vmb-ubuntu16-u4-x86-64
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-vmb-ubuntu16-u4-x86-64-inbox-JB
+      name: r-vmb-ubuntu16-u4-x86-64-inbox-JB
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-vmb-ubuntu16-u4-x86-64-JB
+      name: r-vmb-ubuntu16-u4-x86-64-JB
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-vmb-ubuntu16-u4-x86-64-rivermax
+      name: r-vmb-ubuntu16-u4-x86-64-rivermax
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-vmb-ubuntu16-u10-ppc64le-JB
+      name: r-vmb-ubuntu16-u10-ppc64le-JB
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-vmb-ubuntu16-u10-ppc64le-MOFED-CHECKER
+      name: r-vmb-ubuntu16-u10-ppc64le-MOFED-CHECKER
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-vmb-ubuntu17-u04-ppc64le-JB
+      name: r-vmb-ubuntu17-u04-ppc64le-JB
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-vmb-ubuntu17-u04-ppc64le-MOFED-CHECKER
+      name: r-vmb-ubuntu17-u04-ppc64le-MOFED-CHECKER
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-vmb-ubuntu18-u4-x86-64-inbox
+      name: r-vmb-ubuntu18-u4-x86-64-inbox
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-vmb-ubuntu18-u4-x86-64-JB
+      name: r-vmb-ubuntu18-u4-x86-64-JB
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-vmb-ubuntu18-u4-x86-64-mofed5-jb
+      name: r-vmb-ubuntu18-u4-x86-64-mofed5-jb
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-vmb-ubuntu19-u10-x86-64-jb
+      name: r-vmb-ubuntu19-u10-x86-64-jb
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: r-vmb-ubuntu20-u4-x86-64-jb
+      name: r-vmb-ubuntu20-u4-x86-64-jb
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: rain6
+      name: rain6
+          name: 'Template Module ICMP Ping'
+          name: '3.3'
+      host: rain8
+      name: rain8
+          name: 'Template Module ICMP Ping'
+          name: '3.3'
+      host: rain9
+      name: rain9
+          name: 'Template Module ICMP Ping'
+          name: '3.3'
+      host: rapid01
+      name: rapid01
+          name: 'Template Module ICMP Ping'
+          name: '6.2'
+      host: rapid02
+      name: rapid02
+          name: 'Template Module ICMP Ping'
+          name: '6.2'
+      host: rdmz-sm-node-01
+      name: rdmz-sm-node-01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '8.2'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: retchet01
+      name: retchet01
+          name: 'Template Module ICMP Ping'
+          name: '7.2'
+      host: river-core-switch
+      name: river-core-switch
+          name: 'Template Module ICMP Ping'
+          name: '6.3'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: rivermax-xavier08
+      name: rivermax-xavier08
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.1'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: rivermax-xavier3
+      name: rivermax-xavier3
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.2'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: rivermax-xavier4
+      name: rivermax-xavier4
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.2'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: rock01
+      name: rock01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.10'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: rock02
+      name: rock02
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.10'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: rock03
+      name: rock03
+          name: 'Template Module ICMP Ping'
+          name: '7.10'
+      host: rock04
+      name: rock04
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.10'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: rock05
+      name: rock05
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.10'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: rock06
+      name: rock06
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.10'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: rock07
+      name: rock07
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.10'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: rock08
+      name: rock08
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.10'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: rock09
+      name: rock09
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.10'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: rock10
+      name: rock10
+          name: 'Template Module ICMP Ping'
+          name: '7.10'
+      host: rock11
+      name: rock11
+          name: 'Template Module ICMP Ping'
+          name: '7.10'
+      host: rock12
+      name: rock12
+          name: 'Template Module ICMP Ping'
+          name: '7.10'
+      host: rock13
+      name: rock13
+          name: 'Template Module ICMP Ping'
+          name: '7.10'
+      host: rock14
+      name: rock14
+          name: 'Template Module ICMP Ping'
+          name: '7.10'
+      host: rock15
+      name: rock15
+          name: 'Template Module ICMP Ping'
+          name: '7.10'
+      host: rock16
+      name: rock16
+          name: 'Template Module ICMP Ping'
+          name: '7.10'
+      host: rock17
+      name: rock17
+          name: 'Template Module ICMP Ping'
+          name: '7.9'
+      host: rock18
+      name: rock18
+          name: 'Template Module ICMP Ping'
+          name: '7.9'
+      host: rock19
+      name: rock19
+          name: 'Template Module ICMP Ping'
+          name: '7.9'
+      host: rock20
+      name: rock20
+          name: 'Template Module ICMP Ping'
+          name: '7.9'
+      host: rock21
+      name: rock21
+          name: 'Template Module ICMP Ping'
+          name: '7.9'
+      host: rock22
+      name: rock22
+          name: 'Template Module ICMP Ping'
+          name: '7.9'
+      host: rock23
+      name: rock23
+          name: 'Template Module ICMP Ping'
+          name: '7.9'
+      host: rock24
+      name: rock24
+          name: 'Template Module ICMP Ping'
+          name: '7.9'
+      host: rock25
+      name: rock25
+          name: 'Template Module ICMP Ping'
+          name: '7.9'
+      host: rock26
+      name: rock26
+          name: 'Template Module ICMP Ping'
+          name: '7.9'
+      host: rock27
+      name: rock27
+          name: 'Template Module ICMP Ping'
+          name: '7.9'
+      host: rock28
+      name: rock28
+          name: 'Template Module ICMP Ping'
+          name: '7.9'
+      host: rock29
+      name: rock29
+          name: 'Template Module ICMP Ping'
+          name: '7.9'
+      host: rock30
+      name: rock30
+          name: 'Template Module ICMP Ping'
+          name: '7.9'
+      host: rock31
+      name: rock31
+          name: 'Template Module ICMP Ping'
+          name: '7.9'
+      host: rock32
+      name: rock32
+          name: 'Template Module ICMP Ping'
+          name: '7.9'
+      host: rome01
+      name: rome01
+          name: 'Template Module ICMP Ping'
+          name: '7.7'
+      host: rome02
+      name: rome02
+          name: 'Template Module ICMP Ping'
+          name: '7.7'
+      host: rome03
+      name: rome03
+          name: 'Template Module ICMP Ping'
+          name: '7.7'
+      host: rome04
+      name: rome04
+          name: 'Template Module ICMP Ping'
+          name: '7.7'
+      host: rsws-switch07
+      name: rsws-switch07
+          name: 'Template Module ICMP Ping'
+          name: '7.3'
+      host: rsws07
+      name: rsws07
+          name: 'Template Module ICMP Ping'
+          name: '7.2'
+      host: rsws08
+      name: rsws08
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.3'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: rsws13
+      name: rsws13
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.3'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: rsws19
+      name: rsws19
+          name: 'Template Module ICMP Ping'
+          name: '7.3'
+      host: rsws20
+      name: rsws20
+          name: 'Template Module ICMP Ping'
+          name: '7.3'
+      host: rsws21
+      name: rsws21
+          name: 'Template Module ICMP Ping'
+          name: '7.3'
+      host: rsws22
+      name: rsws22
+          name: 'Template Module ICMP Ping'
+          name: '7.3'
+      host: rsws24
+      name: rsws24
+          name: 'Template Module ICMP Ping'
+          name: '7.3'
+      host: rsws26
+      name: rsws26
+          name: 'Template Module ICMP Ping'
+          name: '7.3'
+      host: rsws27
+      name: rsws27
+          name: 'Template Module ICMP Ping'
+          name: '7.3'
+      host: rsws28
+      name: rsws28
+          name: 'Template Module ICMP Ping'
+          name: '7.3'
+      host: rsws29
+      name: rsws29
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.1'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: rsws30
+      name: rsws30
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.1'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: rsws33
+      name: rsws33
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.1'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: rsws40
+      name: rsws40
+          name: 'Template Module ICMP Ping'
+          name: '7.3'
+      host: rsws42
+      name: rsws42
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.1'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: rsws43
+      name: rsws43
+          name: 'Template Module ICMP Ping'
+          name: '7.1'
+      host: rsws44
+      name: rsws44
+          name: 'Template Module ICMP Ping'
+          name: '7.1'
+      host: rsws45
+      name: rsws45
+          name: 'Template Module ICMP Ping'
+          name: '7.1'
+      host: rsws46
+      name: rsws46
+          name: 'Template Module ICMP Ping'
+          name: '7.1'
+      host: rsws47
+      name: rsws47
+          name: 'Template Module ICMP Ping'
+          name: '7.1'
+      host: rsws48
+      name: rsws48
+          name: 'Template Module ICMP Ping'
+          name: '7.1'
+      host: rsws50
+      name: rsws50
+          name: 'Template Module ICMP Ping'
+          name: '7.1'
+      host: sepik
+      name: sepik
+          name: 'Template Module ICMP Ping'
+          name: '6.2'
+      host: sharp-ci-01
+      name: sharp-ci-01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.5'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: sharp-ci-02
+      name: sharp-ci-02
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.5'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: snap-ver-01
+      name: snap-ver-01
+          name: 'Template Module ICMP Ping'
+          name: '7.3'
+      host: snap-ver-02
+      name: snap-ver-02
+          name: 'Template Module ICMP Ping'
+          name: '7.2'
+      host: snap-ver-03
+      name: snap-ver-03
+          name: 'Template Module ICMP Ping'
+          name: '7.2'
+      host: snap-ver-04
+      name: snap-ver-04
+          name: 'Template Module ICMP Ping'
+          name: '7.2'
+      host: snap-ver-05
+      name: snap-ver-05
+          name: 'Template Module ICMP Ping'
+          name: '7.2'
+      host: spdk-01
+      name: spdk-01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.7'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: spdk-02
+      name: spdk-02
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.7'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: spdk-03
+      name: spdk-03
+          name: 'Template Module ICMP Ping'
+          name: '6.8'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: spdk-04
+      name: spdk-04
+          name: 'Template Module ICMP Ping'
+          name: '6.8'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: spdk-05
+      name: spdk-05
+          name: 'Template Module ICMP Ping'
+          name: '6.7'
+      host: spdk-06
+      name: spdk-06
+          name: 'Template Module ICMP Ping'
+          name: '6.7'
+      host: spdk-07
+      name: spdk-07
+          name: 'Template Module ICMP Ping'
+          name: '6.8'
+      host: spdk-08
+      name: spdk-08
+          name: 'Template Module ICMP Ping'
+          name: '6.8'
+      host: spdk-ci-01
+      name: spdk-ci-01
+          name: 'Template Module ICMP Ping'
+          name: '6.6'
+      host: spdk-ci-03
+      name: spdk-ci-03
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.6'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: spdk-ci-05
+      name: spdk-ci-05
+          name: 'Template Module ICMP Ping'
+          name: '6.6'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: spdk-ci-06
+      name: spdk-ci-06
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.6'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: spdk-ci-07
+      name: spdk-ci-07
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.6'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: spdk-ci-08
+      name: spdk-ci-08
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.6'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: spdk-ci-09
+      name: spdk-ci-09
+          name: 'Template Module ICMP Ping'
+          name: '6.6'
+      host: spdk-ci-arm01
+      name: spdk-ci-arm01
+          name: 'Template Module ICMP Ping'
+          name: '6.6'
+      host: spdk-ci-arm02
+      name: spdk-ci-arm02
+          name: 'Template Module ICMP Ping'
+          name: '6.6'
+      host: spdk-ci-arm03
+      name: spdk-ci-arm03
+          name: 'Template Module ICMP Ping'
+          name: '6.6'
+      host: spdk-eth-sw01
+      name: spdk-eth-sw01
+          name: 'Template Module ICMP Ping'
+          name: '6.7'
+      host: spdk-eth-sw02
+      name: spdk-eth-sw02
+          name: 'Template Module ICMP Ping'
+          name: '6.7'
+      host: spdk-oci-eth01
+      name: spdk-oci-eth01
+          name: 'Template Module ICMP Ping'
+          name: '6.8'
+      host: spdk-oci-hv0
+      name: spdk-oci-hv0
+          name: 'Template Module ICMP Ping'
+          name: '7.7'
+      host: spdk-oci05
+      name: spdk-oci05
+          name: 'Template Module ICMP Ping'
+          name: '6.8'
+      host: spdk-oci10
+      name: spdk-oci10
+          name: 'Template Module ICMP Ping'
+          name: '6.8'
+      host: spdk-perf-01
+      name: spdk-perf-01
+          name: 'Template Module ICMP Ping'
+          name: '6.8'
+      host: spdk-perf-02
+      name: spdk-perf-02
+          name: 'Template Module ICMP Ping'
+          name: '6.8'
+      host: spdk-perf-03
+      name: spdk-perf-03
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.8'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: spdk-perf-04
+      name: spdk-perf-04
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.8'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: spdk-perf-05
+      name: spdk-perf-05
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: sputnik-sw-eth01
+      name: sputnik-sw-eth01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '8.3'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: sputnik2
+      name: sputnik2
+          name: Autofs_service_check
+          name: 'Disk state'
+          name: 'Linux CPU by Zabbix agent'
+          name: 'Linux memory by Zabbix agent'
+          name: 'NIS service'
+          name: 'Template Module ICMP Ping'
+          name: '8.3'
+          name: RDMZ
+      host: sputnik3
+      name: sputnik3
+          name: Autofs_service_check
+          name: 'Disk state'
+          name: 'Linux CPU by Zabbix agent'
+          name: 'Linux memory by Zabbix agent'
+          name: 'NIS service'
+          name: 'Template Module ICMP Ping'
+          name: '8.3'
+          name: RDMZ
+      host: sputnik4
+      name: sputnik4
+          name: Autofs_service_check
+          name: 'Disk state'
+          name: 'Linux CPU by Zabbix agent'
+          name: 'Linux memory by Zabbix agent'
+          name: 'NIS service'
+          name: 'Template Module ICMP Ping'
+          name: '8.3'
+          name: RDMZ
+      host: storage-amd01
+      name: storage-amd01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.2'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: storage-amd02
+      name: storage-amd02
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.2'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: storage-asus-ice05
+      name: storage-asus-ice05
+          name: 'Template Module ICMP Ping'
+          name: '7.5'
+      host: storage-asus-ice06
+      name: storage-asus-ice06
+          name: 'Template Module ICMP Ping'
+          name: '7.5'
+      host: storage-ver-genoa01
+      name: storage-ver-genoa01
+          name: 'Template Module ICMP Ping'
+          name: '7.2'
+      host: storage-ver-ice01
+      name: storage-ver-ice01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: storage-ver-ice10
+      name: storage-ver-ice10
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.5'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: storage-ver-ice11
+      name: storage-ver-ice11
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.5'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: storage-ver-ice12
+      name: storage-ver-ice12
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.5'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: storage-ver-ice13
+      name: storage-ver-ice13
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.5'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: storage-ver-ice14
+      name: storage-ver-ice14
+          name: 'Template Module ICMP Ping'
+          name: '7.6'
+      host: storage-ver-ice15
+      name: storage-ver-ice15
+          name: 'Template Module ICMP Ping'
+          name: '7.6'
+      host: sw-bw-ib11
+      name: sw-bw-ib11
+          name: 'Template Module ICMP Ping'
+          name: '7.1'
+      host: sw-forge05
+      name: sw-forge05
+          name: '0'
+          name: SWX
+      host: sw-forge06
+      name: sw-forge06
+          name: '0'
+          name: SWX
+      host: sw-forge07
+      name: sw-forge07
+          name: '0'
+          name: SWX
+      host: sw-hdr-proton01
+      name: sw-hdr-proton01
+          name: 'Template Module ICMP Ping'
+          name: '8.3'
+      host: sw-ib-cloud-hv
+      name: sw-ib-cloud-hv
+          name: 'Template Module ICMP Ping'
+          name: '8.5'
+      host: sw-ibtools-ndr01
+      name: sw-ibtools-ndr01
+          name: 'Template Module ICMP Ping'
+          name: '8.9'
+      host: sw-jazz-eth
+      name: sw-jazz-eth
+          name: 'Template Module ICMP Ping'
+          name: '8.4'
+      host: sw-ndr-ray01
+      name: sw-ndr-ray01
+          name: 'Template Module ICMP Ping'
+          name: '5.3'
+      host: sw-ndr-ray02
+      name: sw-ndr-ray02
+          name: 'Template Module ICMP Ping'
+          name: '5.3'
+          name: SWX
+      host: sw-ndr-ray03
+      name: sw-ndr-ray03
+          name: 'Template Module ICMP Ping'
+          name: '5.3'
+      host: sw-ndr-ray04
+      name: sw-ndr-ray04
+          name: 'Template Module ICMP Ping'
+          name: '5.3'
+      host: sw-r-k8s
+      name: sw-r-k8s
+          name: 1-2
+          name: SWX
+      host: sw-rock-ndr01
+      name: sw-rock-ndr01
+          name: 'Template Module ICMP Ping'
+          name: '7.10'
+      host: sw-rock-ndr02
+      name: sw-rock-ndr02
+          name: 'Template Module ICMP Ping'
+          name: '7.9'
+      host: sw-sharp1-mtr
+      name: sw-sharp1-mtr
+          name: 'Template Module ICMP Ping'
+          name: '7.5'
+      host: sw-spdk01
+      name: sw-spdk01
+          name: 'Template Module ICMP Ping'
+          name: '6.6'
+      host: sw-stor11
+      name: sw-stor11
+          name: 'Template Module ICMP Ping'
+          name: '7.1'
+      host: sw-stor12
+      name: sw-stor12
+          name: 'Template Module ICMP Ping'
+          name: '7.1'
+      host: sw-stor22
+      name: sw-stor22
+          name: 'Template Module ICMP Ping'
+          name: '7.2'
+      host: sw-stor31
+      name: sw-stor31
+          name: 'Template Module ICMP Ping'
+          name: '7.3'
+      host: sw-stor32
+      name: sw-stor32
+          name: 'Template Module ICMP Ping'
+          name: '7.3'
+      host: sw-stor33
+      name: sw-stor33
+          name: 'Template Module ICMP Ping'
+          name: '7.3'
+      host: sw-ufm-hdr01
+      name: sw-ufm-hdr01
+          name: 'Template Module ICMP Ping'
+          name: '3.3'
+      host: sw-ufm-ib01
+      name: sw-ufm-ib01
+          name: 'Template Module ICMP Ping'
+          name: '3.5'
+      host: sw-ufm-ndr01
+      name: sw-ufm-ndr01
+          name: 'Template Module ICMP Ping'
+          name: '8.7'
+      host: sw-ufm-ndr02
+      name: sw-ufm-ndr02
+          name: 'Template Module ICMP Ping'
+          name: '3.4'
+      host: sw-ufm-ndr03
+      name: sw-ufm-ndr03
+          name: 'Template Module ICMP Ping'
+          name: '3.1'
+      host: sw-ufm-qm01
+      name: sw-ufm-qm01
+          name: 'Template Module ICMP Ping'
+          name: '3.4'
+      host: sw-vma42
+      name: sw-vma42
+          name: 'Template Module ICMP Ping'
+          name: '6.4'
+      host: sw-xlio-rnd01
+      name: sw-xlio-rnd01
+          name: 'Template Module ICMP Ping'
+          name: '5.1'
+      host: sw-xlio-rnd02
+      name: sw-xlio-rnd02
+          name: 'Template Module ICMP Ping'
+          name: '5.1'
+      host: sw-xlio-ver01
+      name: sw-xlio-ver01
+          name: 'Template Module ICMP Ping'
+          name: '5.2'
+      host: swx-ai-node01
+      name: swx-ai-node01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '0'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-ai-node02
+      name: swx-ai-node02
+          name: 'Template Module ICMP Ping'
+          name: '0'
+      host: swx-ai01
+      name: swx-ai01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: 1-1
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-ai02
+      name: swx-ai02
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: 1-1
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-amd-ver01
+      name: swx-amd-ver01
+          name: 'Template Module ICMP Ping'
+          name: '7.7'
+      host: swx-amd-ver02
+      name: swx-amd-ver02
+          name: 'Template Module ICMP Ping'
+          name: '7.2'
+      host: swx-ampere01
+      name: swx-ampere01
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-ampere02
+      name: swx-ampere02
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-arsen01
+      name: swx-arsen01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-arsen02
+      name: swx-arsen02
+          name: 'Template Module ICMP Ping'
+          name: '3.1'
+      host: swx-arsen02-141
+      name: swx-arsen02-141
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-astra01
+      name: swx-astra01
+          name: 'Template Module ICMP Ping'
+          name: '6.7'
+      host: swx-astra02
+      name: swx-astra02
+          name: 'Template Module ICMP Ping'
+          name: '6.7'
+      host: swx-astra03
+      name: swx-astra03
+          name: 'Template Module ICMP Ping'
+          name: '6.7'
+      host: swx-astra04
+      name: swx-astra04
+          name: 'Template Module ICMP Ping'
+          name: '6.7'
+      host: swx-astra05
+      name: swx-astra05
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.7'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-astra06
+      name: swx-astra06
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.7'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-astra07
+      name: swx-astra07
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.7'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-astra08
+      name: swx-astra08
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.7'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-asus01
+      name: swx-asus01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.7'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-asus02
+      name: swx-asus02
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.7'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-asus03
+      name: swx-asus03
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.7'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-asus04
+      name: swx-asus04
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '5.2'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-bgp-mst01
+      name: swx-bgp-mst01
+          name: 'Template Module ICMP Ping'
+          name: '8.8'
+      host: swx-bgp-slv01
+      name: swx-bgp-slv01
+          name: 'Template Module ICMP Ping'
+          name: '8.8'
+      host: swx-bgp-slv02
+      name: swx-bgp-slv02
+          name: 'Template Module ICMP Ping'
+          name: '8.8'
+      host: swx-bw-02
+      name: swx-bw-02
+          name: 'Template Module ICMP Ping'
+          name: '7.1'
+      host: swx-bw-03
+      name: swx-bw-03
+          name: 'Template Module ICMP Ping'
+          name: '7.1'
+      host: swx-bw-04
+      name: swx-bw-04
+          name: 'Template Module ICMP Ping'
+          name: '7.2'
+      host: swx-bw-05
+      name: swx-bw-05
+          name: 'Template Module ICMP Ping'
+          name: '7.3'
+      host: swx-byte01
+      name: swx-byte01
+          name: 'Template Module ICMP Ping'
+          name: '3.6'
+      host: swx-byte02
+      name: swx-byte02
+          name: 'Template Module ICMP Ping'
+          name: '3.6'
+      host: swx-ci-29
+      name: swx-ci-29
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: '3.1'
+          name: Verification
+      host: swx-ci-30
+      name: swx-ci-30
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: '3.1'
+          name: Verification
+      host: swx-ci-ray-head
+      name: swx-ci-ray-head
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '5.3'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-ci-ray01
+      name: swx-ci-ray01
+          name: 'Template Module ICMP Ping'
+          name: '5.3'
+      host: swx-ci-ray02
+      name: swx-ci-ray02
+          name: 'Template Module ICMP Ping'
+          name: '5.3'
+      host: swx-clx-sm1
+      name: swx-clx-sm1
+          name: 'Template Module ICMP Ping'
+          name: '8.7'
+      host: swx-clx01
+      name: swx-clx01
+          name: 'Template Module ICMP Ping'
+          name: '8.7'
+      host: swx-clx02
+      name: swx-clx02
+          name: 'Template Module ICMP Ping'
+          name: '8.7'
+      host: swx-collectx01
+      name: swx-collectx01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-collectx02
+      name: swx-collectx02
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '8.1'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-cstor04
+      name: swx-cstor04
+          name: 'Template Module ICMP Ping'
+          name: '7.2'
+      host: swx-dgx-sw-ndr01
+      name: swx-dgx-sw-ndr01
+          name: 'Template Module ICMP Ping'
+          name: '8.7'
+      host: swx-dgx01
+      name: swx-dgx01
+          name: 'Template Module ICMP Ping'
+          name: '8.7'
+      host: swx-dgx02
+      name: swx-dgx02
+          name: 'Template Module ICMP Ping'
+          name: '8.7'
+      host: swx-dgx03
+      name: swx-dgx03
+          name: 'Template Module ICMP Ping'
+          name: '8.7'
+      host: swx-dgx04
+      name: swx-dgx04
+          name: 'Template Module ICMP Ping'
+          name: '8.7'
+      host: swx-jd01
+      name: swx-jd01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.7'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-jd02
+      name: swx-jd02
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.7'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-jupiter04
+      name: swx-jupiter04
+          name: Autofs_service_check
+          name: 'Disk state'
+          name: 'Linux CPU by Zabbix agent'
+          name: 'Linux memory by Zabbix agent'
+          name: 'NIS service'
+          name: 'Template Module ICMP Ping'
+          name: '6.6'
+          name: RDMZ
+          name: remove_warrning_broadcast
+          username: root
+      host: swx-lab
+      name: swx-lab
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '3.5'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-lab-h01
+      name: swx-lab-h01
+          name: 'Template Module ICMP Ping'
+          name: 1-2
+      host: swx-lab-rh9-01
+      name: swx-lab-rh9-01
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: swx-lab01
+      name: swx-lab01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '3.5'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-lab02
+      name: swx-lab02
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '3.5'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-lab03
+      name: swx-lab03
+          name: 'Template Module ICMP Ping'
+          name: '3.5'
+      host: swx-mtvr-arm-sm01
+      name: swx-mtvr-arm-sm01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: 1-9
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-mtvr-arm01
+      name: swx-mtvr-arm01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: 1-9
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-mtvr-arm02
+      name: swx-mtvr-arm02
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: 1-9
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-mtvr-comp01
+      name: swx-mtvr-comp01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: 1-11
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-mtvr-stor01
+      name: swx-mtvr-stor01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: 1-11
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-mtvr-stor02
+      name: swx-mtvr-stor02
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: 1-11
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-mtvr-stor03
+      name: swx-mtvr-stor03
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: 1-11
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-mtvr-stor04
+      name: swx-mtvr-stor04
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: 1-11
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-mtvr-stor05
+      name: swx-mtvr-stor05
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: 1-11
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-mtvr-stor06
+      name: swx-mtvr-stor06
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-mtvr-stor07
+      name: swx-mtvr-stor07
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: 1-11
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-mtvr-stor08
+      name: swx-mtvr-stor08
+          name: 'Template Module ICMP Ping'
+          name: 1-11
+      host: swx-mtvr-stor09
+      name: swx-mtvr-stor09
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: 1-11
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-mtvr-stor10
+      name: swx-mtvr-stor10
+          name: 'Template Module ICMP Ping'
+          name: 1-11
+      host: swx-mtvr-sw-eth01
+      name: swx-mtvr-sw-eth01
+          name: 'Template Module ICMP Ping'
+          name: 1-11
+      host: swx-ndr-dory1
+      name: swx-ndr-dory1
+          name: 'Template Module ICMP Ping'
+          name: 1-10
+      host: swx-ndr-dory2
+      name: swx-ndr-dory2
+          name: 'Template Module ICMP Ping'
+          name: 1-10
+      host: swx-ndr-dory3
+      name: swx-ndr-dory3
+          name: 'Template Module ICMP Ping'
+          name: 1-10
+      host: swx-ndr-dory4
+      name: swx-ndr-dory4
+          name: 'Template Module ICMP Ping'
+          name: 1-10
+      host: swx-ndr-dory5
+      name: swx-ndr-dory5
+          name: 'Template Module ICMP Ping'
+          name: 1-10
+      host: swx-ndr-dory6
+      name: swx-ndr-dory6
+          name: 'Template Module ICMP Ping'
+          name: 1-10
+      host: swx-nv-dev-01
+      name: swx-nv-dev-01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.1'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-phaeton01
+      name: swx-phaeton01
+          name: 'Template Module ICMP Ping'
+          name: 1-2
+      host: swx-phaeton02
+      name: swx-phaeton02
+          name: 'Template Module ICMP Ping'
+          name: 1-2
+      host: swx-phaeton03
+      name: swx-phaeton03
+          name: 'Template Module ICMP Ping'
+          name: 1-2
+      host: swx-phaeton04
+      name: swx-phaeton04
+          name: 'Template Module ICMP Ping'
+          name: 1-2
+      host: swx-proton01
+      name: swx-proton01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '8.3'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-proton02
+      name: swx-proton02
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '8.3'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-proton03
+      name: swx-proton03
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '8.3'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-proton04
+      name: swx-proton04
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '8.3'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-rain01
+      name: swx-rain01
+          name: Autofs_service_check
+          name: 'Disk state'
+          name: 'Linux CPU by Zabbix agent'
+          name: 'Linux memory by Zabbix agent'
+          name: 'NIS service'
+          name: 'Template Module ICMP Ping'
+          name: '8.2'
+          name: RDMZ
+          name: remove_warrning_broadcast
+          username: root
+      host: swx-rain01-bf1
+      name: swx-rain01-bf1
+          name: Autofs_service_check
+          name: 'Disk state'
+          name: 'Linux CPU by Zabbix agent'
+          name: 'Linux memory by Zabbix agent'
+          name: 'NIS service'
+          name: 'Template Module ICMP Ping'
+          name: '8.2'
+          name: RDMZ
+      host: swx-rain02
+      name: swx-rain02
+          name: Autofs_service_check
+          name: 'Disk state'
+          name: 'Linux CPU by Zabbix agent'
+          name: 'Linux memory by Zabbix agent'
+          name: 'NIS service'
+          name: 'Template Module ICMP Ping'
+          name: '8.2'
+          name: RDMZ
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: remove_warrning_broadcast
+          username: root
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-rain02-bf1
+      name: swx-rain02-bf1
+          name: Autofs_service_check
+          name: 'Disk state'
+          name: 'Linux CPU by Zabbix agent'
+          name: 'Linux memory by Zabbix agent'
+          name: 'NIS service'
+          name: 'Template Module ICMP Ping'
+          name: '8.2'
+          name: RDMZ
+      host: swx-rain03
+      name: swx-rain03
+          name: Autofs_service_check
+          name: 'Disk state'
+          name: 'Linux CPU by Zabbix agent'
+          name: 'Linux memory by Zabbix agent'
+          name: 'NIS service'
+          name: 'Template Module ICMP Ping'
+          name: '8.2'
+          name: RDMZ
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: remove_warrning_broadcast
+          username: root
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-rain03-bf1
+      name: swx-rain03-bf1
+          name: Autofs_service_check
+          name: 'Disk state'
+          name: 'Linux CPU by Zabbix agent'
+          name: 'Linux memory by Zabbix agent'
+          name: 'NIS service'
+          name: 'Template Module ICMP Ping'
+          name: '8.2'
+          name: RDMZ
+      host: swx-rain04
+      name: swx-rain04
+          name: Autofs_service_check
+          name: 'Disk state'
+          name: 'Linux CPU by Zabbix agent'
+          name: 'Linux memory by Zabbix agent'
+          name: 'NIS service'
+          name: 'Template Module ICMP Ping'
+          name: '8.2'
+          name: RDMZ
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: remove_warrning_broadcast
+          username: root
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-rain04-bf1
+      name: swx-rain04-bf1
+          name: Autofs_service_check
+          name: 'Disk state'
+          name: 'Linux CPU by Zabbix agent'
+          name: 'Linux memory by Zabbix agent'
+          name: 'NIS service'
+          name: 'Template Module ICMP Ping'
+          name: '8.2'
+          name: RDMZ
+      host: swx-ray01
+      name: swx-ray01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '5.3'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-ray02
+      name: swx-ray02
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '5.3'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-ray04
+      name: swx-ray04
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '5.3'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-ray05
+      name: swx-ray05
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '5.3'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-ray06
+      name: swx-ray06
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '5.3'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-ray07
+      name: swx-ray07
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '5.3'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-ray08
+      name: swx-ray08
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '5.3'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-rdmz-instinct01
+      name: swx-rdmz-instinct01
+          name: Autofs_service_check
+          name: 'Disk state'
+          name: 'Linux CPU by Zabbix agent'
+          name: 'Linux memory by Zabbix agent'
+          name: 'NIS service'
+          name: 'Template Module ICMP Ping'
+          name: '8.2'
+          name: RDMZ
+      host: swx-rdmz-instinct02
+      name: swx-rdmz-instinct02
+          name: Autofs_service_check
+          name: 'Disk state'
+          name: 'Linux CPU by Zabbix agent'
+          name: 'Linux memory by Zabbix agent'
+          name: 'NIS service'
+          name: 'Template Module ICMP Ping'
+          name: '8.2'
+          name: RDMZ
+      host: swx-rdmz-sw01
+      name: swx-rdmz-sw01
+          name: 'Template Module ICMP Ping'
+          name: '8.2'
+      host: swx-rdmz-ucx-althca
+      name: swx-rdmz-ucx-althca
+          name: Autofs_service_check
+          name: 'Disk state'
+          name: 'Linux CPU by Zabbix agent'
+          name: 'Linux memory by Zabbix agent'
+          name: 'NIS service'
+          name: 'Template Module ICMP Ping'
+          name: '8.2'
+          name: RDMZ
+      host: swx-rdmz-ucx-gpu-01
+      name: swx-rdmz-ucx-gpu-01
+          name: Autofs_service_check
+          name: 'Disk state'
+          name: 'Linux CPU by Zabbix agent'
+          name: 'Linux memory by Zabbix agent'
+          name: 'NIS service'
+          name: 'Template Module ICMP Ping'
+          name: '8.2'
+          name: RDMZ
+      host: swx-rdmz-ucx-gpu-02
+      name: swx-rdmz-ucx-gpu-02
+          name: Autofs_service_check
+          name: 'Disk state'
+          name: 'Linux CPU by Zabbix agent'
+          name: 'Linux memory by Zabbix agent'
+          name: 'NIS service'
+          name: 'Template Module ICMP Ping'
+          name: '8.2'
+          name: RDMZ
+      host: swx-rdmz-ucx-new-01
+      name: swx-rdmz-ucx-new-01
+          name: Autofs_service_check
+          name: 'Disk state'
+          name: 'Linux CPU by Zabbix agent'
+          name: 'Linux memory by Zabbix agent'
+          name: 'NIS service'
+          name: 'Template Module ICMP Ping'
+          name: '8.2'
+          name: RDMZ
+      host: swx-rdmz-ucx-new-02
+      name: swx-rdmz-ucx-new-02
+          name: Autofs_service_check
+          name: 'Disk state'
+          name: 'Linux CPU by Zabbix agent'
+          name: 'Linux memory by Zabbix agent'
+          name: 'NIS service'
+          name: 'Template Module ICMP Ping'
+          name: '8.2'
+          name: RDMZ
+      host: swx-river-ver01
+      name: swx-river-ver01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.3'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-river-ver02
+      name: swx-river-ver02
+          name: 'Template Module ICMP Ping'
+          name: '6.3'
+      host: swx-sancho01
+      name: swx-sancho01
+          name: 'Template Module ICMP Ping'
+          name: '8.2'
+      host: swx-sancho02
+      name: swx-sancho02
+          name: 'Template Module ICMP Ping'
+          name: '8.2'
+      host: swx-skywalker01
+      name: swx-skywalker01
+          name: 'Template Module ICMP Ping'
+          name: '3.5'
+      host: swx-snake-01
+      name: swx-snake-01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.1'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-snake-02
+      name: swx-snake-02
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.1'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-snake-03
+      name: swx-snake-03
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.4'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-snake-04
+      name: swx-snake-04
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.3'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-snake-05
+      name: swx-snake-05
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.6'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-snake-06
+      name: swx-snake-06
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.6'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-snap2
+      name: swx-snap2
+          name: 'Template Module ICMP Ping'
+          name: 'TEST Disk state'
+          name: '2.2'
+          name: 'TEST hosts group'
+      host: swx-snap3
+      name: swx-snap3
+          name: 'Template Module ICMP Ping'
+          name: '7.7'
+      host: swx-spdk-offload
+      name: swx-spdk-offload
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-spdk-offload-amd
+      name: swx-spdk-offload-amd
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-storage01
+      name: swx-storage01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.7'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-storage02
+      name: swx-storage02
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.7'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-sw-clx01
+      name: swx-sw-clx01
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: swx-sw-eth-storage02
+      name: swx-sw-eth-storage02
+          name: 'Template Module ICMP Ping'
+          name: '6.6'
+      host: swx-sw-ray01
+      name: swx-sw-ray01
+          name: 'Template Module ICMP Ping'
+          name: '5.3'
+      host: swx-sw-spdk07
+      name: swx-sw-spdk07
+          name: 'Template Module ICMP Ping'
+          name: '6.8'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-sw-storage01
+      name: swx-sw-storage01
+          name: 'Template Module ICMP Ping'
+          name: '7.7'
+      host: swx-test
+      name: swx-test
+          name: 'Disk state'
+          name: swx
+      host: swx-tor01
+      name: swx-tor01
+      ipmi_username: root
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '3.6'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+      host: swx-ucx-eth-sw
+      name: swx-ucx-eth-sw
+          name: 'Template Module ICMP Ping'
+          name: '8.2'
+      host: swx-ucx-sw01
+      name: swx-ucx-sw01
+          name: 'Template Module ICMP Ping'
+          name: '5.4'
+      host: swx-ufm-pxe
+      name: swx-ufm-pxe
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: swx-ufm-rdmz01
+      name: swx-ufm-rdmz01
+          name: 'Template Module ICMP Ping'
+          name: '8.2'
+      host: swx-ufm3-01
+      name: swx-ufm3-01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '8.6'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-ufm3-02
+      name: swx-ufm3-02
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '8.6'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-ufm3-03
+      name: swx-ufm3-03
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '8.6'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-ufm3-04
+      name: swx-ufm3-04
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: '3.3'
+          name: SWX
+          name: Verification
+      host: swx-ufm3-05
+      name: swx-ufm3-05
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: '3.3'
+          name: SWX
+          name: Verification
+      host: swx-ufm3-06
+      name: swx-ufm3-06
+          name: 'Template Module ICMP Ping'
+          name: '3.5'
+      host: swx-ufm3-07
+      name: swx-ufm3-07
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '3.5'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-ufm3-09
+      name: swx-ufm3-09
+          name: 'Template Module ICMP Ping'
+          name: '3.4'
+      host: swx-ufm3-10
+      name: swx-ufm3-10
+          name: 'Template Module ICMP Ping'
+          name: '3.4'
+      host: swx-ufm3-11
+      name: swx-ufm3-11
+          name: 'Template Module ICMP Ping'
+          name: '3.4'
+      host: swx-ufm3-13
+      name: swx-ufm3-13
+          name: 'Template Module ICMP Ping'
+          name: '3.6'
+      host: swx-ufm228
+      name: swx-ufm228
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '3.5'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-xcat-slave
+      name: swx-xcat-slave
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.6'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-xcat1
+      name: swx-xcat1
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '7.6'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-zabbix01
+      name: swx-zabbix01
+          name: 'Template Module ICMP Ping'
+          name: 1-2
+      host: swx-zorro01
+      name: swx-zorro01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '4.5'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: swx-zorro02
+      name: swx-zorro02
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '4.5'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: ucx-ci-giga01
+      name: ucx-ci-giga01
+          name: Autofs_service_check
+          name: 'Disk state'
+          name: 'Linux CPU by Zabbix agent'
+          name: 'Linux memory by Zabbix agent'
+          name: 'NIS service'
+          name: 'Template Module ICMP Ping'
+          name: '8.2'
+          name: RDMZ
+          name: Autofs_check
+          username: root
+              name: Autofs_check
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: ucx-ci-giga02
+      name: ucx-ci-giga02
+          name: Autofs_service_check
+          name: 'Disk state'
+          name: 'Linux CPU by Zabbix agent'
+          name: 'Linux memory by Zabbix agent'
+          name: 'NIS service'
+          name: 'Template Module ICMP Ping'
+          name: '8.2'
+          name: RDMZ
+          name: Autofs_check
+          username: root
+              name: Autofs_check
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: ufm-ai01
+      name: ufm-ai01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: ufm-ai02
+      name: ufm-ai02
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: ufm-ai03
+      name: ufm-ai03
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: ufm-ai04
+      name: ufm-ai04
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: ufm-appliance01
+      name: ufm-appliance01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: ufm-appliance02
+      name: ufm-appliance02
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: ufm-appliance03
+      name: ufm-appliance03
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: ufm-appliance04
+      name: ufm-appliance04
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: ufm-appliance05
+      name: ufm-appliance05
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: ufm-appliance07
+      name: ufm-appliance07
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: ufm-ci-ver01
+      name: ufm-ci-ver01
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: Verification
+      host: ufm-ci-ver02
+      name: ufm-ci-ver02
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: Verification
+      host: ufm-ci-ver03
+      name: ufm-ci-ver03
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: ufm-ci-worker01
+      name: ufm-ci-worker01
+          name: '3.6'
+          name: SWX
+      host: ufm-ci-worker02
+      name: ufm-ci-worker02
+          name: '3.6'
+          name: SWX
+      host: ufm-ha-vm01
+      name: ufm-ha-vm01
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: Verification
+      host: ufm-ha-vm02
+      name: ufm-ha-vm02
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: Verification
+      host: ufm-ha-vm03
+      name: ufm-ha-vm03
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: Verification
+      host: ufm-ha-vm04
+      name: ufm-ha-vm04
+          name: SWX
+          name: Verification
+          name: 'ICMP ping'
+              name: 'Unavailable by ICMP ping'
+          name: 'ICMP loss'
+              name: 'High ICMP ping loss'
+                  name: 'Unavailable by ICMP ping'
+          name: 'ICMP response time'
+              name: 'High ICMP ping response time'
+                  name: 'High ICMP ping loss'
+                  name: 'Unavailable by ICMP ping'
+          name: 'Disk state'
+          username: root
+              name: 'Disk state'
+      host: ufm-ha-vm05
+      name: ufm-ha-vm05
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: Verification
+      host: ufm-ha-vm06
+      name: ufm-ha-vm06
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: Verification
+      host: ufm-ha-vm07
+      name: ufm-ha-vm07
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: Verification
+      host: ufm-ha-vm08
+      name: ufm-ha-vm08
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: Verification
+      host: ufm-ha-vm09
+      name: ufm-ha-vm09
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: Verification
+      host: ufm-ha-vm10
+      name: ufm-ha-vm10
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: Verification
+      host: ufm-ha-vm11
+      name: ufm-ha-vm11
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: Verification
+      host: ufm-ha-vm12
+      name: ufm-ha-vm12
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: Verification
+      host: ufm-ha-vm13
+      name: ufm-ha-vm13
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: Verification
+      host: ufm-ha-vm14
+      name: ufm-ha-vm14
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: Verification
+      host: ufm-ha-vm15
+      name: ufm-ha-vm15
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: Verification
+      host: ufm-ha-vm16
+      name: ufm-ha-vm16
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: Verification
+      host: ufm-ha-vm17
+      name: ufm-ha-vm17
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: Verification
+      host: ufm-ha-vm18
+      name: ufm-ha-vm18
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: Verification
+      host: ufm-ha-vm19
+      name: ufm-ha-vm19
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: Verification
+      host: ufm-ha-vm20
+      name: ufm-ha-vm20
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: Verification
+      host: ufm-hdr-sw01
+      name: ufm-hdr-sw01
+          name: '3.5'
+          name: SWX
+      host: ufm-host25
+      name: ufm-host25
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: ufm-host26
+      name: ufm-host26
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '3.1'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: ufm-host27
+      name: ufm-host27
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: ufm-host38
+      name: ufm-host38
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: ufm-host40
+      name: ufm-host40
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: ufm-host44
+      name: ufm-host44
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: ufm-host77
+      name: ufm-host77
+          name: '3.2'
+          name: SWX
+      host: ufm-host79
+      name: ufm-host79
+          name: '3.2'
+          name: SWX
+      host: ufm-host79-vm002
+      name: ufm-host79-vm002
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: '3.2'
+          name: Verification
+      host: ufm-host81
+      name: ufm-host81
+          name: '3.2'
+          name: SWX
+      host: ufm-host82
+      name: ufm-host82
+          name: '3.1'
+          name: SWX
+      host: ufm-host86
+      name: ufm-host86
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: ufm-host87
+      name: ufm-host87
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: ufm-jenkins01
+      name: ufm-jenkins01
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: ufm-jenkins02
+      name: ufm-jenkins02
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: ufm-ndr-04
+      name: ufm-ndr-04
+          name: '3.4'
+          name: SWX
+      host: ufm-production
+      name: ufm-production
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+          name: ufm-enterprise
+          username: root
+              name: ufm-enterprise
+      host: ufm-sw-hdr01
+      name: ufm-sw-hdr01
+          name: '8.3'
+          name: SWX
+      host: ufm-sw-hdr02
+      name: ufm-sw-hdr02
+          name: '8.3'
+          name: SWX
+      host: ufm-switch04
+      name: ufm-switch04
+          name: '3.1'
+          name: SWX
+      host: ufm3-01
+      name: ufm3-01
+          name: '3.5'
+          name: SWX
+      host: ufm3-02
+      name: ufm3-02
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vegas30
+      name: vegas30
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: venus02
+      name: venus02
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vite01
+      name: vite01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.2'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vite02
+      name: vite02
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.2'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vite03
+      name: vite03
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.2'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vite05
+      name: vite05
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.2'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vma-nolo01
+      name: vma-nolo01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.3'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vma-nolo02
+      name: vma-nolo02
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.3'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vma-nolo03
+      name: vma-nolo03
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.3'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vma-nolo04
+      name: vma-nolo04
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.3'
+          name: SWX
+          name: Autofs_service
+          username: root
+              name: Autofs_service
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+              name: 'Disk balance'
+          name: 'Disk state'
+          username: root
+              name: 'Disk state'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vma-nolo07
+      name: vma-nolo07
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.3'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vma-nolo08
+      name: vma-nolo08
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.1'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vma-nolo09
+      name: vma-nolo09
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.1'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vma-nolo10
+      name: vma-nolo10
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.3'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vma-nolo11
+      name: vma-nolo11
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.1'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vma-nolo12
+      name: vma-nolo12
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.3'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vma-nolo13
+      name: vma-nolo13
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.3'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vma-nolo14
+      name: vma-nolo14
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.3'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vma-nolo15
+      name: vma-nolo15
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '5.2'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vma-nolo16
+      name: vma-nolo16
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '5.2'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vma-nolo17
+      name: vma-nolo17
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.3'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vma-nolo18
+      name: vma-nolo18
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vma-nolo19
+      name: vma-nolo19
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.5'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vma-nolo20
+      name: vma-nolo20
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vma-nolo21
+      name: vma-nolo21
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vma-nolo22
+      name: vma-nolo22
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vma-nolo23
+      name: vma-nolo23
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.5'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vma-nolo24
+      name: vma-nolo24
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vma-nolo25
+      name: vma-nolo25
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vma-nolo26
+      name: vma-nolo26
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.4'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vma-stream01
+      name: vma-stream01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.1'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vma-stream02
+      name: vma-stream02
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.1'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vma-stream03
+      name: vma-stream03
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.1'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vma-stream04
+      name: vma-stream04
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.1'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vma-sx-01
+      name: vma-sx-01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.1'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vma-sx-02
+      name: vma-sx-02
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.1'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: volga1
+      name: volga1
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.5'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: volga2
+      name: volga2
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.5'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vr-ufm191
+      name: vr-ufm191
+          name: 1-9
+          name: SWX
+      host: vulcan01
+      name: vulcan01
+          name: '8.5'
+          name: SWX
+      host: vulcan01.swx
+      name: vulcan01.swx
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '8.5'
+          name: SWX
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vulcan02
+      name: vulcan02
+          name: '8.5'
+          name: SWX
+      host: vulcan02.swx
+      name: vulcan02.swx
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '8.5'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vulcan03
+      name: vulcan03
+          name: Autofs_service_check
+          name: 'Disk state'
+          name: 'Linux CPU by Zabbix agent'
+          name: 'Linux memory by Zabbix agent'
+          name: 'NIS service'
+          name: 'Template Module ICMP Ping'
+          name: RDMZ
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: remove_warrning_broadcast
+          username: root
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: vulcan04
+      name: vulcan04
+          name: Autofs_service_check
+          name: 'Azure balance'
+          name: 'Disk state'
+          name: 'Linux CPU by Zabbix agent'
+          name: 'Linux memory by Zabbix agent'
+          name: 'NIS service'
+          name: 'Template Module ICMP Ping'
+          name: RDMZ
+          name: remove_warrning_broadcast
+          username: root
+      host: vulcan05
+      name: vulcan05
+          name: '8.5'
+          name: SWX
+      host: vulcan05.swx
+      name: vulcan05.swx
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '8.5'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: x86-tagt
+      name: x86-tagt
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '6.7'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: xlio07
+      name: xlio07
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '5.2'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: xlio08
+      name: xlio08
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '5.2'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: xlio09
+      name: xlio09
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '5.2'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: xlio1
+      name: xlio1
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '5.2'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: xlio2
+      name: xlio2
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '5.2'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: xlio3
+      name: xlio3
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '5.2'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: xlio4
+      name: xlio4
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '5.2'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: xlio5
+      name: xlio5
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '5.2'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: xlio6
+      name: xlio6
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '5.2'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: xlio10
+      name: xlio10
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: '5.2'
+          name: 'Disk balance'
+          username: '{$USERNAME}'
+              name: 'Disk balance'
+          name: 'Scrap balance'
+          username: root
+              name: 'Scrap balance'
+      host: xlio11
+      name: xlio11
+          name: '5.2'
+          name: SWX
+      host: xlio12
+      name: xlio12
+          name: '5.2'
+          name: SWX

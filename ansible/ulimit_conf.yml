@@ -1,0 +1,12 @@
+---
+- name: Update system configurations for unlimited memlock
+  hosts: servers
+  become: true  # Required to make changes to system files
+  tasks:
+    - name: Add ulimit command to /etc/bash.bashrc
+      lineinfile:
+        path: /etc/bash.bashrc
+        line: 'ulimit -l unlimited'
+        create: yes
+      become: yes
+

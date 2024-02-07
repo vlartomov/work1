@@ -25,11 +25,11 @@ printf "\t\t</group> \n" >> $f_output;
 printf "\t</groups> \n" >> $f_output;
 printf "\t<hosts> \n" >> $f_output;
 
-awk  -v Template="Template Module ICMP Ping" -v Group="${f_group%%*( )}" 'BEGIN {FS = " "} {IP=$1; hostname=$2}
+awk -v Template="Template Module ICMP Ping" -v Group="${f_group%%*( )}" 'BEGIN {FS = " "} {IP=$1; hostname=$2; additional_group=$3}
         {printf "<host>\n";
          printf "\t<host>"hostname"</host>\n";
          printf "\t<name>"hostname"</name>\n";
-		 printf "\t<templates>\n";
+         printf "\t<templates>\n";
          printf "\t<template>\n";
          printf "\t<name>"Template"</name>\n";
          printf "\t</template>\n";
@@ -37,6 +37,9 @@ awk  -v Template="Template Module ICMP Ping" -v Group="${f_group%%*( )}" 'BEGIN 
          printf "\t<groups>\n";
          printf "\t<group>\n";
          printf "\t<name>"Group"</name>\n";
+         printf "\t</group>\n";
+         printf "\t<group>\n";
+         printf "\t<name>"additional_group"</name>\n";
          printf "\t</group>\n";
          printf "\t</groups>\n";
          printf "\t<interfaces>\n";

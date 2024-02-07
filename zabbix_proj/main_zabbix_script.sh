@@ -33,4 +33,3 @@ echo "Waiting for zabbix_uploader.py to finish..."
 wait
 
 echo "All scripts have finished executing."
-

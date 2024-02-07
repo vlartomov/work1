@@ -1,0 +1,54 @@
+mtvr-ufm-hyp01 no owner
+mtvr-ufm-n01 no owner
+mtvr-ufm-slv01 no owner
+mtvr-ufm-sw01 no owner
+mtvr-ufm-ver01 no owner
+mtvr-ufm-ver02 no owner
+mtvr-ufm-ver03 no owner
+mtvr-ufm-ver04 no owner
+mtvr-ufm-ver05 no owner
+mtvr-ufm-ver06 no owner
+mtvr-ufm-ver07 no owner
+mtvr-ufm-ver08 no owner
+mtvr-ufm-ver-sw01 no owner
+r-dmz-ufm139 swx-ufm-ci-group
+r-dmz-ufm-sw59 muthanna nairat (primary)
+r-ufm45 ibrahim baraka
+r-ufm57 no owner
+r-ufm59 dror levy
+r-ufm83 haitham jondi
+r-ufm163 mohammed abu hassna (primary)
+r-ufm-sw32 no owner
+r-ufm-sw33 eylon kedem
+r-ufm-sw60 dror levy
+r-ufm-sw61 alexander tolikin
+r-ufm-sw121 no owner
+sw-ufm-hdr01 no owner
+sw-ufm-ib01 dror levy
+sw-ufm-ndr01 kobi bar
+sw-ufm-ndr02 ibrahim baraka
+sw-ufm-ndr03 ibrahim baraka
+sw-ufm-ndr04 no owner
+sw-ufm-ndr05 ibrahim baraka
+sw-ufm-ndr06 ibrahim baraka
+swx-ci-29 mohammed abu hassna
+swx-ci-30 mohammed abu hassna
+swx-tor01 haitham jondi
+swx-ufm3-01 kobi bar
+swx-ufm3-02 kobi bar
+swx-ufm3-04 mohammed abu hassna
+swx-ufm3-05 mohammed abu hassna
+swx-ufm-rdmz01 mohammed abu hassna
+ufm-appliance04 mohammed abu hassna (primary)
+ufm-appliance07 evgeny kaidrikov
+ufm-ci-ver01 mohammed abu hassna
+ufm-ci-ver02 mohammed abu hassna
+ufm-hdr-sw01 ibrahim baraka
+ufm-host27 mohammed abu hassna (primary)
+ufm-host86 anan al-aghbar
+ufm-host87 anan al-aghbar
+ufm-ndr-04 anas badaha
+ufm-ron01 ron domnitz
+ufm-ron02 ron domnitz
+ufm-ron03 ron domnitz
+ufm-ron04 ron domnitz

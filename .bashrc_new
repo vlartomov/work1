@@ -9,6 +9,7 @@ alias sinfo='/usr/bin/sinfo -o "%30N %.3D %11P %11T %.4c %.8z %.6m %.8d %.6w %32
 alias ll='ls -ahl'
 alias tmux="tmux2"
 alias sssh="sudo ssh"
+alias dhcp='cat /.autodirect/LIT/SCRIPTS/DHCPD/list | grep -i'
 #alias git=get_latest_git
 alias dus="(du -hx  --max-depth=1 ; echo -e '\n\n\n') | tee /dev/stderr | (echo; sort -h)"
 

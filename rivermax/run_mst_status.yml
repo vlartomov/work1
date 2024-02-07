@@ -1,0 +1,7 @@
+---
+- name: Run MST status
+  hosts: windows_group
+  tasks:
+    - name: Execute MST status
+      win_shell: mst status
+

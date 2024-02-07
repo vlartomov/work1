@@ -1,7 +1,19 @@
 import requests
 import json
 
-url = "http://swx-nbx/api/dcim/devices/?limit=900000000000"
+def process_url(url, headers):
+    response = requests.request("GET", url, headers=headers)
+    json_data = response.json()
+    results = json_data['results']
+
+    for device in results:
+        server = device['device_role']['name']
+        if server == "Server" or server == "Ethernet Switch" or server == "InfiniBand Switch":
+            hostname = device['name']
+            rack = device['rack']['name']
+            print((hostname + ' ' + rack).lower())
+        else:
+            continue
 
 headers = {
     'content-type': "application/json",
@@ -10,19 +22,8 @@ headers = {
     'postman-token': "070ad972-afce-1636-9f8d-e98a1c816ecb"
     }
 
-response = requests.request("GET", url, headers=headers)
-json_data = response.json()
-results = json_data['results']
+url1 = "http://swx-nbx/api/dcim/devices/?limit=900000000000"
+url2 = "http://swx-nbx/api/dcim/devices/?limit=900000000000&offset=1000"
 
-for device in results:
-    server = device['device_role']['name']
-    if server == "Server" or server == "Ethernet Switch" or server == "InfiniBand Switch":
-        hostname = device['name']
-        rack = device['rack']['name']
-        print((hostname + ' ' + rack).lower())
-#        OuttxtFile = open('listallfiles.txt', 'a')
-#        OuttxtFile.write(hostname + ' ' + rack)
-#        OuttxtFile.close() 
-    else:
-        continue
-       
+process_url(url1, headers)
+process_url(url2, headers)

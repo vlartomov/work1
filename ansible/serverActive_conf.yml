@@ -1,0 +1,27 @@
+---
+- name: Update Zabbix Agent Configuration
+  hosts: servers
+  tasks:
+
+    - name: Set ServerActive in zabbix_agentd.conf
+      lineinfile:
+        path: /etc/zabbix/zabbix_agentd.conf
+        regexp: '^Server=127.0.0.1'
+        line: 'Server=10.209.226.98'
+        backrefs: yes
+      become: yes
+
+    - name: Set Hostname in zabbix_agentd.conf
+      lineinfile:
+        path: /etc/zabbix/zabbix_agentd.conf
+        regexp: '^Hostname='
+        line: 'Hostname={{ ansible_host }}'
+        backrefs: yes
+      become: yes
+
+    - name: Restart Zabbix Agent Service
+      service:
+        name: zabbix-agent
+        state: restarted
+      become: yes
+

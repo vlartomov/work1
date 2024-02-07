@@ -5,5 +5,5 @@
     	- unavailable_servers.txt - this file has list of all unpingble by mgmt port servers
     	- uniq_servers.txt - servers which will be added to the zabbix.
   c. "zabbix-mass_stations_V2.sh" which convert "uniq_servers.txt" file to zabbix import file "uniq_servers.xml".
-
+  d. "zabbix_uploader.py" which export the file "uniq_servers.xml" to zabbix.
 

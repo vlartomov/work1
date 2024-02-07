@@ -1,0 +1,678 @@
+--
+      host: dory01
+      name: dory01
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: dory02
+      name: dory02
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: dory03
+      name: dory03
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: dory04
+      name: dory04
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: dory05
+      name: dory05
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: dory06
+      name: dory06
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: dory07
+      name: dory07
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: hpc-cloud07
+      name: hpc-cloud07
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: l-jenkins-slave-01
+      name: l-jenkins-slave-01
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: mtr-stm-072
+      name: mtr-stm-072
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: mtvr-sharp-n07
+      name: mtvr-sharp-n07
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-aa-fatty22-005
+      name: r-aa-fatty22-005
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-aa-fatty22-006
+      name: r-aa-fatty22-006
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: r-aa-nitro01-005
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: r-aa-nitro02-005
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-anaconda-46
+      name: r-anaconda-46
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-bld-hpstr
+      name: r-bld-hpstr
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-build-01
+      name: r-build-01
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-build-02
+      name: r-build-02
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-build-03
+      name: r-build-03
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-build-04
+      name: r-build-04
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-builder01
+      name: r-builder01
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-builder03
+      name: r-builder03
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-builder04
+      name: r-builder04
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-builder05
+      name: r-builder05
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-builder06
+      name: r-builder06
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: r-fserv-105
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-netq-01
+      name: r-netq-01
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-ufm238
+      name: r-ufm238
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-vmb-debian10-u0-x86-64-jb
+      name: r-vmb-debian10-u0-x86-64-jb
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-vmb-fedora29-x86-64-jb
+      name: r-vmb-fedora29-x86-64-jb
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-vmb-fedora30-x86-64-jb
+      name: r-vmb-fedora30-x86-64-jb
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-vmb-fedora32-x86-64-mofed5-jb
+      name: r-vmb-fedora32-x86-64-mofed5-jb
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-vmb-mighty-magic.mtr.labs.mlnx
+      name: r-vmb-mighty-magic.mtr.labs.mlnx
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-vmb-ppc-jenkins
+      name: r-vmb-ppc-jenkins
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-vmb-rhel6-u3-x86-64
+      name: r-vmb-rhel6-u3-x86-64
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-vmb-rhel7-u2-ppc64le-cuda-builder-02
+      name: r-vmb-rhel7-u2-ppc64le-cuda-builder-02
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-vmb-rhel7-u2-ppc64le-MOFED-CHECKER
+      name: r-vmb-rhel7-u2-ppc64le-MOFED-CHECKER
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-vmb-rhel7-u2-x86-64-inbox
+      name: r-vmb-rhel7-u2-x86-64-inbox
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-vmb-rhel7-u3-ppc64le-JB
+      name: r-vmb-rhel7-u3-ppc64le-JB
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-vmb-rhel7-u3-ppc64le-MOFED-CHECKER
+      name: r-vmb-rhel7-u3-ppc64le-MOFED-CHECKER
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-vmb-rhel7-u3-x86-64
+      name: r-vmb-rhel7-u3-x86-64
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-vmb-rhel7-u4-ppc64le-JB
+      name: r-vmb-rhel7-u4-ppc64le-JB
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-vmb-rhel7-u4-ppc64le-MOFED-CHECKER
+      name: r-vmb-rhel7-u4-ppc64le-MOFED-CHECKER
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-vmb-rhel7-u4-x86-64-JB
+      name: r-vmb-rhel7-u4-x86-64-JB
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-vmb-rhel7-u5-ppc64le-MOFED-CHECKER
+      name: r-vmb-rhel7-u5-ppc64le-MOFED-CHECKER
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-vmb-rhel7-u5-x86-64-JB
+      name: r-vmb-rhel7-u5-x86-64-JB
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-vmb-rhel7-u6-x86-64-jb
+      name: r-vmb-rhel7-u6-x86-64-jb
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-vmb-rhel7-u8-x86-64-jb
+      name: r-vmb-rhel7-u8-x86-64-jb
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-vmb-rhel8-u0-x86-64-jb
+      name: r-vmb-rhel8-u0-x86-64-jb
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-vmb-rhel8-u0-x86-64-mofed5-jb
+      name: r-vmb-rhel8-u0-x86-64-mofed5-jb
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-vmb-rhel8-u2-x86-64-jb
+      name: r-vmb-rhel8-u2-x86-64-jb
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-vmb-sles11-sp3-x86-64
+      name: r-vmb-sles11-sp3-x86-64
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-vmb-sles12-sp2-ppc64le-JB
+      name: r-vmb-sles12-sp2-ppc64le-JB
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-vmb-sles12-sp2-ppc64le-MOFED-CHECKER
+      name: r-vmb-sles12-sp2-ppc64le-MOFED-CHECKER
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-vmb-sles12-sp3-ppc64le-JB
+      name: r-vmb-sles12-sp3-ppc64le-JB
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-vmb-sles12-sp3-ppc64le-MOFED-CHECKER
+      name: r-vmb-sles12-sp3-ppc64le-MOFED-CHECKER
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-vmb-sles12-sp3-x86-64-jb
+      name: r-vmb-sles12-sp3-x86-64-jb
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-vmb-sles12-sp4-x86-64-jb
+      name: r-vmb-sles12-sp4-x86-64-jb
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-vmb-sles12-sp5-x86-64-jb
+      name: r-vmb-sles12-sp5-x86-64-jb
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-vmb-sles15-sp0-x86-64-jb
+      name: r-vmb-sles15-sp0-x86-64-jb
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-vmb-sles15-sp1-x86-64-jb
+      name: r-vmb-sles15-sp1-x86-64-jb
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-vmb-ubuntu14-u4-x86-64
+      name: r-vmb-ubuntu14-u4-x86-64
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-vmb-ubuntu16-u4-x86-64
+      name: r-vmb-ubuntu16-u4-x86-64
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-vmb-ubuntu16-u4-x86-64-inbox-JB
+      name: r-vmb-ubuntu16-u4-x86-64-inbox-JB
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-vmb-ubuntu16-u4-x86-64-JB
+      name: r-vmb-ubuntu16-u4-x86-64-JB
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-vmb-ubuntu16-u4-x86-64-rivermax
+      name: r-vmb-ubuntu16-u4-x86-64-rivermax
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-vmb-ubuntu16-u10-ppc64le-JB
+      name: r-vmb-ubuntu16-u10-ppc64le-JB
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-vmb-ubuntu16-u10-ppc64le-MOFED-CHECKER
+      name: r-vmb-ubuntu16-u10-ppc64le-MOFED-CHECKER
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-vmb-ubuntu17-u04-ppc64le-JB
+      name: r-vmb-ubuntu17-u04-ppc64le-JB
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-vmb-ubuntu17-u04-ppc64le-MOFED-CHECKER
+      name: r-vmb-ubuntu17-u04-ppc64le-MOFED-CHECKER
+          name: 'Template Module ICMP Ping'
+          name: SWX
+      host: r-vmb-ubuntu18-u4-x86-64-inbox
+      name: r-vmb-ubuntu18-u4-x86-64-inbox
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-vmb-ubuntu18-u4-x86-64-JB
+      name: r-vmb-ubuntu18-u4-x86-64-JB
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-vmb-ubuntu18-u4-x86-64-mofed5-jb
+      name: r-vmb-ubuntu18-u4-x86-64-mofed5-jb
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-vmb-ubuntu19-u10-x86-64-jb
+      name: r-vmb-ubuntu19-u10-x86-64-jb
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: r-vmb-ubuntu20-u4-x86-64-jb
+      name: r-vmb-ubuntu20-u4-x86-64-jb
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: spdk-perf-05
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: storage-ver-ice01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: swx-ampere01
+      name: swx-ampere01
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: swx-ampere02
+      name: swx-ampere02
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: swx-arsen01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: swx-arsen02-141
+      name: swx-arsen02-141
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: swx-collectx01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: swx-lab-rh9-01
+      name: swx-lab-rh9-01
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: swx-mtvr-stor06
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: swx-spdk-offload
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: swx-spdk-offload-amd
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: swx-sw-clx01
+      name: swx-sw-clx01
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: swx-ufm-pxe
+      name: swx-ufm-pxe
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-ai01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-ai02
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-ai03
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-ai04
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-appliance01
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-appliance02
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-appliance03
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-appliance04
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-appliance05
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-appliance07
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-ci-ver01
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-ci-ver02
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-ci-ver03
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-ha-vm01
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-ha-vm02
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-ha-vm03
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+          name: Verification
+      host: ufm-ha-vm04
+      name: ufm-ha-vm04
+          name: SWX
+--
+      name: ufm-ha-vm05
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-ha-vm06
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-ha-vm07
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-ha-vm08
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-ha-vm09
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-ha-vm10
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-ha-vm11
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-ha-vm12
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-ha-vm13
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-ha-vm14
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-ha-vm15
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-ha-vm16
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-ha-vm17
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-ha-vm18
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-ha-vm19
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-ha-vm20
+          name: 'Disk state'
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-host25
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-host27
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-host38
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-host40
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-host44
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-host86
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-host87
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: ufm-jenkins01
+      name: ufm-jenkins01
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      host: ufm-jenkins02
+      name: ufm-jenkins02
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm-production
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: ufm3-02
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: vegas30
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: venus02
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: vma-nolo18
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: vma-nolo20
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: vma-nolo21
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: vma-nolo22
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: vma-nolo24
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX
+--
+      name: vma-nolo25
+          name: remove_warrning_broadcast
+          name: 'Template Module ICMP Ping'
+          name: SWX

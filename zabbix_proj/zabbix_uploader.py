@@ -34,9 +34,13 @@ srv_data={
         "params": {
             "format": "xml",
             "rules": {
-                "hosts": {
+                "groups": {
                     "createMissing": True,
                     "updateExisting": False 
+                },
+                "hosts": {
+                    "createMissing": True,
+                    "updateExisting": False
                 },
                 "templates": {
                     "createMissing": True,
