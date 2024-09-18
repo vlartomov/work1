@@ -1,0 +1,50 @@
+---
+- name: Modify ifcfg-ib0 and create route-ib0 on specified hosts
+  hosts: all
+  become: yes
+  tasks:
+    - name: Ensure the ifcfg-ib0 file exists
+      stat:
+        path: /etc/sysconfig/network-scripts/ifcfg-ib0
+      register: ifcfg_ib0_file
+
+    - name: Backup the current ifcfg-ib0 file if it exists
+      copy:
+        src: /etc/sysconfig/network-scripts/ifcfg-ib0
+        dest: /etc/sysconfig/network-scripts/ifcfg-ib0.bak
+        remote_src: yes
+      when: ifcfg_ib0_file.stat.exists
+
+    - name: Modify the ifcfg-ib0 configuration file
+      lineinfile:
+        path: /etc/sysconfig/network-scripts/ifcfg-ib0
+        regexp: "{{ item.regexp }}"
+        line: "{{ item.line }}"
+        state: present
+      with_items:
+        - { regexp: '^BOOTPROTO=', line: 'BOOTPROTO=none' }
+        - { regexp: '^ONBOOT=', line: 'ONBOOT=yes' }
+        - { regexp: '^IPADDR=', line: 'IPADDR={{ ib_ip }}' }  # Uses the ib_ip variable from inventory
+        - { regexp: '^PREFIX=', line: 'PREFIX=24' }
+        - { regexp: '^GATEWAY=', line: 'GATEWAY=2.1.12.15' }
+      notify: Restart network service
+
+    - name: Create /etc/sysconfig/network-scripts/route-ib0 file with routing information
+      copy:
+        dest: /etc/sysconfig/network-scripts/route-ib0
+        content: |
+          1.1.12.0/24 via 2.1.12.15 dev ib0
+    
+    - name: Set ownership and permissions for route-ib0 file
+      file:
+        path: /etc/sysconfig/network-scripts/route-ib0
+        owner: root
+        group: root
+        mode: '0644'
+
+  handlers:
+    - name: Restart network service
+      service:
+        name: network
+        state: restarted
+

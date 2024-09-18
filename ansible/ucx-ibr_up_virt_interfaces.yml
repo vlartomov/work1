@@ -1,0 +1,13 @@
+---
+- name: Bring up network interfaces
+  hosts: ucx_servers
+  become: yes  # Ensures you have the necessary privileges
+  tasks:
+    - name: Bring up ibp5s0v0
+      command: ifconfig ibp5s0v0 up
+      become: yes  # Run as root
+
+    - name: Bring up ibp5s0v1
+      command: ifconfig ibp5s0v1 up
+      become: yes  # Run as root
+

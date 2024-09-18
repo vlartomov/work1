@@ -1,0 +1,763 @@
+zabbix_export:
+  version: '6.0'
+  date: '2024-08-26T08:13:22Z'
+  groups:
+    - uuid: ed5a4bc19325424fbca7b4887849826a
+      name: '6.6'
+    - uuid: 056695b9b4de49558485611e7485519c
+      name: '8.2'
+    - uuid: 7b0f27114bf84b2e9158b1c7caa09395
+      name: RDMZ
+  hosts:
+    - host: swx-jupiter04
+      name: swx-jupiter04
+      templates:
+        - name: Autofs_service_check
+        - name: 'Azure balance'
+        - name: dev_azure
+        - name: dev_github
+        - name: dev_rdmz-harbor
+        - name: 'Disk state'
+        - name: dmesg_error
+        - name: 'Lib Docker'
+        - name: 'Linux CPU by Zabbix agent'
+        - name: 'Linux memory by Zabbix agent'
+        - name: nfs_avail_rdmz
+        - name: 'NIS service'
+        - name: NIS_server_access
+        - name: Scrap_check
+        - name: 'Template Module ICMP Ping'
+      groups:
+        - name: '6.6'
+        - name: RDMZ
+      interfaces:
+        - ip: 10.224.36.68
+          interface_ref: if1
+      items:
+        - name: remove_warrning_broadcast
+          type: SSH
+          key: 'ssh.run[''rm wr broadcast'']'
+          delay: 12h
+          history: 2d
+          trends: '0'
+          value_type: TEXT
+          params: |
+            if [ $UID -ne 0 ] ; then
+                echo "Usage: sudo $0" >&2
+                exit 1
+            fi
+            crontab -l |grep -v letter | crontab -
+          username: root
+          password: 3tango
+          interface_ref: if1
+      inventory_mode: DISABLED
+    - host: swx-rain01
+      name: swx-rain01
+      templates:
+        - name: Autofs_service_check
+        - name: 'Azure balance'
+        - name: dev_azure
+        - name: dev_github
+        - name: dev_rdmz-harbor
+        - name: 'Disk state'
+        - name: dmesg_error
+        - name: gdrdrv_device
+        - name: gdrdrv_module
+        - name: GPU_availability
+        - name: 'Lib Docker'
+        - name: 'Linux CPU by Zabbix agent'
+        - name: 'Linux memory by Zabbix agent'
+        - name: nfs_avail_rdmz
+        - name: 'NIS service'
+        - name: NIS_server_access
+        - name: nv_peer_mem
+        - name: Scrap_check
+        - name: swx-azure-svc
+        - name: 'Template Module ICMP Ping'
+      groups:
+        - name: '8.2'
+        - name: RDMZ
+      interfaces:
+        - ip: 10.224.36.26
+          interface_ref: if1
+      items:
+        - name: remove_warrning_broadcast
+          type: SSH
+          key: 'ssh.run[''rm wr broadcast'']'
+          delay: 12h
+          history: 2d
+          trends: '0'
+          value_type: TEXT
+          params: |
+            if [ $UID -ne 0 ] ; then
+                echo "Usage: sudo $0" >&2
+                exit 1
+            fi
+            crontab -l |grep -v letter | crontab -
+          username: root
+          password: 3tango
+          interface_ref: if1
+      inventory_mode: DISABLED
+    - host: swx-rain01-bf1
+      name: swx-rain01-bf1
+      templates:
+        - name: Autofs_service_check
+        - name: 'Azure balance'
+        - name: dev_azure
+        - name: dev_github
+        - name: dev_rdmz-harbor
+        - name: 'Disk state'
+        - name: dmesg_error
+        - name: 'Lib Docker'
+        - name: 'Linux CPU by Zabbix agent'
+        - name: 'Linux memory by Zabbix agent'
+        - name: nfs_avail_rdmz
+        - name: 'NIS service'
+        - name: NIS_server_access
+        - name: Scrap_check
+        - name: 'Template Module ICMP Ping'
+      groups:
+        - name: '8.2'
+        - name: RDMZ
+      interfaces:
+        - ip: 10.224.36.44
+          dns: swx-rain01-bf1
+          interface_ref: if1
+      inventory_mode: DISABLED
+    - host: swx-rain02
+      name: swx-rain02
+      templates:
+        - name: Autofs_service_check
+        - name: 'Azure balance'
+        - name: dev_azure
+        - name: dev_github
+        - name: dev_rdmz-harbor
+        - name: 'Disk state'
+        - name: dmesg_error
+        - name: 'Lib Docker'
+        - name: 'Linux CPU by Zabbix agent'
+        - name: 'Linux memory by Zabbix agent'
+        - name: nfs_avail_rdmz
+        - name: 'NIS service'
+        - name: NIS_server_access
+        - name: Scrap_check
+        - name: swx-azure-svc
+        - name: 'Template Module ICMP Ping'
+      groups:
+        - name: '8.2'
+        - name: RDMZ
+      interfaces:
+        - ip: 10.224.36.28
+          interface_ref: if1
+      items:
+        - name: remove_warrning_broadcast
+          type: SSH
+          key: 'ssh.run[''rm wr broadcast'']'
+          delay: 12h
+          history: 2d
+          trends: '0'
+          value_type: TEXT
+          params: |
+            if [ $UID -ne 0 ] ; then
+                echo "Usage: sudo $0" >&2
+                exit 1
+            fi
+            crontab -l |grep -v letter | crontab -
+          username: root
+          password: 3tango
+          interface_ref: if1
+      inventory_mode: DISABLED
+    - host: swx-rain02-bf1
+      name: swx-rain02-bf1
+      templates:
+        - name: Autofs_service_check
+        - name: 'Azure balance'
+        - name: dev_azure
+        - name: dev_github
+        - name: dev_rdmz-harbor
+        - name: 'Disk state'
+        - name: dmesg_error
+        - name: 'Lib Docker'
+        - name: 'Linux CPU by Zabbix agent'
+        - name: 'Linux memory by Zabbix agent'
+        - name: nfs_avail_rdmz
+        - name: 'NIS service'
+        - name: NIS_server_access
+        - name: Scrap_check
+        - name: 'Template Module ICMP Ping'
+      groups:
+        - name: '8.2'
+        - name: RDMZ
+      interfaces:
+        - ip: 10.224.36.45
+          dns: swx-rain02-bf1
+          interface_ref: if1
+      inventory_mode: DISABLED
+    - host: swx-rain03
+      name: swx-rain03
+      templates:
+        - name: Autofs_service_check
+        - name: 'Azure balance'
+        - name: dev_azure
+        - name: dev_github
+        - name: dev_rdmz-harbor
+        - name: 'Disk state'
+        - name: dmesg_error
+        - name: 'Lib Docker'
+        - name: 'Linux CPU by Zabbix agent'
+        - name: 'Linux memory by Zabbix agent'
+        - name: nfs_avail_rdmz
+        - name: 'NIS service'
+        - name: NIS_server_access
+        - name: Scrap_check
+        - name: swx-azure-svc
+        - name: 'Template Module ICMP Ping'
+      groups:
+        - name: '8.2'
+        - name: RDMZ
+      interfaces:
+        - ip: 10.224.36.27
+          interface_ref: if1
+      items:
+        - name: remove_warrning_broadcast
+          type: SSH
+          key: 'ssh.run[''rm wr broadcast'']'
+          delay: 12h
+          history: 2d
+          trends: '0'
+          value_type: TEXT
+          params: |
+            if [ $UID -ne 0 ] ; then
+                echo "Usage: sudo $0" >&2
+                exit 1
+            fi
+            crontab -l |grep -v letter | crontab -
+          username: root
+          password: 3tango
+          interface_ref: if1
+      inventory_mode: DISABLED
+    - host: swx-rain03-bf1
+      name: swx-rain03-bf1
+      templates:
+        - name: Autofs_service_check
+        - name: 'Azure balance'
+        - name: dev_azure
+        - name: dev_github
+        - name: dev_rdmz-harbor
+        - name: 'Disk state'
+        - name: dmesg_error
+        - name: 'Lib Docker'
+        - name: 'Linux CPU by Zabbix agent'
+        - name: 'Linux memory by Zabbix agent'
+        - name: nfs_avail_rdmz
+        - name: 'NIS service'
+        - name: NIS_server_access
+        - name: Scrap_check
+        - name: 'Template Module ICMP Ping'
+      groups:
+        - name: '8.2'
+        - name: RDMZ
+      interfaces:
+        - ip: 10.224.36.42
+          dns: swx-rain03-bf1
+          interface_ref: if1
+      inventory_mode: DISABLED
+    - host: swx-rain04
+      name: swx-rain04
+      templates:
+        - name: Autofs_service_check
+        - name: 'Azure balance'
+        - name: dev_azure
+        - name: dev_github
+        - name: dev_rdmz-harbor
+        - name: 'Disk state'
+        - name: dmesg_error
+        - name: 'Lib Docker'
+        - name: 'Linux CPU by Zabbix agent'
+        - name: 'Linux memory by Zabbix agent'
+        - name: nfs_avail_rdmz
+        - name: 'NIS service'
+        - name: NIS_server_access
+        - name: Scrap_check
+        - name: swx-azure-svc
+        - name: 'Template Module ICMP Ping'
+      groups:
+        - name: '8.2'
+        - name: RDMZ
+      interfaces:
+        - ip: 10.224.36.29
+          interface_ref: if1
+      items:
+        - name: remove_warrning_broadcast
+          type: SSH
+          key: 'ssh.run[''rm wr broadcast'']'
+          delay: 12h
+          history: 2d
+          trends: '0'
+          value_type: TEXT
+          params: |
+            if [ $UID -ne 0 ] ; then
+                echo "Usage: sudo $0" >&2
+                exit 1
+            fi
+            crontab -l |grep -v letter | crontab -
+          username: root
+          password: 3tango
+          interface_ref: if1
+      inventory_mode: DISABLED
+    - host: swx-rain04-bf1
+      name: swx-rain04-bf1
+      templates:
+        - name: Autofs_service_check
+        - name: 'Azure balance'
+        - name: dev_azure
+        - name: dev_github
+        - name: dev_rdmz-harbor
+        - name: 'Disk state'
+        - name: dmesg_error
+        - name: 'Lib Docker'
+        - name: 'Linux CPU by Zabbix agent'
+        - name: 'Linux memory by Zabbix agent'
+        - name: nfs_avail_rdmz
+        - name: 'NIS service'
+        - name: NIS_server_access
+        - name: Scrap_check
+        - name: 'Template Module ICMP Ping'
+      groups:
+        - name: '8.2'
+        - name: RDMZ
+      interfaces:
+        - ip: 10.224.36.43
+          dns: swx-rain04-bf1
+          interface_ref: if1
+      inventory_mode: DISABLED
+    - host: swx-rdmz-instinct01
+      name: swx-rdmz-instinct01
+      templates:
+        - name: Autofs_service_check
+        - name: 'Azure balance'
+        - name: dev_azure
+        - name: dev_github
+        - name: dev_rdmz-harbor
+        - name: 'Disk state'
+        - name: dmesg_error
+        - name: 'Lib Docker'
+        - name: 'Linux CPU by Zabbix agent'
+        - name: 'Linux memory by Zabbix agent'
+        - name: nfs_avail_rdmz
+        - name: 'NIS service'
+        - name: NIS_server_access
+        - name: Scrap_check
+        - name: 'Template Module ICMP Ping'
+      groups:
+        - name: '8.2'
+        - name: RDMZ
+      interfaces:
+        - ip: 10.224.36.123
+          interface_ref: if1
+      inventory_mode: DISABLED
+    - host: swx-rdmz-instinct02
+      name: swx-rdmz-instinct02
+      templates:
+        - name: Autofs_service_check
+        - name: 'Azure balance'
+        - name: dev_azure
+        - name: dev_github
+        - name: dev_rdmz-harbor
+        - name: 'Disk state'
+        - name: dmesg_error
+        - name: 'Lib Docker'
+        - name: 'Linux CPU by Zabbix agent'
+        - name: 'Linux memory by Zabbix agent'
+        - name: nfs_avail_rdmz
+        - name: 'NIS service'
+        - name: NIS_server_access
+        - name: Scrap_check
+        - name: 'Template Module ICMP Ping'
+      groups:
+        - name: '8.2'
+        - name: RDMZ
+      interfaces:
+        - ip: 10.224.36.122
+          interface_ref: if1
+      inventory_mode: DISABLED
+    - host: swx-rdmz-ucx-althca
+      name: swx-rdmz-ucx-althca
+      templates:
+        - name: Autofs_service_check
+        - name: 'Azure balance'
+        - name: dev_azure
+        - name: dev_github
+        - name: dev_rdmz-harbor
+        - name: 'Disk state'
+        - name: dmesg_error
+        - name: 'Lib Docker'
+        - name: 'Linux CPU by Zabbix agent'
+        - name: 'Linux memory by Zabbix agent'
+        - name: nfs_avail_rdmz
+        - name: 'NIS service'
+        - name: NIS_server_access
+        - name: Scrap_check
+        - name: 'Template Module ICMP Ping'
+      groups:
+        - name: '8.2'
+        - name: RDMZ
+      interfaces:
+        - ip: 10.224.36.35
+          interface_ref: if1
+      inventory_mode: DISABLED
+    - host: swx-rdmz-ucx-gpu-01
+      name: swx-rdmz-ucx-gpu-01
+      templates:
+        - name: Autofs_service_check
+        - name: 'Azure balance'
+        - name: dev_azure
+        - name: dev_github
+        - name: dev_rdmz-harbor
+        - name: 'Disk state'
+        - name: dmesg_error
+        - name: gdrdrv_device
+        - name: gdrdrv_module
+        - name: GPU_availability
+        - name: 'Lib Docker'
+        - name: 'Linux CPU by Zabbix agent'
+        - name: 'Linux memory by Zabbix agent'
+        - name: nfs_avail_rdmz
+        - name: 'NIS service'
+        - name: NIS_server_access
+        - name: nv_peer_mem
+        - name: Scrap_check
+        - name: 'Template Module ICMP Ping'
+      groups:
+        - name: '8.2'
+        - name: RDMZ
+      interfaces:
+        - ip: 10.224.36.92
+          interface_ref: if1
+      inventory_mode: DISABLED
+    - host: swx-rdmz-ucx-gpu-02
+      name: swx-rdmz-ucx-gpu-02
+      templates:
+        - name: Autofs_service_check
+        - name: 'Azure balance'
+        - name: dev_azure
+        - name: dev_github
+        - name: dev_rdmz-harbor
+        - name: 'Disk state'
+        - name: dmesg_error
+        - name: gdrdrv_device
+        - name: gdrdrv_module
+        - name: GPU_availability
+        - name: 'Lib Docker'
+        - name: 'Linux CPU by Zabbix agent'
+        - name: 'Linux memory by Zabbix agent'
+        - name: nfs_avail_rdmz
+        - name: 'NIS service'
+        - name: NIS_server_access
+        - name: nv_peer_mem
+        - name: Scrap_check
+        - name: 'Template Module ICMP Ping'
+      groups:
+        - name: '8.2'
+        - name: RDMZ
+      interfaces:
+        - ip: 10.224.36.98
+          interface_ref: if1
+      inventory_mode: DISABLED
+    - host: swx-rdmz-ucx-new-01
+      name: swx-rdmz-ucx-new-01
+      templates:
+        - name: Autofs_service_check
+        - name: 'Azure balance'
+        - name: dev_azure
+        - name: dev_github
+        - name: dev_rdmz-harbor
+        - name: 'Disk state'
+        - name: dmesg_error
+        - name: 'Lib Docker'
+        - name: 'Linux CPU by Zabbix agent'
+        - name: 'Linux memory by Zabbix agent'
+        - name: nfs_avail_rdmz
+        - name: 'NIS service'
+        - name: NIS_server_access
+        - name: Scrap_check
+        - name: 'Template Module ICMP Ping'
+      groups:
+        - name: '8.2'
+        - name: RDMZ
+      interfaces:
+        - ip: 10.224.36.118
+          interface_ref: if1
+      inventory_mode: DISABLED
+    - host: swx-rdmz-ucx-new-02
+      name: swx-rdmz-ucx-new-02
+      templates:
+        - name: Autofs_service_check
+        - name: 'Azure balance'
+        - name: dev_azure
+        - name: dev_github
+        - name: dev_rdmz-harbor
+        - name: 'Disk state'
+        - name: dmesg_error
+        - name: 'Lib Docker'
+        - name: 'Linux CPU by Zabbix agent'
+        - name: 'Linux memory by Zabbix agent'
+        - name: nfs_avail_rdmz
+        - name: 'NIS service'
+        - name: NIS_server_access
+        - name: Scrap_check
+        - name: 'Template Module ICMP Ping'
+      groups:
+        - name: '8.2'
+        - name: RDMZ
+      interfaces:
+        - ip: 10.224.36.142
+          interface_ref: if1
+      inventory_mode: DISABLED
+    - host: ucx-ci-giga01
+      name: ucx-ci-giga01
+      templates:
+        - name: Autofs_service_check
+        - name: 'Azure balance'
+        - name: dev_azure
+        - name: dev_github
+        - name: dev_rdmz-harbor
+        - name: 'Disk state'
+        - name: dmesg_error
+        - name: 'Lib Docker'
+        - name: 'Linux CPU by Zabbix agent'
+        - name: 'Linux memory by Zabbix agent'
+        - name: nfs_avail_rdmz
+        - name: 'NIS service'
+        - name: NIS_server_access
+        - name: Scrap_check
+        - name: 'Template Module ICMP Ping'
+      groups:
+        - name: '8.2'
+        - name: RDMZ
+      interfaces:
+        - ip: 10.224.36.62
+          interface_ref: if1
+      items:
+        - name: Autofs_check
+          type: SSH
+          key: 'ssh.run[''Autofs_check'']'
+          delay: 2m
+          history: 2d
+          trends: '0'
+          value_type: TEXT
+          params: 'service autofs.service status | awk ''$0 ~ /Active/ {print $2}'''
+          username: root
+          password: 3tango
+          description: 'Warrns about the inactive state of "autofs.service"'
+          interface_ref: if1
+          triggers:
+            - expression: 'length(last(/ucx-ci-giga01/ssh.run[''Autofs_check''],#2))>=7'
+              name: Autofs_check
+              priority: DISASTER
+              description: 'The service autofs is inactive.'
+        - name: 'Scrap balance'
+          type: SSH
+          key: 'ssh.run[''Scrap balance'']'
+          delay: 2h
+          history: 2d
+          trends: '0'
+          value_type: TEXT
+          params: 'if df -Th | grep "/scrap"| awk ''{print $5}''| egrep -o ''[0-9.]+''; then echo "scrap" &>/dev/null; else echo "no scrap dir"; fi'
+          username: root
+          password: hpc1E240
+          description: 'Shows the size of the scrap partition. (G)'
+          interface_ref: if1
+      inventory_mode: DISABLED
+    - host: ucx-ci-giga02
+      name: ucx-ci-giga02
+      templates:
+        - name: Autofs_service_check
+        - name: 'Azure balance'
+        - name: dev_azure
+        - name: dev_github
+        - name: dev_rdmz-harbor
+        - name: 'Disk state'
+        - name: dmesg_error
+        - name: 'Lib Docker'
+        - name: 'Linux CPU by Zabbix agent'
+        - name: 'Linux memory by Zabbix agent'
+        - name: nfs_avail_rdmz
+        - name: 'NIS service'
+        - name: NIS_server_access
+        - name: Scrap_check
+        - name: 'Template Module ICMP Ping'
+      groups:
+        - name: '8.2'
+        - name: RDMZ
+      interfaces:
+        - ip: 10.224.36.63
+          interface_ref: if1
+      items:
+        - name: Autofs_check
+          type: SSH
+          key: 'ssh.run[''Autofs_check'']'
+          delay: 2m
+          history: 2d
+          trends: '0'
+          value_type: TEXT
+          params: 'service autofs.service status | awk ''$0 ~ /Active/ {print $2}'''
+          username: root
+          password: 3tango
+          description: 'Warrns about the inactive state of "autofs.service"'
+          interface_ref: if1
+          triggers:
+            - expression: 'length(last(/ucx-ci-giga02/ssh.run[''Autofs_check''],#2))>=7'
+              name: Autofs_check
+              priority: DISASTER
+              description: 'The service autofs is inactive.'
+        - name: 'Scrap balance'
+          type: SSH
+          key: 'ssh.run[''Scrap balance'']'
+          delay: 2h
+          history: 2d
+          trends: '0'
+          value_type: TEXT
+          params: 'if df -Th | grep "/scrap"| awk ''{print $5}''| egrep -o ''[0-9.]+''; then echo "scrap" &>/dev/null; else echo "no scrap dir"; fi'
+          username: root
+          password: hpc1E240
+          description: 'Shows the size of the scrap partition. (G)'
+          interface_ref: if1
+      inventory_mode: DISABLED
+    - host: vulcan03
+      name: vulcan03
+      templates:
+        - name: Autofs_service_check
+        - name: 'Azure balance'
+        - name: dev_azure
+        - name: dev_github
+        - name: dev_rdmz-harbor
+        - name: 'Disk state'
+        - name: dmesg_error
+        - name: 'Lib Docker'
+        - name: 'Linux CPU by Zabbix agent'
+        - name: 'Linux memory by Zabbix agent'
+        - name: nfs_avail_rdmz
+        - name: 'NIS service'
+        - name: NIS_server_access
+        - name: Scrap_check
+        - name: 'Template Module ICMP Ping'
+      groups:
+        - name: RDMZ
+      interfaces:
+        - ip: 10.224.36.108
+          interface_ref: if1
+      items:
+        - name: remove_warrning_broadcast
+          type: SSH
+          key: 'ssh.run[''rm wr broadcast'']'
+          delay: 12h
+          history: 2d
+          trends: '0'
+          value_type: TEXT
+          params: |
+            if [ $UID -ne 0 ] ; then
+                echo "Usage: sudo $0" >&2
+                exit 1
+            fi
+            crontab -l |grep -v letter | crontab -
+          username: root
+          password: 3tango
+          interface_ref: if1
+      inventory:
+        location_lat: '32.198077'
+        location_lon: '34.882275'
+      inventory_mode: AUTOMATIC
+    - host: vulcan03-bf1
+      name: vulcan03-bf1
+      templates:
+        - name: Autofs_service_check
+        - name: 'Azure balance'
+        - name: dev_azure
+        - name: dev_github
+        - name: dev_rdmz-harbor
+        - name: 'Disk state'
+        - name: dmesg_error
+        - name: 'Lib Docker'
+        - name: nfs_avail_rdmz
+        - name: 'NIS service'
+        - name: NIS_server_access
+        - name: Scrap_check
+        - name: 'Template Module ICMP Ping'
+      groups:
+        - name: '8.2'
+        - name: RDMZ
+      interfaces:
+        - ip: 10.224.36.149
+          dns: vulcan04-bf1
+          interface_ref: if1
+      inventory_mode: DISABLED
+    - host: vulcan04
+      name: vulcan04
+      templates:
+        - name: Autofs_service_check
+        - name: 'Azure balance'
+        - name: dev_azure
+        - name: dev_github
+        - name: dev_rdmz-harbor
+        - name: 'Disk state'
+        - name: dmesg_error
+        - name: 'Lib Docker'
+        - name: 'Linux CPU by Zabbix agent'
+        - name: 'Linux memory by Zabbix agent'
+        - name: nfs_avail_rdmz
+        - name: 'NIS service'
+        - name: NIS_server_access
+        - name: Scrap_check
+        - name: 'Template Module ICMP Ping'
+      groups:
+        - name: RDMZ
+      interfaces:
+        - ip: 10.224.36.110
+          interface_ref: if1
+      items:
+        - name: remove_warrning_broadcast
+          type: SSH
+          key: 'ssh.run[''rm wr broadcast'']'
+          delay: 12h
+          history: 2d
+          trends: '0'
+          value_type: TEXT
+          params: |
+            if [ $UID -ne 0 ] ; then
+                echo "Usage: sudo $0" >&2
+                exit 1
+            fi
+            crontab -l |grep -v letter | crontab -
+          username: root
+          password: 3tango
+          interface_ref: if1
+      inventory:
+        location_lat: '32.198077'
+        location_lon: '34.882275'
+      inventory_mode: AUTOMATIC
+    - host: vulcan04-bf1
+      name: vulcan04-bf1
+      templates:
+        - name: Autofs_service_check
+        - name: 'Azure balance'
+        - name: dev_azure
+        - name: dev_github
+        - name: dev_rdmz-harbor
+        - name: 'Disk state'
+        - name: dmesg_error
+        - name: 'Lib Docker'
+        - name: nfs_avail_rdmz
+        - name: 'NIS service'
+        - name: NIS_server_access
+        - name: Scrap_check
+        - name: 'Template Module ICMP Ping'
+      groups:
+        - name: '8.2'
+        - name: RDMZ
+      interfaces:
+        - ip: 10.224.36.136
+          dns: vulcan04-bf1
+          interface_ref: if1
+      inventory_mode: DISABLED
+

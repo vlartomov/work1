@@ -1,0 +1,16 @@
+swx-jupiter04
+swx-rain01
+swx-rain02
+swx-rain03
+swx-rain04
+swx-rdmz-instinct01
+swx-rdmz-instinct02
+swx-rdmz-ucx-althca
+swx-rdmz-ucx-gpu-01
+swx-rdmz-ucx-gpu-02
+swx-rdmz-ucx-new-01
+swx-rdmz-ucx-new-02
+ucx-ci-giga01
+ucx-ci-giga02
+vulcan03
+vulcan04

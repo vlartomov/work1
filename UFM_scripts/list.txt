@@ -1,4 +1,4 @@
-SWX-ARSEN02
+swx-arsen02
 ufm-appliance07
 ufm-host25
 ufm-appliance03
@@ -57,7 +57,7 @@ r-ufm-sw71
  r-ufm142
  r-ufm57
  r-ufm-sw13
- NEMO-LEAF-2
+ nemo-leaf-2
  r-ufm49
  r-ufm236
  r-ufm235
@@ -83,7 +83,7 @@ r-ufm-sw71
  node001
  r-ufm83
  desc1
- MT4115
+ mt4115
  ufm-host38
  r-dmz-ufm-sw59
  r-ufm106
@@ -137,8 +137,8 @@ r-ufm-sw71
  ufm-ron04
  ufm-ron02
  ufm-ron01
- AJNA-ROOT-1
- AJNA-ROOT-2
+ ajna-root-1
+ ajna-root-2
  ufm-ha-vm02
  ufm-ha-vm01
  ufm-ha-vm03

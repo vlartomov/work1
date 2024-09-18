@@ -1,0 +1,17 @@
+---
+- name: Install ansible and sshpass on Ubuntu servers
+  hosts: ucx_servers  # Changed from ubuntu_servers to ucx_servers
+  become: yes  # Ensure the playbook runs with administrative privileges
+  tasks:
+    - name: Update apt cache
+      ansible.builtin.apt:
+        update_cache: yes
+        cache_valid_time: 3600  # Cache is considered valid for 1 hour
+
+    - name: Install ansible and sshpass
+      ansible.builtin.apt:
+        name:
+          - ansible
+          - sshpass
+        state: present
+

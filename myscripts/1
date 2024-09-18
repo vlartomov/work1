@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Define the file containing the list of servers
+server_list="temp_file.txt"
+
+# Define the SSH command template
+sshp_t_srv="sshpass -p 3tango ssh -o StrictHostKeyChecking=no -o ConnectTimeout=5 root@"
+
+# Read each line from the server list file and process it
+while IFS= read -r srv; do
+  # Fetch management network information using SSH
+  mgmt=$(${sshp_t_srv}${srv} 'ip add | grep -A 1 "eno1"')
+  
+  # Fetch IPMI network information using SSH
+  ipmi=$(${sshp_t_srv}${srv} 'ipmitool lan print | grep -A 2 "IP Address"')
+  
+  # Print the results
+  echo "${srv}"
+  echo "${mgmt}"
+  echo "                             ipmi part                           "
+  echo "${ipmi}"
+  echo "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+done < "$server_list"
+

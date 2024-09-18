@@ -8,7 +8,8 @@ def process_url(url, headers, server_list):
 
     for device in results:
         server = device['device_role']['name']
-        hostname = device['name']
+        hostname = device['name'].lower()
+
         if server in ["Server", "Ethernet Switch", "InfiniBand Switch"] and hostname in server_list:
             # Default owner_name if none is found
             owner_name = "No Owner"
@@ -32,7 +33,7 @@ headers = {
     'cache-control': "no-cache",
 }
 
-server_list = load_server_list("list.txt")
+server_list = [s.lower() for s in load_server_list("list.txt")]
 
 url1 = "http://swx-nbx/api/dcim/devices/?limit=900000000000"
 url2 = "http://swx-nbx/api/dcim/devices/?limit=900000000000&offset=1000"

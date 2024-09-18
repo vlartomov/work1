@@ -1,0 +1,155 @@
+setup_1	SWX-ARSEN02					Alex Tabachnik 
+setup_1	ufm-appliance07					Evgeny Kaidrikov 
+setup_1	ufm-host25					Mohammed Abu Hassna (Primary) 
+setup_1	ufm-appliance03					Mohammed Abu Hassna (Primary) 
+setup_1	ufm-appliance04					Mohammed Abu Hassna (Primary) 
+setup_1	r-ufm-sw32					No Owner 
+setup_1	switch-ec					
+setup_1	r-ufm146					Ibrahim Baraka 
+setup_1	ufm-appliance02-eth1					
+setup_1	ufm-appliance-5490a0					
+setup_1	ufm-appliance01-eth1					
+setup_1	ufm-appliance-62c223					
+setup_1	ufm-host27					Mohammed Abu Hassna (Primary) 
+setup_1	r-dmz-ufm53					Mohammed Abu Hassna (Primary) 
+setup_1	sw-ufm-ndr06					Ibrahim Baraka 
+setup_1	r-ufm-sw45					Mohammed Abu Hassna (Primary) 
+setup_1	umanaged_hdr					
+setup_1	r-ufm-sw70					Mohammed Abu Hassna (Primary) 
+setup_2	r-ufm113					Eylon Kedem 
+setup_2	r-ufm114					Eylon Kedem 
+setup_2	r-ufm-sw33					Eylon Kedem 
+setup_3	r-ufm77					Anas Badaha (Primary) 
+setup_3	r-ufm51					Anas Badaha (Primary) 
+setup_3	ufm-ndr-04					Anas Badaha 
+setup_3	sw-ufm-qm01					Anas Badaha (Primary) 
+setup_4	r-ufm248					Alexander Tolikin 
+setup_4	r-ufm-sw61					
+setup_4	r-ufm-sw62					Alexander Tolikin 
+setup_5	r-ufm247					Alexander Tolikin 
+setup_6	r-ufm105					Oded Nissan (Primary) 
+setup_6	r-ufm216					Or Nechemia (Primary) 
+setup_6	r-ufm111					Yaakov Goldsmith 
+setup_6	ufm-ai03					Benny Itkin 
+setup_6	r-ufm98					Dmitri Yunusov 
+setup_6	r-ufm112					Michael Donin (Primary) 
+setup_6	sw-osm81					
+setup_7	dev-r-vrt-108					Mohammed Abu Hassna (Primary) 
+setup_7	r-ufm163					Mohammed Abu Hassna (Primary) 
+setup_7	r-ufm130					swx-ufm-ci-group 
+setup_7	r-ufm145					swx-ufm-ci-group 
+setup_8	r-dcs96					Mohammed Abu Hassna (Primary) 
+setup_8	r-dmz-ufm137					Mohammed Abu Hassna (Primary) 
+setup_8	r-dmz-ufm131					swx-ufm-ci-group 
+setup_8	r-dmz-ufm134					swx-ufm-ci-group 
+setup_8	sw-ufm-ndr04					No Owner 
+setup_8	sw-ufm-ndr03					Ibrahim Baraka 
+setup_8	r-dmz-ufm-sw49					Mohammed Abu Hassna (Primary) 
+setup_8	r-ufm-sw95					Ibrahim Baraka 
+setup_9	r-dmz-ufm139					swx-ufm-ci-group 
+setup_9	swx-ci-29					Mohammed Abu Hassna 
+setup_9	swx-ci-30					Mohammed Abu Hassna 
+setup_9	r-dmz-ufm135					swx-ufm-ci-group 
+setup_9	edr_unmg					
+setup_9	r-ufm-sw71					Mohammed Abu Hassna (Primary) 
+setup_10	r-ufm55					Alex Tabachnik (Primary) 
+setup_10	r-ufm64					Alex Tabachnik (Primary) 
+setup_10	r-ufm142					Alex Tabachnik 
+setup_10	r-ufm57					No Owner 
+setup_10	r-ufm-sw13					Alex Tabachnik 
+setup_10	NEMO-LEAF-2					
+setup_11	r-ufm49					Alex Tabachnik 
+setup_12	r-ufm236					No Owner 
+setup_12	r-ufm235					No Owner 
+setup_12	r-ufm234					Kobi Bar 
+setup_12	r-ufm221					Kobi Bar 
+setup_12	r-ufm-sw06					Kobi Bar 
+setup_13	dev-r-vrt-023					Dror Levy 
+setup_13	r-ufm58					Dror Levy 
+setup_13	r-ufm-sw63					Dror Levy 
+setup_13	r-ufm-sw60					Dror Levy 
+setup_14	r-ufm59					Dror Levy 
+setup_14	r-ufm56					Dror Levy 
+setup_14	sw-ufm-ib01					Dror Levy 
+setup_15	r-ufm60					Mohammed Abu Hassna (Primary) 
+setup_15	r-ufm45					Ibrahim Baraka 
+setup_15	r-ufm75					Ibrahim Baraka 
+setup_15	r-ufm74					Ibrahim Baraka 
+setup_15	sw-ufm-ndr02					Ibrahim Baraka 
+setup_15	ufm-hdr-sw01					Ibrahim Baraka 
+setup_16	swx-ufm228					No Owner 
+setup_17	r-ufm65					Samer Deeb 
+setup_18	swx-tor01					Haitham Jondi 
+setup_18	node001					
+setup_18	r-ufm83					Haitham Jondi 
+setup_18	desc1					
+setup_19	MT4115					
+setup_19	ufm-host38					Muthanna Nairat (Secondary) 
+setup_19	r-dmz-ufm-sw59					Muthanna Nairat (Primary) 
+setup_20	r-ufm106					Daniel Klein 
+setup_21	r-ufm2246					Muthanna Nairat (Primary) 
+setup_22	r-ufm254-hyp-01					
+setup_22	ufm-host86					Anan Al-Aghbar 
+setup_22	r-hyp-sw-01					
+setup_23	r-ufm254-hyp-04					
+setup_23	ufm-host87					Anan Al-Aghbar 
+setup_23	switchib					
+setup_24	r-ufm239					Kobi Bar 
+setup_24	r-ufm238					Kobi Bar 
+setup_24	r-ufm237					Kobi Bar 
+setup_24	r-ufm-sw121					No Owner 
+setup_25	cloud-hv02					swx-ufm-ci-group 
+setup_25	cloud-hv01					swx-ufm-ci-group 
+setup_25	swx-ufm3-04					Ron Domnitz 
+setup_25	swx-ufm3-05					Ron Domnitz 
+setup_25	sw-ufm-ndr05					Ibrahim Baraka 
+setup_25	desc_two					
+setup_25	sw-ufm-hdr01					No Owner 
+setup_26	swx-ufm3-01					Kobi Bar 
+setup_26	swx-ufm3-02					Kobi Bar 
+setup_26	sw-ufm-ndr01					Kobi Bar 
+setup_27	ufm-ci-ver02					Mohammed Abu Hassna 
+setup_27	ufm-ci-ver01					Mohammed Abu Hassna 
+setup_28	r-ufm254-hyp-02					
+setup_29	swx-ufm-rdmz01					Mohammed Abu Hassna 
+setup_30	mtvr-ufm-ver04					No Owner 
+setup_30	mtvr-ufm-ver03					No Owner 
+setup_30	mtvr-ufm-ver02					No Owner 
+setup_30	mtvr-ufm-ver01					No Owner 
+setup_30	mtvr-ufm-ver08					No Owner 
+setup_30	mtvr-ufm-ver07					No Owner 
+setup_30	mtvr-ufm-ver06					No Owner 
+setup_30	mtvr-ufm-ver05					No Owner 
+setup_30	mtvr-ufm-ver-sw01					No Owner 
+setup_31	mtvr-ufm-slv01					No Owner 
+setup_31	mtvr-sharp-n07					
+setup_31	mtvr-sharp-n06					
+setup_31	mtvr-sharp-n05					
+setup_31	mtvr-ufm-n01					No Owner 
+setup_31	mtvr-ufm-mst01					
+setup_31	mtvr-sharp-n02					
+setup_31	mtvr-sharp-n03					
+setup_31	mtvr-sharp-n04					
+setup_31	mtvr-ufm-hyp01					No Owner 
+setup_31	mtvr-ufm-sw01					No Owner 
+setup_32	ufm-ron03					Ron Domnitz 
+setup_32	ufm-ron04					Ron Domnitz 
+setup_32	ufm-ron02					Ron Domnitz 
+setup_32	ufm-ron01					Ron Domnitz 
+setup_32	AJNA-ROOT-1					
+setup_32	AJNA-ROOT-2					
+setup_33	ufm-ha-vm02					swx-ufm-ci-group 
+setup_33	ufm-ha-vm01					swx-ufm-ci-group 
+setup_34	ufm-ha-vm03					swx-ufm-ci-group 
+setup_35	ufm-ha-vm10					swx-ufm-ci-group 
+setup_35	ufm-ha-vm09					swx-ufm-ci-group 
+setup_36	ufm-ha-vm12					swx-ufm-ci-group 
+setup_36	ufm-ha-vm11					swx-ufm-ci-group 
+setup_37	ufm-ha-vm14					swx-ufm-ci-group 
+setup_37	ufm-ha-vm13					swx-ufm-ci-group 
+setup_38	ufm-ha-vm16					swx-ufm-ci-group 
+setup_38	ufm-ha-vm15					swx-ufm-ci-group 
+setup_39	ufm-ha-vm18					swx-ufm-ci-group 
+setup_39	ufm-ha-vm17					swx-ufm-ci-group 
+setup_40	ufm-ha-vm20					swx-ufm-ci-group 
+setup_40	ufm-ha-vm19					swx-ufm-ci-group 
