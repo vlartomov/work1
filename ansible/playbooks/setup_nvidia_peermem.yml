@@ -1,0 +1,41 @@
+---
+- name: Setup nvidia_peermem service on target hosts
+  hosts: servers
+  become: yes
+  tasks:
+    - name: Deploy systemd service file for nvidia_peermem
+      copy:
+        dest: /etc/systemd/system/nvidia-peermem.service
+        content: |
+          [Unit]
+          Description=Load nvidia_peermem module at boot
+          After=network.target
+
+          [Service]
+          Type=oneshot
+          ExecStartPre=/bin/sleep 10
+          ExecStart=/sbin/modprobe nvidia_peermem
+          RemainAfterExit=yes
+
+          [Install]
+          WantedBy=multi-user.target
+      notify:
+        - reload systemd
+        - enable nvidia-peermem
+        - start nvidia-peermem
+
+  handlers:
+    - name: reload systemd
+      systemd:
+        daemon_reload: yes
+
+    - name: enable nvidia-peermem
+      systemd:
+        name: nvidia-peermem.service
+        enabled: yes
+
+    - name: start nvidia-peermem
+      systemd:
+        name: nvidia-peermem.service
+        state: started
+

@@ -1,0 +1,97 @@
+---
+- name: Setup Loki and Promtail on RHEL 8.6 using Podman
+  hosts: all
+  become: yes
+  tasks:
+    - name: Install required packages
+      dnf:
+        name:
+          - podman
+          - python3-pip
+        state: present
+
+    - name: Create Loki configuration directory
+      file:
+        path: /root/loki
+        state: directory
+
+    - name: Download Loki configuration file
+      get_url:
+        url: https://raw.githubusercontent.com/grafana/loki/v3.0.0/cmd/loki/loki-local-config.yaml
+        dest: /root/loki/loki-config.yaml
+
+    - name: Download Promtail configuration file
+      get_url:
+        url: https://raw.githubusercontent.com/grafana/loki/v3.0.0/clients/cmd/promtail/promtail-docker-config.yaml
+        dest: /root/loki/promtail-config.yaml
+
+    - name: Configure Promtail to include node_name dynamically
+      blockinfile:
+        path: /root/loki/promtail-config.yaml
+        marker: "# {mark} ANSIBLE MANAGED BLOCK node_name"
+        block: |
+          scrape_configs:
+          - job_name: system
+            static_configs:
+            - targets:
+                - localhost
+              labels:
+                job: varlogs
+                __path__: /var/log/messages
+                node_name: "{{ ansible_hostname }}"
+
+    - name: Update Promtail's Loki server URL
+      replace:
+        path: /root/loki/promtail-config.yaml
+        regexp: 'url: http://loki:3100/loki/api/v1/push'
+        replace: 'url: http://10.210.10.34:3100/loki/api/v1/push'
+
+    - name: Check if Loki container exists
+      command: podman container exists loki
+      register: loki_exists
+      failed_when: false
+      changed_when: false
+
+    - name: Start Loki container with Podman
+      command: >
+        podman run -d --name loki
+        --restart=always
+        -p 3100:3100
+        -v /root/loki:/mnt/config:Z
+        docker.io/grafana/loki:3.0.0
+        -config.file=/mnt/config/loki-config.yaml
+      when: not loki_exists.rc == 0
+
+    - name: Ensure Loki container is running
+      command: podman start loki
+      when: loki_exists.rc == 0
+
+    - name: Check if Promtail container exists
+      command: podman container exists promtail
+      register: promtail_exists
+      failed_when: false
+      changed_when: false
+
+    - name: Start Promtail container with Podman
+      command: >
+        podman run -d --name promtail
+        --restart=always
+        --network=bridge
+        -v /root/loki:/mnt/config:Z
+        -v /var/log:/var/log:Z
+        docker.io/grafana/promtail:3.0.0
+        -config.file=/mnt/config/promtail-config.yaml
+      when: not promtail_exists.rc == 0
+
+    - name: Ensure Promtail container is running
+      command: podman start promtail
+      when: promtail_exists.rc == 0
+
+    - name: List running containers
+      command: podman ps
+      register: podman_ps_output
+
+    - name: Display running containers
+      debug:
+        var: podman_ps_output.stdout_lines
+

@@ -6,7 +6,8 @@ import json
 api_url = r'http://swx-zabbix01/zabbix/api_jsonrpc.php'
 head = {'Content-Type': 'application/json-rpc'}
 get_version_data = {"jsonrpc":"2.0","method":"apiinfo.version", "params":{},"id":100}
-cfg_file = r'./uniq_servers.xml'
+cfg_file = r'/root/work1/zabbix_proj/uniq_servers.xml'
+
 with open(cfg_file, 'r')as f:
     xml_data = ''
     for line in f.readlines():

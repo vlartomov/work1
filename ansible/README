@@ -1,6 +1,11 @@
-#To update rock cluster you need to run:
-ansible-playbook -i inventory.ini configure_netplan.yml 
-#The playbook set static IP to p0 interface 
+# To execute some playbook you must use the way:
+ansible-playbook -i path/to/inventory/file path/to/playbook.yml
 
-#The playbook set ulimit to unlimited value.
+
+# To update rock cluster you need to run:
+ansible-playbook -i inventory.ini configure_netplan.yml 
+# The playbook set static IP to p0 interface 
+
+
+# The playbook set ulimit to unlimited value.
 ansible-playbook -i rock_inventory.ini ulimit_conf.yml

@@ -1,0 +1,18 @@
+---
+- name: Update rsyslog configuration and restart service
+  hosts: all
+  become: yes
+  tasks:
+    - name: Ensure that specific configuration exists in /etc/rsyslog.conf
+      lineinfile:
+        path: /etc/rsyslog.conf
+        line: '*.*;auth,authpriv.none          -/var/log/messages'
+        create: no
+        state: present
+
+    - name: Restart rsyslog service
+      systemd:
+        name: rsyslog
+        state: restarted
+        enabled: yes
+

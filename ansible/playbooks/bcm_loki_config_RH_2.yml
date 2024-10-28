@@ -1,0 +1,127 @@
+---
+- name: Setup Loki and Promtail on RHEL 8.6
+  hosts: all
+  become: yes
+  tasks:
+    - name: Install dependencies for adding Docker repo
+      dnf:
+        name:
+          - dnf-plugins-core
+          - yum-utils
+        state: present
+
+    - name: Remove podman-docker if installed
+      dnf:
+        name: podman-docker
+        state: absent
+
+    - name: Disable modular filtering for container tools
+      command: dnf -y module disable container-tools
+
+    - name: Remove conflicting packages
+      dnf:
+        name:
+          - containers-common
+          - runc
+        state: absent
+
+    - name: Add Docker CE repository
+      yum_repository:
+        name: docker-ce-stable
+        description: Docker CE Stable - $basearch
+        baseurl: https://download.docker.com/linux/centos/8/$basearch/stable
+        enabled: true
+        gpgcheck: true
+        gpgkey: https://download.docker.com/linux/centos/gpg
+
+    - name: Install Docker CE prerequisites
+      dnf:
+        name:
+          - containerd.io
+          - docker-ce-cli
+        state: present
+
+    - name: Install Docker CE
+      dnf:
+        name: docker-ce
+        state: present
+
+    - name: Ensure Docker service is running and enabled
+      systemd:
+        name: docker
+        state: started
+        enabled: yes
+
+    - name: Install Python 3 pip
+      dnf:
+        name: python3-pip
+        state: present
+      when: ansible_facts['distribution'] == 'RedHat' and ansible_facts['distribution_major_version'] == '8'
+
+    - name: Install Docker SDK for Python
+      pip:
+        name: docker
+        executable: pip3
+
+    - name: Create Loki configuration directory
+      file:
+        path: /root/loki
+        state: directory
+
+    - name: Download Loki configuration file
+      ansible.builtin.get_url:
+        url: https://raw.githubusercontent.com/grafana/loki/v3.0.0/cmd/loki/loki-local-config.yaml
+        dest: /root/loki/loki-config.yaml
+
+    - name: Download Promtail configuration file
+      ansible.builtin.get_url:
+        url: https://raw.githubusercontent.com/grafana/loki/v3.0.0/clients/cmd/promtail/promtail-docker-config.yaml
+        dest: /root/loki/promtail-config.yaml
+
+    - name: Configure Promtail to include node_name dynamically
+      blockinfile:
+        path: /root/loki/promtail-config.yaml
+        block: |
+          scrape_configs:
+          - job_name: system
+            static_configs:
+            - targets:
+                - localhost
+              labels:
+                __path__: /var/log/messages
+                node_name: "{{ ansible_hostname }}"
+        marker: "# {mark} ANSIBLE MANAGED BLOCK node_name"
+
+    - name: Update Promtail's Loki server URL
+      replace:
+        path: /root/loki/promtail-config.yaml
+        regexp: 'url: http://loki:3100/loki/api/v1/push'
+        replace: 'url: http://10.210.10.34:3100/loki/api/v1/push'
+
+    - name: Start Loki Docker container
+      ansible.builtin.docker_container:
+        name: loki
+        image: grafana/loki:3.0.0
+        state: started
+        restart_policy: always
+        published_ports:
+          - "3100:3100"
+        volumes:
+          - "/root/loki:/mnt/config"
+        command: "-config.file=/mnt/config/loki-config.yaml"
+
+    - name: Start Promtail Docker container
+      ansible.builtin.docker_container:
+        name: promtail
+        image: grafana/promtail:3.0.0
+        state: started
+        restart_policy: always
+        volumes:
+          - "/root/loki:/mnt/config"
+          - "/var/log:/var/log"
+        network_mode: "bridge"
+        command: "-config.file=/mnt/config/promtail-config.yaml"
+
+    - name: List running Docker containers
+      command: docker container ls
+

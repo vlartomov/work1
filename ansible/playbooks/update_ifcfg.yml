@@ -1,0 +1,54 @@
+---
+- name: Update Network Configuration for InfiniBand Interfaces
+  hosts: all
+  become: yes
+  vars:
+    interfaces:
+      - name: 'ib0'
+        ip_base: '1.1.82.'
+      - name: 'ib1'
+        ip_base: '1.1.83.'
+      - name: 'ib2'
+        ip_base: '1.1.84.'
+      - name: 'ib3'
+        ip_base: '1.1.85.'
+
+  tasks:
+    - name: Debug hostname transformation
+      debug:
+        msg: "Hostname numeric part: {{ ansible_hostname | regex_replace('elsa', '') }}"
+
+    - name: Set BOOTPROTO to no for each interface
+      ansible.builtin.lineinfile:
+        path: "/etc/sysconfig/network-scripts/ifcfg-{{ item.name }}"
+        regexp: '^BOOTPROTO='
+        line: 'BOOTPROTO=no'
+      loop: "{{ interfaces }}"
+
+    - name: Set IPADDR based on hostname for each interface
+      ansible.builtin.lineinfile:
+        path: "/etc/sysconfig/network-scripts/ifcfg-{{ item.name }}"
+        regexp: '^IPADDR='
+        line: "IPADDR={{ item.ip_base }}{{ '%02d' | format((ansible_hostname | regex_replace('elsa', '') | int)) }}"
+      loop: "{{ interfaces }}"
+
+    - name: Set PREFIX to 24 for each interface
+      ansible.builtin.lineinfile:
+        path: "/etc/sysconfig/network-scripts/ifcfg-{{ item.name }}"
+        regexp: '^PREFIX='
+        line: 'PREFIX=24'
+      loop: "{{ interfaces }}"
+
+    - name: Set ONBOOT to yes for each interface
+      ansible.builtin.lineinfile:
+        path: "/etc/sysconfig/network-scripts/ifcfg-{{ item.name }}"
+        regexp: '^ONBOOT='
+        line: 'ONBOOT=yes'
+      loop: "{{ interfaces }}"
+
+    - name: Restart network service
+      ansible.builtin.systemd:
+        name: network
+        state: restarted
+        daemon_reload: yes
+

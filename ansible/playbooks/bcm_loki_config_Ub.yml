@@ -1,0 +1,97 @@
+---
+- name: Setup Loki and Promtail
+  hosts: all
+  become: yes
+  tasks:
+    - name: Install pip for Python 3
+      apt:
+        name: python3-pip
+        state: present
+      when: ansible_facts['os_family'] == 'Debian'
+
+    - name: Install Docker SDK for Python 3
+      pip:
+        name: docker
+        executable: pip3
+
+    - name: Ensure Docker is installed
+      apt:
+        name: docker.io
+        state: present
+      when: ansible_facts['os_family'] == 'Debian'
+
+    - name: Ensure Docker is running
+      systemd:
+        name: docker
+        state: started
+        enabled: yes
+
+    - name: Create loki directory
+      file:
+        path: /root/loki
+        state: directory
+
+    - name: Download Loki config file
+      ansible.builtin.get_url:
+        url: https://raw.githubusercontent.com/grafana/loki/v3.0.0/cmd/loki/loki-local-config.yaml
+        dest: /root/loki/loki-config.yaml
+
+    - name: Download Promtail config file
+      ansible.builtin.get_url:
+        url: https://raw.githubusercontent.com/grafana/loki/v3.0.0/clients/cmd/promtail/promtail-docker-config.yaml
+        dest: /root/loki/promtail-config.yaml
+
+    - name: Remove any existing node_name outside of scrape_configs
+      lineinfile:
+        path: /root/loki/promtail-config.yaml
+        regexp: 'node_name: .*'
+        state: absent  # Remove any incorrectly placed node_name
+
+    - name: Insert node_name in the labels section of scrape_configs
+      lineinfile:
+        path: /root/loki/promtail-config.yaml
+        insertafter: '__path__: /var/log/messages'
+        line: '      node_name: "{{ ansible_hostname }}"'
+
+    - name: Replace __path__ with /var/log/messages
+      replace:
+        path: /root/loki/promtail-config.yaml
+        regexp: '__path__: /var/log/\*log'
+        replace: '__path__: /var/log/messages'
+
+    - name: Update Promtail config to use specific Loki URL
+      replace:
+        path: /root/loki/promtail-config.yaml
+        regexp: 'url: http://loki:3100/loki/api/v1/push'
+        replace: 'url: http://10.210.10.34:3100/loki/api/v1/push'
+
+    - name: Run Loki container
+      ansible.builtin.docker_container:
+        name: loki
+        image: grafana/loki:3.0.0
+        state: started
+        restart_policy: always
+        published_ports:
+          - "3100:3100"
+        volumes:
+          - "/root/loki:/mnt/config"
+        command: "-config.file=/mnt/config/loki-config.yaml"
+
+    - name: Run Promtail container
+      ansible.builtin.docker_container:
+        name: promtail
+        image: grafana/promtail:3.0.0
+        state: started
+        restart_policy: always
+        volumes:
+          - "/root/loki:/mnt/config"
+          - "/var/log:/var/log"
+        links:
+          - loki
+        command: "-config.file=/mnt/config/promtail-config.yaml"
+
+    - name: List running Docker containers
+      command: docker container ls
+
+    - name: Restart Loki and Promtail containers
+      command: docker container restart loki promtail
