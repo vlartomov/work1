@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?> 
 <zabbix_export> 
 	<version>5.2</version> 
-	<date>2024-10-28T08:30:01Z</date> 
+	<date>2024-12-23T08:30:01Z</date> 
 	<groups> 
 		<group> 
 			<name>SWX</name> 

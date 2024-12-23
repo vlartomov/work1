@@ -7,15 +7,18 @@
         content: |
           network:
             ethernets:
-              ibp3s0:
+              ibp3s0f0:
                 renderer: networkd
-                addresses: ["{{ hostvars[inventory_hostname]['ip_address_ibp3s0'] }}/24"]
-              enp3s0f0s0:
+                addresses: ["{{ hostvars[inventory_hostname]['ip_address_ibp3s0f0'] }}/24"]
+              ibp3s0f1:
                 renderer: networkd
-                addresses: ["{{ hostvars[inventory_hostname]['ip_address_enp3s0f0s0'] }}/24"]
-              enp3s0f1s0:
+                addresses: ["{{ hostvars[inventory_hostname]['ip_address_ibp3s0f1'] }}/24"]
+              ibP2p3s0f0:
                 renderer: networkd
-                addresses: ["{{ hostvars[inventory_hostname]['ip_address_enp3s0f1s0'] }}/24"]
+                addresses: ["{{ hostvars[inventory_hostname]['ip_address_ibP2p3s0f0'] }}/24"]
+              ibP2p3s0f1:
+                renderer: networkd
+                addresses: ["{{ hostvars[inventory_hostname]['ip_address_ibP2p3s0f1'] }}/24"]
             version: 2
         dest: /etc/netplan/60-mlnx.yaml
         mode: '0644'
