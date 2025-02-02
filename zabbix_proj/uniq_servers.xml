@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?> 
 <zabbix_export> 
 	<version>5.2</version> 
-	<date>2024-12-23T08:30:01Z</date> 
+	<date>2025-02-02T08:30:01Z</date> 
 	<groups> 
 		<group> 
 			<name>SWX</name> 
@@ -9,8 +9,8 @@
 	</groups> 
 	<hosts> 
 <host>
-	<host>agx-1</host>
-	<name>agx-1</name>
+	<host>agx01</host>
+	<name>agx01</name>
 	<templates>
 	<template>
 	<name>Template Module ICMP Ping</name>
@@ -32,8 +32,8 @@
 	<inventory_mode>DISABLED</inventory_mode>
 </host>
 <host>
-	<host>agx-2</host>
-	<name>agx-2</name>
+	<host>agx02</host>
+	<name>agx02</name>
 	<templates>
 	<template>
 	<name>Template Module ICMP Ping</name>
@@ -55,8 +55,8 @@
 	<inventory_mode>DISABLED</inventory_mode>
 </host>
 <host>
-	<host>agx-3</host>
-	<name>agx-3</name>
+	<host>agx03</host>
+	<name>agx03</name>
 	<templates>
 	<template>
 	<name>Template Module ICMP Ping</name>
@@ -72,7 +72,76 @@
 	</groups>
 	<interfaces>
 	<interface>
-	<ip>10.209.44.113</ip>	<interface_ref>if1</interface_ref>
+	<ip>10.209.44.48</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>agx04</host>
+	<name>agx04</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>8.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.51</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>agx05</host>
+	<name>agx05</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>8.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.44.66</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>agx-sw01</host>
+	<name>agx-sw01</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>8.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.228.124</ip>	<interface_ref>if1</interface_ref>
 	</interface>
 	</interfaces>
 	<inventory_mode>DISABLED</inventory_mode>
@@ -280,6 +349,29 @@
 	<interfaces>
 	<interface>
 	<ip>10.210.13.128</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>beni02</host>
+	<name>beni02</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>5.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.13.188</ip>	<interface_ref>if1</interface_ref>
 	</interface>
 	</interfaces>
 	<inventory_mode>DISABLED</inventory_mode>
@@ -561,6 +653,29 @@
 	<inventory_mode>DISABLED</inventory_mode>
 </host>
 <host>
+	<host>clx-zdc-bcm-01</host>
+	<name>clx-zdc-bcm-01</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.230.232.90</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
 	<host>collectx-ci01</host>
 	<name>collectx-ci01</name>
 	<templates>
@@ -740,29 +855,6 @@
 	<interfaces>
 	<interface>
 	<ip>10.212.11.1</ip>	<interface_ref>if1</interface_ref>
-	</interface>
-	</interfaces>
-	<inventory_mode>DISABLED</inventory_mode>
-</host>
-<host>
-	<host>dev-r-vrt-012</host>
-	<name>dev-r-vrt-012</name>
-	<templates>
-	<template>
-	<name>Template Module ICMP Ping</name>
-	</template>
-	</templates>
-	<groups>
-	<group>
-	<name>SWX</name>
-	</group>
-	<group>
-	<name>7.3</name>
-	</group>
-	</groups>
-	<interfaces>
-	<interface>
-	<ip>10.212.12.1</ip>	<interface_ref>if1</interface_ref>
 	</interface>
 	</interfaces>
 	<inventory_mode>DISABLED</inventory_mode>
@@ -1619,29 +1711,6 @@
 	<inventory_mode>DISABLED</inventory_mode>
 </host>
 <host>
-	<host>gen-r-vrt-058</host>
-	<name>gen-r-vrt-058</name>
-	<templates>
-	<template>
-	<name>Template Module ICMP Ping</name>
-	</template>
-	</templates>
-	<groups>
-	<group>
-	<name>SWX</name>
-	</group>
-	<group>
-	<name>3.4</name>
-	</group>
-	</groups>
-	<interfaces>
-	<interface>
-	<ip>10.215.58.1</ip>	<interface_ref>if1</interface_ref>
-	</interface>
-	</interfaces>
-	<inventory_mode>DISABLED</inventory_mode>
-</host>
-<host>
 	<host>hpc-arm-01</host>
 	<name>hpc-arm-01</name>
 	<templates>
@@ -1734,6 +1803,52 @@
 	<inventory_mode>DISABLED</inventory_mode>
 </host>
 <host>
+	<host>hpc-build</host>
+	<name>hpc-build</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>4.5</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.227.27</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>hpc-build-sw</host>
+	<name>hpc-build-sw</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>4.5</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.225.238</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
 	<host>hpc-cloud01</host>
 	<name>hpc-cloud01</name>
 	<templates>
@@ -1757,8 +1872,8 @@
 	<inventory_mode>DISABLED</inventory_mode>
 </host>
 <host>
-	<host>hpc-cloud06</host>
-	<name>hpc-cloud06</name>
+	<host>hpc-cloud03</host>
+	<name>hpc-cloud03</name>
 	<templates>
 	<template>
 	<name>Template Module ICMP Ping</name>
@@ -1774,7 +1889,30 @@
 	</groups>
 	<interfaces>
 	<interface>
-	<ip>10.209.226.212</ip>	<interface_ref>if1</interface_ref>
+	<ip>10.209.226.160</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>hpc-cloud04</host>
+	<name>hpc-cloud04</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>11-0</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.226.184</ip>	<interface_ref>if1</interface_ref>
 	</interface>
 	</interfaces>
 	<inventory_mode>DISABLED</inventory_mode>
@@ -1890,29 +2028,6 @@
 	<interfaces>
 	<interface>
 	<ip>10.209.225.163</ip>	<interface_ref>if1</interface_ref>
-	</interface>
-	</interfaces>
-	<inventory_mode>DISABLED</inventory_mode>
-</host>
-<host>
-	<host>hpc-cloud-sw-ib01</host>
-	<name>hpc-cloud-sw-ib01</name>
-	<templates>
-	<template>
-	<name>Template Module ICMP Ping</name>
-	</template>
-	</templates>
-	<groups>
-	<group>
-	<name>SWX</name>
-	</group>
-	<group>
-	<name>11-0</name>
-	</group>
-	</groups>
-	<interfaces>
-	<interface>
-	<ip>10.209.44.23</ip>	<interface_ref>if1</interface_ref>
 	</interface>
 	</interfaces>
 	<inventory_mode>DISABLED</inventory_mode>
@@ -2143,29 +2258,6 @@
 	<interfaces>
 	<interface>
 	<ip>10.209.44.30</ip>	<interface_ref>if1</interface_ref>
-	</interface>
-	</interfaces>
-	<inventory_mode>DISABLED</inventory_mode>
-</host>
-<host>
-	<host>ibtools01</host>
-	<name>ibtools01</name>
-	<templates>
-	<template>
-	<name>Template Module ICMP Ping</name>
-	</template>
-	</templates>
-	<groups>
-	<group>
-	<name>SWX</name>
-	</group>
-	<group>
-	<name>8.9</name>
-	</group>
-	</groups>
-	<interfaces>
-	<interface>
-	<ip>10.210.4.19</ip>	<interface_ref>if1</interface_ref>
 	</interface>
 	</interfaces>
 	<inventory_mode>DISABLED</inventory_mode>
@@ -3017,6 +3109,29 @@
 	<interfaces>
 	<interface>
 	<ip>10.245.16.113</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>mtvr-ufm-hyp02</host>
+	<name>mtvr-ufm-hyp02</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>1-9</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.245.16.225</ip>	<interface_ref>if1</interface_ref>
 	</interface>
 	</interfaces>
 	<inventory_mode>DISABLED</inventory_mode>
@@ -3919,29 +4034,6 @@
 	<inventory_mode>DISABLED</inventory_mode>
 </host>
 <host>
-	<host>pjazz</host>
-	<name>pjazz</name>
-	<templates>
-	<template>
-	<name>Template Module ICMP Ping</name>
-	</template>
-	</templates>
-	<groups>
-	<group>
-	<name>SWX</name>
-	</group>
-	<group>
-	<name>8.4</name>
-	</group>
-	</groups>
-	<interfaces>
-	<interface>
-	<ip>10.209.44.135</ip>	<interface_ref>if1</interface_ref>
-	</interface>
-	</interfaces>
-	<inventory_mode>DISABLED</inventory_mode>
-</host>
-<host>
 	<host>pnemo</host>
 	<name>pnemo</name>
 	<templates>
@@ -4057,8 +4149,8 @@
 	<inventory_mode>DISABLED</inventory_mode>
 </host>
 <host>
-	<host>psputnik</host>
-	<name>psputnik</name>
+	<host>psoul-ndr</host>
+	<name>psoul-ndr</name>
 	<templates>
 	<template>
 	<name>Template Module ICMP Ping</name>
@@ -4069,12 +4161,35 @@
 	<name>SWX</name>
 	</group>
 	<group>
-	<name>8.3</name>
+	<name>8.1</name>
 	</group>
 	</groups>
 	<interfaces>
 	<interface>
-	<ip>10.209.44.42</ip>	<interface_ref>if1</interface_ref>
+	<ip>10.210.10.34</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>psoul-xdr</host>
+	<name>psoul-xdr</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>8.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.11.138</ip>	<interface_ref>if1</interface_ref>
 	</interface>
 	</interfaces>
 	<inventory_mode>DISABLED</inventory_mode>
@@ -4195,75 +4310,6 @@
 	<inventory_mode>DISABLED</inventory_mode>
 </host>
 <host>
-	<host>r-aa-apollo03</host>
-	<name>r-aa-apollo03</name>
-	<templates>
-	<template>
-	<name>Template Module ICMP Ping</name>
-	</template>
-	</templates>
-	<groups>
-	<group>
-	<name>SWX</name>
-	</group>
-	<group>
-	<name>6.2</name>
-	</group>
-	</groups>
-	<interfaces>
-	<interface>
-	<ip>10.209.68.182</ip>	<interface_ref>if1</interface_ref>
-	</interface>
-	</interfaces>
-	<inventory_mode>DISABLED</inventory_mode>
-</host>
-<host>
-	<host>r-aa-bolt3</host>
-	<name>r-aa-bolt3</name>
-	<templates>
-	<template>
-	<name>Template Module ICMP Ping</name>
-	</template>
-	</templates>
-	<groups>
-	<group>
-	<name>SWX</name>
-	</group>
-	<group>
-	<name>6.5</name>
-	</group>
-	</groups>
-	<interfaces>
-	<interface>
-	<ip>10.209.68.63</ip>	<interface_ref>if1</interface_ref>
-	</interface>
-	</interfaces>
-	<inventory_mode>DISABLED</inventory_mode>
-</host>
-<host>
-	<host>r-aa-bolt4</host>
-	<name>r-aa-bolt4</name>
-	<templates>
-	<template>
-	<name>Template Module ICMP Ping</name>
-	</template>
-	</templates>
-	<groups>
-	<group>
-	<name>SWX</name>
-	</group>
-	<group>
-	<name>6.5</name>
-	</group>
-	</groups>
-	<interfaces>
-	<interface>
-	<ip>10.209.68.2</ip>	<interface_ref>if1</interface_ref>
-	</interface>
-	</interfaces>
-	<inventory_mode>DISABLED</inventory_mode>
-</host>
-<host>
 	<host>r-aa-fatty22</host>
 	<name>r-aa-fatty22</name>
 	<templates>
@@ -4328,29 +4374,6 @@
 	<interfaces>
 	<interface>
 	<ip>10.209.68.164</ip>	<interface_ref>if1</interface_ref>
-	</interface>
-	</interfaces>
-	<inventory_mode>DISABLED</inventory_mode>
-</host>
-<host>
-	<host>r-aa-fatty26</host>
-	<name>r-aa-fatty26</name>
-	<templates>
-	<template>
-	<name>Template Module ICMP Ping</name>
-	</template>
-	</templates>
-	<groups>
-	<group>
-	<name>SWX</name>
-	</group>
-	<group>
-	<name>6.2</name>
-	</group>
-	</groups>
-	<interfaces>
-	<interface>
-	<ip>10.213.86.180</ip>	<interface_ref>if1</interface_ref>
 	</interface>
 	</interfaces>
 	<inventory_mode>DISABLED</inventory_mode>
@@ -4471,52 +4494,6 @@
 	<inventory_mode>DISABLED</inventory_mode>
 </host>
 <host>
-	<host>r-aa-nitro03</host>
-	<name>r-aa-nitro03</name>
-	<templates>
-	<template>
-	<name>Template Module ICMP Ping</name>
-	</template>
-	</templates>
-	<groups>
-	<group>
-	<name>SWX</name>
-	</group>
-	<group>
-	<name>5.1</name>
-	</group>
-	</groups>
-	<interfaces>
-	<interface>
-	<ip>10.210.12.30</ip>	<interface_ref>if1</interface_ref>
-	</interface>
-	</interfaces>
-	<inventory_mode>DISABLED</inventory_mode>
-</host>
-<host>
-	<host>r-aa-nitro04</host>
-	<name>r-aa-nitro04</name>
-	<templates>
-	<template>
-	<name>Template Module ICMP Ping</name>
-	</template>
-	</templates>
-	<groups>
-	<group>
-	<name>SWX</name>
-	</group>
-	<group>
-	<name>5.1</name>
-	</group>
-	</groups>
-	<interfaces>
-	<interface>
-	<ip>10.210.12.32</ip>	<interface_ref>if1</interface_ref>
-	</interface>
-	</interfaces>
-	<inventory_mode>DISABLED</inventory_mode>
-</host>
-<host>
 	<host>r-aa-virtuoso01</host>
 	<name>r-aa-virtuoso01</name>
 	<templates>
@@ -4586,8 +4563,8 @@
 	<inventory_mode>DISABLED</inventory_mode>
 </host>
 <host>
-	<host>rain9</host>
-	<name>rain9</name>
+	<host>rain09</host>
+	<name>rain09</name>
 	<templates>
 	<template>
 	<name>Template Module ICMP Ping</name>
@@ -4598,12 +4575,12 @@
 	<name>SWX</name>
 	</group>
 	<group>
-	<name>3.3</name>
+	<name>3.4</name>
 	</group>
 	</groups>
 	<interfaces>
 	<interface>
-	<ip>10.209.37.147</ip>	<interface_ref>if1</interface_ref>
+	<ip>10.209.36.140</ip>	<interface_ref>if1</interface_ref>
 	</interface>
 	</interfaces>
 	<inventory_mode>DISABLED</inventory_mode>
@@ -4885,29 +4862,6 @@
 	<inventory_mode>DISABLED</inventory_mode>
 </host>
 <host>
-	<host>r-dmz-ufm135</host>
-	<name>r-dmz-ufm135</name>
-	<templates>
-	<template>
-	<name>Template Module ICMP Ping</name>
-	</template>
-	</templates>
-	<groups>
-	<group>
-	<name>SWX</name>
-	</group>
-	<group>
-	<name>3.1</name>
-	</group>
-	</groups>
-	<interfaces>
-	<interface>
-	<ip>10.209.37.155</ip>	<interface_ref>if1</interface_ref>
-	</interface>
-	</interfaces>
-	<inventory_mode>DISABLED</inventory_mode>
-</host>
-<host>
 	<host>r-dmz-ufm137</host>
 	<name>r-dmz-ufm137</name>
 	<templates>
@@ -4926,29 +4880,6 @@
 	<interfaces>
 	<interface>
 	<ip>10.209.37.224</ip>	<interface_ref>if1</interface_ref>
-	</interface>
-	</interfaces>
-	<inventory_mode>DISABLED</inventory_mode>
-</host>
-<host>
-	<host>r-dmz-ufm139</host>
-	<name>r-dmz-ufm139</name>
-	<templates>
-	<template>
-	<name>Template Module ICMP Ping</name>
-	</template>
-	</templates>
-	<groups>
-	<group>
-	<name>SWX</name>
-	</group>
-	<group>
-	<name>3.1</name>
-	</group>
-	</groups>
-	<interfaces>
-	<interface>
-	<ip>10.209.37.228</ip>	<interface_ref>if1</interface_ref>
 	</interface>
 	</interfaces>
 	<inventory_mode>DISABLED</inventory_mode>
@@ -5110,29 +5041,6 @@
 	<interfaces>
 	<interface>
 	<ip>10.213.3.100</ip>	<interface_ref>if1</interface_ref>
-	</interface>
-	</interfaces>
-	<inventory_mode>DISABLED</inventory_mode>
-</host>
-<host>
-	<host>r-freeb56</host>
-	<name>r-freeb56</name>
-	<templates>
-	<template>
-	<name>Template Module ICMP Ping</name>
-	</template>
-	</templates>
-	<groups>
-	<group>
-	<name>SWX</name>
-	</group>
-	<group>
-	<name>2.6</name>
-	</group>
-	</groups>
-	<interfaces>
-	<interface>
-	<ip>10.213.7.20</ip>	<interface_ref>if1</interface_ref>
 	</interface>
 	</interfaces>
 	<inventory_mode>DISABLED</inventory_mode>
@@ -5805,29 +5713,6 @@
 	<inventory_mode>DISABLED</inventory_mode>
 </host>
 <host>
-	<host>rsws07</host>
-	<name>rsws07</name>
-	<templates>
-	<template>
-	<name>Template Module ICMP Ping</name>
-	</template>
-	</templates>
-	<groups>
-	<group>
-	<name>SWX</name>
-	</group>
-	<group>
-	<name>7.2</name>
-	</group>
-	</groups>
-	<interfaces>
-	<interface>
-	<ip>10.210.8.120</ip>	<interface_ref>if1</interface_ref>
-	</interface>
-	</interfaces>
-	<inventory_mode>DISABLED</inventory_mode>
-</host>
-<host>
 	<host>rsws08</host>
 	<name>rsws08</name>
 	<templates>
@@ -6426,29 +6311,6 @@
 	<inventory_mode>DISABLED</inventory_mode>
 </host>
 <host>
-	<host>r-ufm45</host>
-	<name>r-ufm45</name>
-	<templates>
-	<template>
-	<name>Template Module ICMP Ping</name>
-	</template>
-	</templates>
-	<groups>
-	<group>
-	<name>SWX</name>
-	</group>
-	<group>
-	<name>3.5</name>
-	</group>
-	</groups>
-	<interfaces>
-	<interface>
-	<ip>10.209.36.98</ip>	<interface_ref>if1</interface_ref>
-	</interface>
-	</interfaces>
-	<inventory_mode>DISABLED</inventory_mode>
-</host>
-<host>
 	<host>r-ufm49</host>
 	<name>r-ufm49</name>
 	<templates>
@@ -6817,29 +6679,6 @@
 	<inventory_mode>DISABLED</inventory_mode>
 </host>
 <host>
-	<host>r-ufm105</host>
-	<name>r-ufm105</name>
-	<templates>
-	<template>
-	<name>Template Module ICMP Ping</name>
-	</template>
-	</templates>
-	<groups>
-	<group>
-	<name>SWX</name>
-	</group>
-	<group>
-	<name>8.8</name>
-	</group>
-	</groups>
-	<interfaces>
-	<interface>
-	<ip>10.209.36.197</ip>	<interface_ref>if1</interface_ref>
-	</interface>
-	</interfaces>
-	<inventory_mode>DISABLED</inventory_mode>
-</host>
-<host>
 	<host>r-ufm106</host>
 	<name>r-ufm106</name>
 	<templates>
@@ -6858,29 +6697,6 @@
 	<interfaces>
 	<interface>
 	<ip>10.209.36.198</ip>	<interface_ref>if1</interface_ref>
-	</interface>
-	</interfaces>
-	<inventory_mode>DISABLED</inventory_mode>
-</host>
-<host>
-	<host>r-ufm108</host>
-	<name>r-ufm108</name>
-	<templates>
-	<template>
-	<name>Template Module ICMP Ping</name>
-	</template>
-	</templates>
-	<groups>
-	<group>
-	<name>SWX</name>
-	</group>
-	<group>
-	<name>8.8</name>
-	</group>
-	</groups>
-	<interfaces>
-	<interface>
-	<ip>10.209.36.200</ip>	<interface_ref>if1</interface_ref>
 	</interface>
 	</interfaces>
 	<inventory_mode>DISABLED</inventory_mode>
@@ -6950,29 +6766,6 @@
 	<interfaces>
 	<interface>
 	<ip>10.209.36.170</ip>	<interface_ref>if1</interface_ref>
-	</interface>
-	</interfaces>
-	<inventory_mode>DISABLED</inventory_mode>
-</host>
-<host>
-	<host>r-ufm126</host>
-	<name>r-ufm126</name>
-	<templates>
-	<template>
-	<name>Template Module ICMP Ping</name>
-	</template>
-	</templates>
-	<groups>
-	<group>
-	<name>SWX</name>
-	</group>
-	<group>
-	<name>8.9</name>
-	</group>
-	</groups>
-	<interfaces>
-	<interface>
-	<ip>10.209.36.208</ip>	<interface_ref>if1</interface_ref>
 	</interface>
 	</interfaces>
 	<inventory_mode>DISABLED</inventory_mode>
@@ -7088,29 +6881,6 @@
 	<interfaces>
 	<interface>
 	<ip>10.209.36.115</ip>	<interface_ref>if1</interface_ref>
-	</interface>
-	</interfaces>
-	<inventory_mode>DISABLED</inventory_mode>
-</host>
-<host>
-	<host>r-ufm216</host>
-	<name>r-ufm216</name>
-	<templates>
-	<template>
-	<name>Template Module ICMP Ping</name>
-	</template>
-	</templates>
-	<groups>
-	<group>
-	<name>SWX</name>
-	</group>
-	<group>
-	<name>8.8</name>
-	</group>
-	</groups>
-	<interfaces>
-	<interface>
-	<ip>10.209.37.22</ip>	<interface_ref>if1</interface_ref>
 	</interface>
 	</interfaces>
 	<inventory_mode>DISABLED</inventory_mode>
@@ -7645,6 +7415,29 @@
 	<inventory_mode>DISABLED</inventory_mode>
 </host>
 <host>
+	<host>r-ufm-sw-eth01</host>
+	<name>r-ufm-sw-eth01</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>4.5</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.36.3</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
 	<host>rv-perf-sw-01</host>
 	<name>rv-perf-sw-01</name>
 	<templates>
@@ -7709,6 +7502,29 @@
 	<interfaces>
 	<interface>
 	<ip>10.210.13.108</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>rv-rnd-perf-sw02</host>
+	<name>rv-rnd-perf-sw02</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>6.5</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.12.193</ip>	<interface_ref>if1</interface_ref>
 	</interface>
 	</interfaces>
 	<inventory_mode>DISABLED</inventory_mode>
@@ -8059,6 +7875,29 @@
 	<inventory_mode>DISABLED</inventory_mode>
 </host>
 <host>
+	<host>snap-ver-mtvr-03</host>
+	<name>snap-ver-mtvr-03</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>1-9</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.245.16.198</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
 	<host>snap-ver-mtvr-04</host>
 	<name>snap-ver-mtvr-04</name>
 	<templates>
@@ -8169,6 +8008,29 @@
 	<interfaces>
 	<interface>
 	<ip>10.245.16.193</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>soul01</host>
+	<name>soul01</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>8.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.228.87</ip>	<interface_ref>if1</interface_ref>
 	</interface>
 	</interfaces>
 	<inventory_mode>DISABLED</inventory_mode>
@@ -8657,52 +8519,6 @@
 	<inventory_mode>DISABLED</inventory_mode>
 </host>
 <host>
-	<host>spdk-ci-06</host>
-	<name>spdk-ci-06</name>
-	<templates>
-	<template>
-	<name>Template Module ICMP Ping</name>
-	</template>
-	</templates>
-	<groups>
-	<group>
-	<name>SWX</name>
-	</group>
-	<group>
-	<name>6.6</name>
-	</group>
-	</groups>
-	<interfaces>
-	<interface>
-	<ip>10.224.36.48</ip>	<interface_ref>if1</interface_ref>
-	</interface>
-	</interfaces>
-	<inventory_mode>DISABLED</inventory_mode>
-</host>
-<host>
-	<host>spdk-ci-07</host>
-	<name>spdk-ci-07</name>
-	<templates>
-	<template>
-	<name>Template Module ICMP Ping</name>
-	</template>
-	</templates>
-	<groups>
-	<group>
-	<name>SWX</name>
-	</group>
-	<group>
-	<name>6.6</name>
-	</group>
-	</groups>
-	<interfaces>
-	<interface>
-	<ip>10.224.36.52</ip>	<interface_ref>if1</interface_ref>
-	</interface>
-	</interfaces>
-	<inventory_mode>DISABLED</inventory_mode>
-</host>
-<host>
 	<host>spdk-ci-08</host>
 	<name>spdk-ci-08</name>
 	<templates>
@@ -9117,6 +8933,52 @@
 	<inventory_mode>DISABLED</inventory_mode>
 </host>
 <host>
+	<host>spdk-ver-05</host>
+	<name>spdk-ver-05</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>7.7</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.8.127</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>spdk-ver-06</host>
+	<name>spdk-ver-06</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>7.7</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.9.209</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
 	<host>storage-amd02</host>
 	<name>storage-amd02</name>
 	<templates>
@@ -9158,6 +9020,29 @@
 	<interfaces>
 	<interface>
 	<ip>10.210.11.62</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>storage-ver-fire01-bf1</host>
+	<name>storage-ver-fire01-bf1</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>7.6</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.9.168</ip>	<interface_ref>if1</interface_ref>
 	</interface>
 	</interfaces>
 	<inventory_mode>DISABLED</inventory_mode>
@@ -9738,6 +9623,29 @@
 	<inventory_mode>DISABLED</inventory_mode>
 </host>
 <host>
+	<host>sw-soul-ndr01</host>
+	<name>sw-soul-ndr01</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>8.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.226.42</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
 	<host>sw-spdk01</host>
 	<name>sw-spdk01</name>
 	<templates>
@@ -10198,6 +10106,29 @@
 	<inventory_mode>DISABLED</inventory_mode>
 </host>
 <host>
+	<host>sw-viking-ndr01</host>
+	<name>sw-viking-ndr01</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>8.10</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.8.108</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
 	<host>swx-ai01</host>
 	<name>swx-ai01</name>
 	<templates>
@@ -10635,6 +10566,52 @@
 	<inventory_mode>DISABLED</inventory_mode>
 </host>
 <host>
+	<host>swx-case-analyzer01</host>
+	<name>swx-case-analyzer01</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>2.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.224.213</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>swx-case-analyzer02</host>
+	<name>swx-case-analyzer02</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>2.1</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.225.211</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
 	<host>swx-ci-29</host>
 	<name>swx-ci-29</name>
 	<templates>
@@ -10888,52 +10865,6 @@
 	<inventory_mode>DISABLED</inventory_mode>
 </host>
 <host>
-	<host>swx-cstor07</host>
-	<name>swx-cstor07</name>
-	<templates>
-	<template>
-	<name>Template Module ICMP Ping</name>
-	</template>
-	</templates>
-	<groups>
-	<group>
-	<name>SWX</name>
-	</group>
-	<group>
-	<name>1-2</name>
-	</group>
-	</groups>
-	<interfaces>
-	<interface>
-	<ip>10.210.8.205</ip>	<interface_ref>if1</interface_ref>
-	</interface>
-	</interfaces>
-	<inventory_mode>DISABLED</inventory_mode>
-</host>
-<host>
-	<host>swx-cstor08</host>
-	<name>swx-cstor08</name>
-	<templates>
-	<template>
-	<name>Template Module ICMP Ping</name>
-	</template>
-	</templates>
-	<groups>
-	<group>
-	<name>SWX</name>
-	</group>
-	<group>
-	<name>1-2</name>
-	</group>
-	</groups>
-	<interfaces>
-	<interface>
-	<ip>10.210.8.195</ip>	<interface_ref>if1</interface_ref>
-	</interface>
-	</interfaces>
-	<inventory_mode>DISABLED</inventory_mode>
-</host>
-<host>
 	<host>swx-dgx-sw-ndr01</host>
 	<name>swx-dgx-sw-ndr01</name>
 	<templates>
@@ -10952,6 +10883,29 @@
 	<interfaces>
 	<interface>
 	<ip>10.209.44.14</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>swx-forge01</host>
+	<name>swx-forge01</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>11-0</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.224.217</ip>	<interface_ref>if1</interface_ref>
 	</interface>
 	</interfaces>
 	<inventory_mode>DISABLED</inventory_mode>
@@ -11003,29 +10957,6 @@
 	<inventory_mode>DISABLED</inventory_mode>
 </host>
 <host>
-	<host>swx-forge04</host>
-	<name>swx-forge04</name>
-	<templates>
-	<template>
-	<name>Template Module ICMP Ping</name>
-	</template>
-	</templates>
-	<groups>
-	<group>
-	<name>SWX</name>
-	</group>
-	<group>
-	<name>11-0</name>
-	</group>
-	</groups>
-	<interfaces>
-	<interface>
-	<ip>10.209.224.88</ip>	<interface_ref>if1</interface_ref>
-	</interface>
-	</interfaces>
-	<inventory_mode>DISABLED</inventory_mode>
-</host>
-<host>
 	<host>swx-forge07</host>
 	<name>swx-forge07</name>
 	<templates>
@@ -11044,29 +10975,6 @@
 	<interfaces>
 	<interface>
 	<ip>10.209.224.248</ip>	<interface_ref>if1</interface_ref>
-	</interface>
-	</interfaces>
-	<inventory_mode>DISABLED</inventory_mode>
-</host>
-<host>
-	<host>swx-forge08</host>
-	<name>swx-forge08</name>
-	<templates>
-	<template>
-	<name>Template Module ICMP Ping</name>
-	</template>
-	</templates>
-	<groups>
-	<group>
-	<name>SWX</name>
-	</group>
-	<group>
-	<name>11-0</name>
-	</group>
-	</groups>
-	<interfaces>
-	<interface>
-	<ip>10.209.225.225</ip>	<interface_ref>if1</interface_ref>
 	</interface>
 	</interfaces>
 	<inventory_mode>DISABLED</inventory_mode>
@@ -11113,6 +11021,29 @@
 	<interfaces>
 	<interface>
 	<ip>10.210.10.9</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>swx-jl01</host>
+	<name>swx-jl01</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>8.9</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.36.208</ip>	<interface_ref>if1</interface_ref>
 	</interface>
 	</interfaces>
 	<inventory_mode>DISABLED</inventory_mode>
@@ -11527,29 +11458,6 @@
 	<interfaces>
 	<interface>
 	<ip>10.210.12.201</ip>	<interface_ref>if1</interface_ref>
-	</interface>
-	</interfaces>
-	<inventory_mode>DISABLED</inventory_mode>
-</host>
-<host>
-	<host>swx-logs</host>
-	<name>swx-logs</name>
-	<templates>
-	<template>
-	<name>Template Module ICMP Ping</name>
-	</template>
-	</templates>
-	<groups>
-	<group>
-	<name>SWX</name>
-	</group>
-	<group>
-	<name>8.1</name>
-	</group>
-	</groups>
-	<interfaces>
-	<interface>
-	<ip>10.211.0.200</ip>	<interface_ref>if1</interface_ref>
 	</interface>
 	</interfaces>
 	<inventory_mode>DISABLED</inventory_mode>
@@ -12171,6 +12079,29 @@
 	<interfaces>
 	<interface>
 	<ip>10.245.16.223</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>swx-mtvr-stor20</host>
+	<name>swx-mtvr-stor20</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>1-10</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.245.16.241</ip>	<interface_ref>if1</interface_ref>
 	</interface>
 	</interfaces>
 	<inventory_mode>DISABLED</inventory_mode>
@@ -13303,6 +13234,75 @@
 	<inventory_mode>DISABLED</inventory_mode>
 </host>
 <host>
+	<host>swx-river-ver05</host>
+	<name>swx-river-ver05</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>6.4</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.12.196</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>swx-river-ver06</host>
+	<name>swx-river-ver06</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>6.3</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.13.190</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>swx-ry01</host>
+	<name>swx-ry01</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>8.8</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.36.200</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
 	<host>swx-sancho01</host>
 	<name>swx-sancho01</name>
 	<templates>
@@ -13758,6 +13758,29 @@
 	<interfaces>
 	<interface>
 	<ip>10.209.36.79</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>swx-ucc-build01</host>
+	<name>swx-ucc-build01</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>1-2</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.11.70</ip>	<interface_ref>if1</interface_ref>
 	</interface>
 	</interfaces>
 	<inventory_mode>DISABLED</inventory_mode>
@@ -14338,29 +14361,6 @@
 	<inventory_mode>DISABLED</inventory_mode>
 </host>
 <host>
-	<host>swx-ufm3-20</host>
-	<name>swx-ufm3-20</name>
-	<templates>
-	<template>
-	<name>Template Module ICMP Ping</name>
-	</template>
-	</templates>
-	<groups>
-	<group>
-	<name>SWX</name>
-	</group>
-	<group>
-	<name>8.7</name>
-	</group>
-	</groups>
-	<interfaces>
-	<interface>
-	<ip>10.209.226.162</ip>	<interface_ref>if1</interface_ref>
-	</interface>
-	</interfaces>
-	<inventory_mode>DISABLED</inventory_mode>
-</host>
-<host>
 	<host>swx-ufm3-21</host>
 	<name>swx-ufm3-21</name>
 	<templates>
@@ -14568,6 +14568,52 @@
 	<inventory_mode>DISABLED</inventory_mode>
 </host>
 <host>
+	<host>swx-viking01</host>
+	<name>swx-viking01</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>8.10</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.8.27</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>swx-viking-sm01</host>
+	<name>swx-viking-sm01</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>8.10</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.9.144</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
 	<host>swx-vma01</host>
 	<name>swx-vma01</name>
 	<templates>
@@ -14614,6 +14660,75 @@
 	<inventory_mode>DISABLED</inventory_mode>
 </host>
 <host>
+	<host>tav3-a-f5-servers-room-1-9-pdu01</host>
+	<name>tav3-a-f5-servers-room-1-9-pdu01</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>1-9</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.245.2.12</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>tav3-a-f5-servers-room-1-10-pdu01</host>
+	<name>tav3-a-f5-servers-room-1-10-pdu01</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>1-10</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.245.2.11</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>tav3-a-f5-servers-room-1-11-pdu01</host>
+	<name>tav3-a-f5-servers-room-1-11-pdu01</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>1-11</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.245.2.10</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
 	<host>tuck01</host>
 	<name>tuck01</name>
 	<templates>
@@ -14655,6 +14770,52 @@
 	<interfaces>
 	<interface>
 	<ip>10.210.12.218</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>tuck03</host>
+	<name>tuck03</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>6.5</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.13.164</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>tuck04</host>
+	<name>tuck04</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>6.5</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.13.79</ip>	<interface_ref>if1</interface_ref>
 	</interface>
 	</interfaces>
 	<inventory_mode>DISABLED</inventory_mode>
@@ -14724,6 +14885,29 @@
 	<interfaces>
 	<interface>
 	<ip>10.209.226.29</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm3-mtvr-n01</host>
+	<name>ufm3-mtvr-n01</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>1-9</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.245.17.7</ip>	<interface_ref>if1</interface_ref>
 	</interface>
 	</interfaces>
 	<inventory_mode>DISABLED</inventory_mode>
@@ -15120,6 +15304,29 @@
 	<inventory_mode>DISABLED</inventory_mode>
 </host>
 <host>
+	<host>ufm-host38</host>
+	<name>ufm-host38</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>4.5</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.36.93</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
 	<host>ufm-host40</host>
 	<name>ufm-host40</name>
 	<templates>
@@ -15138,6 +15345,29 @@
 	<interfaces>
 	<interface>
 	<ip>10.209.36.25</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-host42</host>
+	<name>ufm-host42</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>4.5</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.36.39</ip>	<interface_ref>if1</interface_ref>
 	</interface>
 	</interfaces>
 	<inventory_mode>DISABLED</inventory_mode>
@@ -15603,29 +15833,6 @@
 	<inventory_mode>DISABLED</inventory_mode>
 </host>
 <host>
-	<host>vite03</host>
-	<name>vite03</name>
-	<templates>
-	<template>
-	<name>Template Module ICMP Ping</name>
-	</template>
-	</templates>
-	<groups>
-	<group>
-	<name>SWX</name>
-	</group>
-	<group>
-	<name>6.4</name>
-	</group>
-	</groups>
-	<interfaces>
-	<interface>
-	<ip>10.210.12.18</ip>	<interface_ref>if1</interface_ref>
-	</interface>
-	</interfaces>
-	<inventory_mode>DISABLED</inventory_mode>
-</host>
-<host>
 	<host>vite05</host>
 	<name>vite05</name>
 	<templates>
@@ -15810,29 +16017,6 @@
 	<inventory_mode>DISABLED</inventory_mode>
 </host>
 <host>
-	<host>vma-nolo10</host>
-	<name>vma-nolo10</name>
-	<templates>
-	<template>
-	<name>Template Module ICMP Ping</name>
-	</template>
-	</templates>
-	<groups>
-	<group>
-	<name>SWX</name>
-	</group>
-	<group>
-	<name>6.3</name>
-	</group>
-	</groups>
-	<interfaces>
-	<interface>
-	<ip>10.210.12.85</ip>	<interface_ref>if1</interface_ref>
-	</interface>
-	</interfaces>
-	<inventory_mode>DISABLED</inventory_mode>
-</host>
-<host>
 	<host>vma-nolo11</host>
 	<name>vma-nolo11</name>
 	<templates>
@@ -15897,29 +16081,6 @@
 	<interfaces>
 	<interface>
 	<ip>10.210.12.252</ip>	<interface_ref>if1</interface_ref>
-	</interface>
-	</interfaces>
-	<inventory_mode>DISABLED</inventory_mode>
-</host>
-<host>
-	<host>vma-nolo14</host>
-	<name>vma-nolo14</name>
-	<templates>
-	<template>
-	<name>Template Module ICMP Ping</name>
-	</template>
-	</templates>
-	<groups>
-	<group>
-	<name>SWX</name>
-	</group>
-	<group>
-	<name>6.4</name>
-	</group>
-	</groups>
-	<interfaces>
-	<interface>
-	<ip>10.210.12.254</ip>	<interface_ref>if1</interface_ref>
 	</interface>
 	</interfaces>
 	<inventory_mode>DISABLED</inventory_mode>
@@ -16408,8 +16569,31 @@
 	<inventory_mode>DISABLED</inventory_mode>
 </host>
 <host>
-	<host>xlio1</host>
-	<name>xlio1</name>
+	<host>xlio01</host>
+	<name>xlio01</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>5.2</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.210.12.189</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>xlio02</host>
+	<name>xlio02</name>
 	<templates>
 	<template>
 	<name>Template Module ICMP Ping</name>
@@ -16426,75 +16610,6 @@
 	<interfaces>
 	<interface>
 	<ip>10.210.12.192</ip>	<interface_ref>if1</interface_ref>
-	</interface>
-	</interfaces>
-	<inventory_mode>DISABLED</inventory_mode>
-</host>
-<host>
-	<host>xlio2</host>
-	<name>xlio2</name>
-	<templates>
-	<template>
-	<name>Template Module ICMP Ping</name>
-	</template>
-	</templates>
-	<groups>
-	<group>
-	<name>SWX</name>
-	</group>
-	<group>
-	<name>5.2</name>
-	</group>
-	</groups>
-	<interfaces>
-	<interface>
-	<ip>10.210.12.193</ip>	<interface_ref>if1</interface_ref>
-	</interface>
-	</interfaces>
-	<inventory_mode>DISABLED</inventory_mode>
-</host>
-<host>
-	<host>xlio3</host>
-	<name>xlio3</name>
-	<templates>
-	<template>
-	<name>Template Module ICMP Ping</name>
-	</template>
-	</templates>
-	<groups>
-	<group>
-	<name>SWX</name>
-	</group>
-	<group>
-	<name>5.2</name>
-	</group>
-	</groups>
-	<interfaces>
-	<interface>
-	<ip>10.210.12.196</ip>	<interface_ref>if1</interface_ref>
-	</interface>
-	</interfaces>
-	<inventory_mode>DISABLED</inventory_mode>
-</host>
-<host>
-	<host>xlio4</host>
-	<name>xlio4</name>
-	<templates>
-	<template>
-	<name>Template Module ICMP Ping</name>
-	</template>
-	</templates>
-	<groups>
-	<group>
-	<name>SWX</name>
-	</group>
-	<group>
-	<name>5.2</name>
-	</group>
-	</groups>
-	<interfaces>
-	<interface>
-	<ip>10.210.12.197</ip>	<interface_ref>if1</interface_ref>
 	</interface>
 	</interfaces>
 	<inventory_mode>DISABLED</inventory_mode>
@@ -16725,6 +16840,2329 @@
 	<interfaces>
 	<interface>
 	<ip>10.210.13.163</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>l-jenkins-slave-01</host>
+	<name>l-jenkins-slave-01</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.7.2.182</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>mgmt-pcks-builder</host>
+	<name>mgmt-pcks-builder</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.211.0.54</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>r-aa-fatty22-005</host>
+	<name>r-aa-fatty22-005</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.215.255.5</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>r-aa-fatty22-006</host>
+	<name>r-aa-fatty22-006</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.215.255.6</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>rivermax-ver-ebu</host>
+	<name>rivermax-ver-ebu</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.225.65</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>r-vmb-debian8-u11-x86-64-jb</host>
+	<name>r-vmb-debian8-u11-x86-64-jb</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.30.96</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>r-vmb-debian10-u0-x86-64-jb</host>
+	<name>r-vmb-debian10-u0-x86-64-jb</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.30.61</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>r-vmb-fedora25-x86-64-andreyma</host>
+	<name>r-vmb-fedora25-x86-64-andreyma</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.30.11</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>r-vmb-fedora30-x86-64-jb</host>
+	<name>r-vmb-fedora30-x86-64-jb</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.30.192</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>r-vmb-mighty-magic</host>
+	<name>r-vmb-mighty-magic</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.30.178</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>r-vmb-ppc-jenkins</host>
+	<name>r-vmb-ppc-jenkins</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.45.93</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>r-vmb-rhel6-u1-cuda-builder</host>
+	<name>r-vmb-rhel6-u1-cuda-builder</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.30.175</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>r-vmb-rhel6-u3-x86-64</host>
+	<name>r-vmb-rhel6-u3-x86-64</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.30.65</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>r-vmb-rhel7-u2-x86-64-inbox</host>
+	<name>r-vmb-rhel7-u2-x86-64-inbox</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.30.160</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>r-vmb-rhel7-u6-x86-64-jb</host>
+	<name>r-vmb-rhel7-u6-x86-64-jb</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.30.188</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>r-vmb-rhel7-u8-x86-64-jb</host>
+	<name>r-vmb-rhel7-u8-x86-64-jb</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.30.42</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>r-vmb-rhel8-0-x86-64</host>
+	<name>r-vmb-rhel8-0-x86-64</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.30.209</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>r-vmb-rhel8-u0-x86-64-jb</host>
+	<name>r-vmb-rhel8-u0-x86-64-jb</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.30.190</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>r-vmb-rhel8-u2-x86-64-jb</host>
+	<name>r-vmb-rhel8-u2-x86-64-jb</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.30.46</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>r-vmb-sles11-sp3-x86-64</host>
+	<name>r-vmb-sles11-sp3-x86-64</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.30.69</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>r-vmb-sles12-sp3-x86-64-jb</host>
+	<name>r-vmb-sles12-sp3-x86-64-jb</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.30.172</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>r-vmb-sles12-sp5-x86-64-jb</host>
+	<name>r-vmb-sles12-sp5-x86-64-jb</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.30.146</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>r-vmb-slurm-builder</host>
+	<name>r-vmb-slurm-builder</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.30.170</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>r-vmb-stream-sm</host>
+	<name>r-vmb-stream-sm</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.211.0.25</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>r-vmb-ubuntu14-u4-x86-64</host>
+	<name>r-vmb-ubuntu14-u4-x86-64</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.30.58</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>r-vmb-ubuntu16-u4-x86-64-jb</host>
+	<name>r-vmb-ubuntu16-u4-x86-64-jb</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.30.161</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>r-vmb-ubuntu16-u10-x86-64-jb</host>
+	<name>r-vmb-ubuntu16-u10-x86-64-jb</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.30.7</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>r-vmb-ubuntu17-u4-x86-64-jb</host>
+	<name>r-vmb-ubuntu17-u4-x86-64-jb</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.30.45</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>r-vmb-ubuntu18-u4-x86-64-jb</host>
+	<name>r-vmb-ubuntu18-u4-x86-64-jb</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.30.184</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>r-vmb-ubuntu19-u10-x86-64-jb</host>
+	<name>r-vmb-ubuntu19-u10-x86-64-jb</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.30.155</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>r-vmb-ubuntu20-u4-x86-64-jb</host>
+	<name>r-vmb-ubuntu20-u4-x86-64-jb</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.30.200</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>r-vmb-windriver6-x86-64-jb</host>
+	<name>r-vmb-windriver6-x86-64-jb</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.30.4</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>swx-arsen02-141</host>
+	<name>swx-arsen02-141</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.213.7.141</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>swx-cent-tab</host>
+	<name>swx-cent-tab</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.211.0.173</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>swx-gitlab</host>
+	<name>swx-gitlab</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.30.143</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>swx-k8s</host>
+	<name>swx-k8s</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.30.201</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>swx-k8s-spray</host>
+	<name>swx-k8s-spray</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.30.202</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>swx-lab-gl01</host>
+	<name>swx-lab-gl01</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.227.252</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>swx-lab-gl02</host>
+	<name>swx-lab-gl02</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.227.254</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>swx-lab-h05-vm01</host>
+	<name>swx-lab-h05-vm01</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.226.135</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>swx-lab-rh9-01</host>
+	<name>swx-lab-rh9-01</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.36.158</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>swx-monitor</host>
+	<name>swx-monitor</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.30.207</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>swx-nbx</host>
+	<name>swx-nbx</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>127.0.0.1</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>swx-nbx-tst</host>
+	<name>swx-nbx-tst</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.227.186</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>swx-rvm-vm-ars</host>
+	<name>swx-rvm-vm-ars</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.226.32</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>swx-slurm</host>
+	<name>swx-slurm</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.30.35</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>swx-ufm-pxe</host>
+	<name>swx-ufm-pxe</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.211.0.27</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>swx-ufm-run</host>
+	<name>swx-ufm-run</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.226.19</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>swx-vm-ci01</host>
+	<name>swx-vm-ci01</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.211.0.167</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>swx-vm-ci02</host>
+	<name>swx-vm-ci02</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.211.0.168</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>swx-vm-dgx03</host>
+	<name>swx-vm-dgx03</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.227.114</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>swx-vm-ob01</host>
+	<name>swx-vm-ob01</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.225.192</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>swx-zabbix01</host>
+	<name>swx-zabbix01</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.226.98</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-ha-vm01</host>
+	<name>ufm-ha-vm01</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.224.139</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-ha-vm02</host>
+	<name>ufm-ha-vm02</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.224.45</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-ha-vm03</host>
+	<name>ufm-ha-vm03</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.225.245</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-ha-vm04</host>
+	<name>ufm-ha-vm04</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.226.6</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-ha-vm07</host>
+	<name>ufm-ha-vm07</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.226.38</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-ha-vm08</host>
+	<name>ufm-ha-vm08</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.226.52</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-ha-vm09</host>
+	<name>ufm-ha-vm09</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.226.55</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-ha-vm10</host>
+	<name>ufm-ha-vm10</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.226.63</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-ha-vm11</host>
+	<name>ufm-ha-vm11</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.226.89</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-ha-vm12</host>
+	<name>ufm-ha-vm12</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.226.94</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-ha-vm13</host>
+	<name>ufm-ha-vm13</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.226.109</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-ha-vm14</host>
+	<name>ufm-ha-vm14</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.226.116</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-ha-vm15</host>
+	<name>ufm-ha-vm15</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.226.129</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-ha-vm16</host>
+	<name>ufm-ha-vm16</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.226.133</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-ha-vm17</host>
+	<name>ufm-ha-vm17</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.226.143</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-ha-vm18</host>
+	<name>ufm-ha-vm18</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.226.144</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-ha-vm21</host>
+	<name>ufm-ha-vm21</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.227.94</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-ha-vm22</host>
+	<name>ufm-ha-vm22</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.227.109</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-host79-vm002</host>
+	<name>ufm-host79-vm002</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.213.90.122</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-jenkins01</host>
+	<name>ufm-jenkins01</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.211.0.99</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-jenkins02</host>
+	<name>ufm-jenkins02</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.211.0.53</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-on-vm-sim-01</host>
+	<name>ufm-on-vm-sim-01</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.227.148</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-on-vm-sim-02</host>
+	<name>ufm-on-vm-sim-02</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.227.149</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-on-vm-sim-03</host>
+	<name>ufm-on-vm-sim-03</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.227.150</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-on-vm-sim-04</host>
+	<name>ufm-on-vm-sim-04</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.227.136</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-on-vm-sim-05</host>
+	<name>ufm-on-vm-sim-05</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.227.151</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-on-vm-ufm-01</host>
+	<name>ufm-on-vm-ufm-01</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.227.140</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-on-vm-ufm-02</host>
+	<name>ufm-on-vm-ufm-02</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.227.141</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-on-vm-ufm-03</host>
+	<name>ufm-on-vm-ufm-03</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.227.144</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-on-vm-ufm-04</host>
+	<name>ufm-on-vm-ufm-04</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.227.146</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-on-vm-ufm-05</host>
+	<name>ufm-on-vm-ufm-05</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.227.147</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-production</host>
+	<name>ufm-production</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.211.0.46</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-pxe</host>
+	<name>ufm-pxe</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.211.0.8</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-vm-01</host>
+	<name>ufm-vm-01</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.211.0.189</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-vm-02</host>
+	<name>ufm-vm-02</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.211.0.29</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-vm-03</host>
+	<name>ufm-vm-03</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.211.0.188</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-vm-air</host>
+	<name>ufm-vm-air</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.226.95</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-vm-doc-01</host>
+	<name>ufm-vm-doc-01</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.211.0.108</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-vm-doc-02</host>
+	<name>ufm-vm-doc-02</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.211.0.109</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-vm-doc-03</host>
+	<name>ufm-vm-doc-03</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.211.0.110</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-vm-gal-01</host>
+	<name>ufm-vm-gal-01</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.226.78</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-vm-gal-02</host>
+	<name>ufm-vm-gal-02</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.226.80</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-vm-opta01</host>
+	<name>ufm-vm-opta01</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.225.141</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-vm-tac01</host>
+	<name>ufm-vm-tac01</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.227.81</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-vm-tac02</host>
+	<name>ufm-vm-tac02</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.227.82</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-vm-tac03</host>
+	<name>ufm-vm-tac03</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.227.83</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>ufm-vm-tac04</host>
+	<name>ufm-vm-tac04</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.209.227.84</ip>	<interface_ref>if1</interface_ref>
+	</interface>
+	</interfaces>
+	<inventory_mode>DISABLED</inventory_mode>
+</host>
+<host>
+	<host>yoknvnwsvc01</host>
+	<name>yoknvnwsvc01</name>
+	<templates>
+	<template>
+	<name>Template Module ICMP Ping</name>
+	</template>
+	</templates>
+	<groups>
+	<group>
+	<name>SWX</name>
+	</group>
+	<group>
+	<name>101</name>
+	</group>
+	</groups>
+	<interfaces>
+	<interface>
+	<ip>10.7.0.117</ip>	<interface_ref>if1</interface_ref>
 	</interface>
 	</interfaces>
 	<inventory_mode>DISABLED</inventory_mode>
